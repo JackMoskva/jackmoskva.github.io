@@ -193,7 +193,7 @@ input[type="checkbox"]:checked ~ label::before {
 
 .header-phone a {
 	font-family: 'Avenir Next Cyr', sans-serif;
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 700;
 	color: #000;
 	background: url(../img/tel.png) no-repeat center left;
