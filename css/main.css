@@ -185,7 +185,7 @@ input[type="checkbox"]:checked ~ label::before {
 }
 
 .header-phone {
-/* 	max-width: 245px; */
+	max-width: 245px;
 	width: 100%;
 	margin: 0px auto;
 	margin-bottom: 15px;
@@ -193,7 +193,7 @@ input[type="checkbox"]:checked ~ label::before {
 
 .header-phone a {
 	font-family: 'Avenir Next Cyr', sans-serif;
-	font-size: 1.625em;
+	font-size: 20px;
 	font-weight: 700;
 	color: #000;
 	background: url(../img/tel.png) no-repeat center left;
