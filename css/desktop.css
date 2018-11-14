@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+	.results-desktop {
+		display: block !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px !important;
+	}
+	.results-desktop {
+		display: block !important;
+	}
+}
