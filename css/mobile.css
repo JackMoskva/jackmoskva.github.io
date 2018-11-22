@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+	.footer-logo img {
+		margin: 0px auto;
+	}
+	.filter-modal {
+		display: block;
+	}
+
+	.filter-desktop {
+		display: none;
+	}
+	.main-sl_text {
+		position: absolute;
+		top: 280px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.sl_text {
+		width: 
+	}
+}

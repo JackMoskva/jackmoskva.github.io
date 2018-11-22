@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'a_AvanteLt';
+    src: url('../fonts/AAvanteLtLight.eot');
+    src: url('../fonts/AAvanteLtLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteLtLight.woff2') format('woff2'),
+        url('../fonts/AAvanteLtLight.woff') format('woff'),
+        url('../fonts/AAvanteLtLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteBs';
+    src: url('../fonts/AAvanteBs.eot');
+    src: url('../fonts/AAvanteBs.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteBs.woff2') format('woff2'),
+        url('../fonts/AAvanteBs.woff') format('woff'),
+        url('../fonts/AAvanteBs.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteNrBook';
+    src: url('../fonts/AAvanteNrBook.eot');
+    src: url('../fonts/AAvanteNrBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteNrBook.woff2') format('woff2'),
+        url('../fonts/AAvanteNrBook.woff') format('woff'),
+        url('../fonts/AAvanteNrBook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteBs';
+    src: url('../fonts/AAvanteBsExtraBold.eot');
+    src: url('../fonts/AAvanteBsExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteBsExtraBold.woff2') format('woff2'),
+        url('../fonts/AAvanteBsExtraBold.woff') format('woff'),
+        url('../fonts/AAvanteBsExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteInt';
+    src: url('../fonts/AAvanteIntBold.eot');
+    src: url('../fonts/AAvanteIntBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteIntBold.woff2') format('woff2'),
+        url('../fonts/AAvanteIntBold.woff') format('woff'),
+        url('../fonts/AAvanteIntBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteInt';
+    src: url('../fonts/AAvanteIntBook.eot');
+    src: url('../fonts/AAvanteIntBook.e../fonts/ot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteIntBook.woff2') format('woff2'),
+        url('../fonts/AAvanteIntBook.woff') format('woff'),
+        url('../fonts/AAvanteIntBook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Light.eot');
+    src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+        url('../fonts/AvenirLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('../fonts/AvenirNextCyr-Light.eot');
+    src: url('../fonts/AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNextCyr-Light.woff2') format('woff2'),
+        url('../fonts/AvenirNextCyr-Light.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Pro Ext';
+    src: url('../fonts/AkzidenzGroteskPro-Ext.eot');
+    src: url('../fonts/AkzidenzGroteskPro-Ext.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskPro-Ext.woff2') format('woff2'),
+        url('../fonts/AkzidenzGroteskPro-Ext.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskPro-Ext.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

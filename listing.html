@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>TOR.NYC</title>
+	
+	<!-- СТИЛИ -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+</head>
+<body>
+
+	<!-- HEADER -->
+
+	<header id="header" class="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-sm order-lg-1">
+					<a href="#">
+						<div class="header-logo">
+							<img src="img/logo2.png">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm order-lg-2">
+					<div id="header-phone" class="header-phone">
+						<a href="tel:9293248855">
+							(929)324-8855
+						</a>
+					</div>
+				</div>
+				<div class="col-sm order-md-4 order-lg-3 align-items-lg-center">
+					<button type="submit" onclick="location.href='search.html'" class="header-btn search-btn">
+						Property search
+					</button>
+				</div>
+				<div class="col-sm-1 align-items-md-center order-lg-4 w-10">
+					<div class="header-lang">
+						<a href="#">Рус</a>
+					</div>
+				</div>
+			</div>
+	</header>
+
+	<!-- CAROUSEL -->
+
+	<section class="carousel">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 listing-form">
+					<form id="form-listing" class="work-get_form d-none d-lg-block" action="#" enctype="multipart/form-data" method="post" target="_self">
+						<div class="row">
+							<div class="col">
+								<h2 class="head-second listing-form_head">
+									Request More info
+								</h2>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-12">
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+    										<input type="text" name="name" class="form-control cell name" placeholder="Name">
+  										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+    										<input type="email" name="mail" class="form-control cell mail" aria-describedby="emailHelp" placeholder="Email">
+  										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+    										<input type="tel" name="tel" class="form-control cell tel" placeholder="Phone">
+  										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+    										<textarea class="form-control cell mess" rows="5" placeholder="I’m interested ..." maxlength="50000"></textarea>
+  										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div class="form-check">
+  											<input class="form-check-input" type="checkbox" value="" id="listingCheck1">
+  											<label class="checkbox form-check-label" for="listingCheck1">
+    											Request showing
+  											</label>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<button type="button" class="search-btn carousel-btn contact-btn" data-toggle="modal" data-target="#exampleModalThank">Submit</button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div class="privacy-policy">
+											<a href="#">Privacy Policy</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<!-- SLIDER -->
+
+				<div class="col-12 col-xs-12 col-lg-9 p-0">
+					<div class="sl">
+						<div class="sl_slide">
+							<img class="sl_img" w-100 src="img/slide21.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" w-100 src="img/slide22.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" w-100 src="img/slide23.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" w-100 src="img/slide24.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" w-100 src="img/slide25.jpg">
+						</div>
+					</div>
+					<div class="main-sl_text">
+						<div class="sl_text">
+							<p class="decrease sl_text-decrease">$&nbsp;1,100,000</p>
+							<p class="card-text sl_text-card">
+								Price:
+								<span class="card-price sl_text-price">$&nbsp;1,200,000</span>
+							</p>
+							<p class="card-text sl_text-info">6&nbsp;beds 4&nbsp;baths 3,421 sqft</p>
+						</div>
+					</div>
+					<div class="sl2">
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer21.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer22.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer23.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer24.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer25.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer21.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer22.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer23.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer24.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/Layer25.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- LISTING INFO -->
+
+	<section class="listing-info">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class="listing-header">
+						4106 Manhattan Ave, Brooklyn, NY&nbsp;11224P
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="listing-text">
+						<p class="listing-text-item">
+							5&nbsp;Bedroom&nbsp;6 Bath&nbsp;3,421&nbsp;Sq Foot Home. Fully Equipped With Video Monitoring Systems, Radiant Heat Flooring, 4&nbsp;Zone Central A/C, And&nbsp;2 Laundry Rooms. The First Floor Consists Of&nbsp;A&nbsp;Marble Clade Foyer, 2&nbsp;Bathrooms, Separate Living And Dining Room Spaces, An&nbsp;Office, And An&nbsp;Oversized Chefs Kitchen.&nbsp;3&nbsp;Sinks, 2&nbsp;Ovens, 2&nbsp;Dishwashers, And A&nbsp;Tremendous Dinette Space With A&nbsp;Massive Retractable Skylight.&nbsp;4&nbsp;Bedrooms, 3&nbsp;Full Baths, And A&nbsp;Laundry Room On&nbsp;The Second Floor.
+							<div class="collapse listing-card listing-text-item" id="listingCollapseExample">
+								5&nbsp;Bedroom&nbsp;6 Bath&nbsp;3,421&nbsp;Sq Foot Home. Fully Equipped With Video Monitoring Systems, Radiant Heat Flooring, 4&nbsp;Zone Central A/C, And&nbsp;2 Laundry Rooms. The First Floor Consists Of&nbsp;A&nbsp;Marble Clade Foyer, 2&nbsp;Bathrooms, Separate Living And Dining Room Spaces, An&nbsp;Office, And An&nbsp;Oversized Chefs Kitchen.&nbsp;3&nbsp;Sinks, 2&nbsp;Ovens, 2&nbsp;Dishwashers, And A&nbsp;Tremendous Dinette Space With A&nbsp;Massive Retractable Skylight.&nbsp;4&nbsp;Bedrooms, 3&nbsp;Full Baths, And A&nbsp;Laundry Room On&nbsp;The Second Floor.&nbsp;
+								<p class="listing-text-item">
+									5&nbsp;Bedroom&nbsp;6 Bath&nbsp;3,421&nbsp;Sq Foot Home. Fully Equipped With Video Monitoring Systems, Radiant Heat Flooring, 4&nbsp;Zone Central A/C, And&nbsp;2 Laundry Rooms. The First Floor Consists Of&nbsp;A&nbsp;Marble Clade Foyer, 2&nbsp;Bathrooms, Separate Living And Dining Room Spaces, An&nbsp;Office, And An&nbsp;Oversized Chefs Kitchen.&nbsp;3&nbsp;Sinks, 2&nbsp;Ovens, 2&nbsp;Dishwashers, And A&nbsp;Tremendous Dinette Space With A&nbsp;Massive Retractable Skylight.&nbsp;4&nbsp;Bedrooms, 3&nbsp;Full Baths, And A&nbsp;Laundry Room On&nbsp;The Second Floor.&nbsp;5&nbsp;Bedroom&nbsp;6 Bath&nbsp;3,421
+								</p>
+								<p class="listing-text-item listing-text-item2">
+									Sq&nbsp;Foot Home. Fully Equipped With Video Monitoring Systems, Radiant Heat Flooring, 4&nbsp;Zone Central A/C, And&nbsp;2 Laundry Rooms. The First Floor Consists Of&nbsp;A&nbsp;Marble Clade Foyer, 2&nbsp;Bathrooms, Separate Living And Dining Room Spaces, An&nbsp;Office, And An&nbsp;Oversized Chefs Kitchen.&nbsp;3&nbsp;Sinks, 2&nbsp;Ovens, 2&nbsp;Dishwashers, And A&nbsp;Tremendous Dinette Space With A&nbsp;Massive Retractable Skylight.&nbsp;4&nbsp;Bedrooms, 3&nbsp;Full Baths, And A&nbsp;Laundry Room On&nbsp;The Second Floor. And A&nbsp;Tremendous Dinette Space With A&nbsp;Massive Retractable Skylight.&nbsp;4&nbsp;Bedrooms, 3&nbsp;Full Baths, And A&nbsp;Laundry Room On&nbsp;The Second Floor.
+								</p>
+							</div>
+						</p>
+						<a class="listing-btn" data-toggle="collapse" href="#listingCollapseExample" role="button" aria-expanded="false" aria-controls="listingCollapseExample">
+    						Read Less
+  						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+					<ul class="description-list">
+						<li class="list-item">
+							<span class="list-item-black">
+								Listing Type
+							</span>
+							<span class="list-item-white">
+								Single Family
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								Bedrooms
+							</span>
+							<span class="list-item-white">
+								5
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								Bathrooms
+							</span>
+							<span class="list-item-white">
+								6
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								House Size
+							</span>
+							<span class="list-item-white">
+								3,421 sqft
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								Lot Size
+							</span>
+							<span class="list-item-white">
+								4,356.00 sqft
+							</span>
+						</li>
+						<div class="collapse list-look" id="descriptionCollapseExample">
+							<li class="list-item">
+								<span class="list-item-black">
+									Listing Status
+								</span>
+								<span class="list-item-white">
+									Active
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									Listing Type
+								</span>
+								<span class="list-item-white">
+									Single Family
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									Bedrooms
+								</span>
+								<span class="list-item-white">
+									5
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									Bathrooms
+								</span>
+								<span class="list-item-white">
+									6
+								</span>
+							</li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+					<ul class="description-list">
+						<li class="list-item">
+							<span class="list-item-black">
+								Year Built  
+							</span>
+							<span class="list-item-white">
+								2004
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								County
+							</span>
+							<span class="list-item-white">
+								Brooklyn
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								Full Bath
+							</span>
+							<span class="list-item-white">
+								4
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								Rooms
+							</span>
+							<span class="list-item-white">
+								10.0
+							</span>
+						</li>
+						<li class="list-item">
+							<span class="list-item-black">
+								County School District
+							</span>
+							<span class="list-item-white">
+								Community District 21
+							</span>
+						</li>
+						<div class="collapse list-look" id="descriptionCollapseExample">
+							<li class="list-item">
+								<span class="list-item-black">
+									Taxes
+								</span>
+								<span class="list-item-white">
+									9555.0
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									Year Built
+								</span>
+								<span class="list-item-white">
+									2004
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									County
+								</span>
+								<span class="list-item-white">
+									Brooklyn
+								</span>
+							</li>
+							<li class="list-item">
+								<span class="list-item-black">
+									Full Bath
+								</span>
+								<span class="list-item-white">
+									4
+								</span>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a class="listing-btn" data-toggle="collapse" href="#descriptionCollapseExample" role="button" aria-expanded="false" aria-controls="descriptionCollapseExample">
+    					Read Less
+  					</a>
+				</div>
+			</div>
+			<div class="row d-md-block d-lg-none">
+				<div class="col">
+					<!-- Button trigger modal -->
+					<button type="button" class="search-btn contact-btn listin-form-modal-btn" data-toggle="modal" data-target="#exampleModalCenterInfo">
+  						REQUEST MORE INFO
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MODAL REQUEST -->
+
+	<section class="listing-modal-form">
+		<div class="container">
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenterInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  				<div class="modal-dialog modal-dialog-centered" role="document">
+    				<div class="modal-content">
+      					<div class="modal-header modal-header-listing">
+        					<h5 class="modal-title" id="exampleModalLongTitle">Request More info</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<!-- <span aria-hidden="true">&times;</span> -->
+          						<img src="img/cross.png">
+        					</button>
+      					</div>
+      					<div class="modal-body listing-form">
+        					<form id="form-listing" class="work-get_form" action="#" enctype="multipart/form-data" method="post" target="_self">
+								<div class="form-row">
+									<div class="col-12">
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="text" name="name" class="form-control cell name" placeholder="Name">
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="email" name="mail" class="form-control cell mail" aria-describedby="emailHelp" placeholder="Email">
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="tel" name="tel" class="form-control cell tel" placeholder="Phone">
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<textarea class="form-control cell mess" rows="5" placeholder="I’m interested ..." maxlength="50000"></textarea>
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-check">
+  													<input class="form-check-input" type="checkbox" value="" id="listingModalCheck1">
+  													<label class="checkbox form-check-label" for="listingModalCheck1">
+    													Request showing
+  													</label>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<button type="button" class="search-btn carousel-btn contact-btn" data-toggle="modal" data-target="#exampleModalThank">Submit</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="privacy-policy">
+													<a href="#">Privacy Policy</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- SCREEN-6 -->
+
+	<section class="screen-6 listing-screen-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<div class="header-phone phone">
+						<a href="tel:9293248855">(929)324-8855</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col contact-form">
+					<form id="form" class="work-get_form" action="#" enctype="multipart/form-data" method="post" target="_self">
+						<div class="row">
+							<div class="col">
+								<h2 class="head-second contact-form_head">
+									Contact Agent to help you
+								</h2>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col">
+								<div class="row">
+									<div class="col-sm-12 col-md-12 col-lg-6">
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="text" name="name" class="form-control cell name" id="validationCustom01" placeholder="Name">
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="email" name="mail" class="form-control cell mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+  												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<input type="tel" name="tel" class="form-control cell tel" id="validationCustom01" placeholder="Phone">
+  												</div>
+											</div>
+										</div>	
+									</div>
+									<div class="col-sm-12 col-md-12 col-lg-6">
+										<div class="row">
+											<div class="col">
+												<div class="form-group">
+    												<textarea class="form-control cell mess" id="exampleFormControlTextarea1" rows="5" placeholder="I’m interested ..." maxlength="50000"></textarea>
+  												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-12 col-lg-6 h-100">
+										<div class="form-check">
+  											<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  											<label class="checkbox form-check-label" for="defaultCheck1">
+    											Request showing
+  											</label>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-12 col-lg-6">
+										<button type="button" class="search-btn contact-btn" data-toggle="modal" data-target="#exampleModalThank">Send</button>
+									</div>
+									<div class="col-sm-12 col-md-12 col-lg-6">
+										<div class="privacy-policy">
+											<a href="#">Privacy Policy</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MODAL Thank you! -->
+
+	<section class="thank-you">
+		<div class="container">
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalThank" tabindex="-1" role="dialog" aria-labelledby="exampleModalThankTitle" aria-hidden="true">
+  				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    				<div class="modal-content">
+      					<div class="modal-header thank-header">
+        					<!-- <h5 class="modal-title" id="exampleThankModalLongTitle">
+        						Thank you!
+        					</h5> -->
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          							<img src="img/cross2.png">
+        						</button>
+      					</div>
+      					<div class="modal-body thank-body">
+      						<h5 class="modal-title" id="exampleThankModalLongTitle">
+        						Thank you!
+        					</h5>
+        					<p class="thank-text">
+        						We will be in touch soon!
+        					</p>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SCREEN-7 -->
+
+	<section class="screen-7">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="info">
+						The Information contained in this Web Site is believed to be accurate but is not guaranteed. This Information is to be used for a reference and any questions that you may have should be directed to the appropriate Real Estate Agent. If you are interested in any of the properties contained within this web site, please contact the appropriate Real Estate Agent. Azbel Real Estate cannot be held responsible for any Errors or Omissions that may occur upon the Publishing of this Information. 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-6">
+					<div class="row pt-4">
+						<div class="col-sm-12 col-md col-lg">
+							<a href="#">
+								<div class="footer-logo">
+									<img src="img/footer_logo.png">
+								</div>
+							</a>
+						</div>
+						<div class="col-12 col-sm-12 col-md col-lg">
+							<div class="footer-phone">
+								<a href="tel:9293248855">
+									(929)324-8855
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md col-lg order-md-2">
+							<div class="footer-items">
+								<span class="footer-item">
+									Privacy Policy
+								</span>
+								<span class="footer-item">
+									Terms of use
+								</span>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md col-lg order-md-1">
+							<div class="footer-lic">
+								Azbel Real Estate lic#12345678
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-6">
+					<div class="footer-text">
+						Exchange (“IDX”) program of the Brooklyn Board of Realtors. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Information deemed reliable but not guaranteed. Copyright© 2018 Brooklyn MLS. All Rights Reserved. 
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  			document.getElementById("header-phone").innerHTML = '<a href="tel:+ 9293248855">(929)324-8855</a>';
+ 		} else	{
+  			document.getElementById("header-phone").innerHTML = '<a href="tel:+ 9293248855">(929)324-8855</a> ';
+		}
+	</script>
+	
+</body>
+</html>
