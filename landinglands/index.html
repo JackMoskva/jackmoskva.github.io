@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>45Pluskontakt</title>
+	<meta name="Keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0"/>
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:400,700|Roboto:300,700" rel="stylesheet" type="text/css"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+
+<body class="vegas-container" id="home">
+
+<div class="container">
+	<div class="row hero-content text-center">
+		<div class="fadeInRight">
+			<img src="images/logo2.png" alt="Logo Reife SexBadoo" class="img-fluid"/>
+
+			<h1 class="pageHeader">Willst du mit Frauen in Kontakt kommen, die nur ein Sexdate wollen?</h1>
+
+			<div class="clockContainer">
+				<b>Zeitlich begrenztes Angebot</b>, nur noch gültig für:
+				<div class="clock">10:00</div>
+			</div>
+			<!-- PRE-QUESTION 1 -->
+			<div class="step question_wrapper" data-questionid="1" style="display: block;">
+				<p>Bist du mindestens 18 Jahre alt?</p>
+
+				<div class="next_question_button btn-outline animated "><span>Nein</span></div>
+				<div class="next_question_button animated fadeInUp"><span>Ja</span></div>
+			</div>
+			<!-- PRE-QUESTION 2 -->
+			<div class="step question_wrapper" data-questionid="2">
+				<p>
+					Die meisten dieser Frauen sind alleinstehende Mütter und verheiratete Frauen,
+					die einen Seitensprung möchten. Kannst du die Identität von diesen Frauen geheim halten?
+				</p>
+
+				<div class="next_question_button btn-outline animated fadeInUp"><span>Nein</span></div>
+				<div class="next_question_button animated fadeInUp"><span>Ja</span></div>
+			</div>
+			<!-- PRE-QUESTION 3 -->
+			<div class="step question_wrapper" data-questionid="3">
+				<p>
+					Diese Frauen sind nur auf der Suche nach Männern, die keine “Beziehung” haben.
+					Sie wollen ausschließlich schnellen Sex. Keine Dates. Bist du damit einverstanden?
+				</p>
+
+				<div class="next_question_button btn-outline animated fadeInUp"><span>Nein</span></div>
+				<div class="next_question_button animated fadeInUp"><span>Ja</span></div>
+			</div>
+			<!-- PRE-QUESTION 4 -->
+			<div class="step question_wrapper" data-questionid="4">
+				<p>
+					Wirst du ein Kondom benutzen wenn du ein Treffen mit jemandem von dieser Seite hast?
+				</p>
+
+				<div class="next_question_button btn-outline animated fadeInUp"><span>Nein</span></div>
+				<div class="next_question_button animated fadeInUp"><span>Ja</span></div>
+			</div>
+			<!-- PRE-QUESTION 5 -->
+			<div class="step question_wrapper" data-questionid="5">
+				<p>
+					Du kannst dir ab jetzt die Liste mit Frauen in deiner Gegend und ihre Fotos anschauen.
+					Bitte halte ihre Identität geheim. Klicke auf den Link um fortzufahren.
+				</p>
+
+				<a class="btn-provider out-link"  id='agree' href="https://go.cm-trk.com/aff_c"><span>Weiter!</span></a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div id="progressbar">
+	<div class="progress"></div>
+</div>
+
+<script src="jquery-3.2.1.min.js"></script>
+
+<script>
+	// COUNTDOWN TIMER
+	var interval = setInterval(function () {
+				var timer = $('.clock').html();
+				timer = timer.split(':');
+				var minutes = parseInt(timer[0], 10);
+				var seconds = parseInt(timer[1], 10);
+				seconds -= 1;
+
+				if (minutes < 0) return clearInterval(interval);
+				if (minutes < 10 && minutes.length != 2) minutes = '0' + minutes;
+				if (seconds < 0 && minutes != 0) {
+					minutes -= 1;
+					seconds = 59;
+				} else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
+
+				$('.clock').html(minutes + ':' + seconds);
+
+				// Add warning color and blink
+				if (minutes == 0 && seconds <= 30) {
+					setInterval(function () {
+						$(".clock").fadeToggle();
+					}, 500);
+					$('.clock').addClass("warning");
+				}
+
+				if (minutes == 0 && seconds == 0) {
+					clearInterval(interval);
+				}
+			},
+			1000);
+</script>
+
+<script>
+	$(document).ready(function () {
+		$('div[data-questionid="1"]').show();
+		$('.next_question_button').bind('click', function () {
+			$(this).hasClass('out-link') ? window.location = 'https://go.cm-trk.com/aff_c' : $(this).closest('.question_wrapper').hide().next().show();
+		});
+	});
+</script>
+
+<script>
+	// BACKGROUND IMAGE
+	function cycleImages() {
+		var $active = $('#imageFader .active');
+		var $next = ($active.next().length > 0) ? $active.next() : $('#imageFader .bgImage:first');
+		$next.css('z-index', 2); //move the next image up the pile
+		$active.fadeOut(300, function () { //fade out the top image
+			$active.css('z-index', 1).show().removeClass('active'); //reset the z-index and unhide the image
+			$next.css('z-index', 3).addClass('active'); //make the next image the top one
+		});
+	}
+	$(document).ready(function () {
+		// run every 4s
+		setInterval('cycleImages()', 4000);
+	});
+</script>
+
+<script>
+	// PROGRESSBAR FUNCTION
+	$(document).ready(function () {
+		var totalQuestions = 0;
+		// Determine total amount of questions
+		$('.question_wrapper').each(function () {
+			var val = $(this).data('questionid');
+			if (val > totalQuestions) {
+				totalQuestions = val
+			};
+		});
+		totalQuestions = totalQuestions - 1;
+
+		// Set progress start value
+		var progressStart = 10;
+		$('.progress').css('width', progressStart + "%");
+
+		// Fill progressbar
+		$('.answer_clicked, .next, .next_question_button').on("click.progress", function () {
+			// Get questionid from question
+			var qnr = $(this).parents('.question_wrapper').data('questionid');
+			// Calculate width of progressbar
+			var progress = progressStart + (qnr / totalQuestions) * (100 - progressStart);
+			$('.progress').css('width', progress + "%");
+		});
+
+		// Back button
+		$('.previous_question_button').on("click.progress", function () {
+			// Get questionid from question
+			var qnr = $(this).parents('.question_wrapper').data('questionid');
+			qnr = qnr - 2;
+			// Calculate width of progressbar
+			var progress = progressStart + (qnr / totalQuestions) * (100 - progressStart);
+			$('.progress').css('width', progress + "%");
+		});
+	});
+</script>
+
+
+<script>var lang='de';var popup_style = "popup-light";var popup_glow = "glow-red";</script> 
+
+ <script type="text/javascript">
+      	$("#agree").click(function () {
+		    window.onbeforeunload = null;
+		    document.location = $("#agree").attr("href") + "?" + window.location.href.slice(window.location.href.indexOf('?') + 1);
+		    return false;
+		});
+      </script>
+</body>
+</html>
