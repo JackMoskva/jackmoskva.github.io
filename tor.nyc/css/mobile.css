@@ -1,0 +1,45 @@
+@media (min-width: 576px) {
+	.header-phone a {
+		background-position: 0% center;
+		text-align: right;
+	}
+	.footer-logo img {
+		margin: 0px auto;
+	}
+	.filter-modal {
+		display: block;
+	}
+
+	.filter-desktop {
+		display: none;
+	}
+	.main-sl_text {
+		max-width: 320px;
+		position: absolute;
+		top: 235px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.sl_text {
+		max-width: 320px;
+		width: 100%;
+		margin: 0px auto;
+	}
+	.sl_text-decrease {
+		font-family: 'a_AvanteBs', sans-serif;
+		font-size: 1.000em;
+		font-weight: 400;
+		color: #fff;
+		text-align: right;
+		padding-right: 30px;
+		padding-top: 10px;
+	}
+	.sl_text-info {
+		padding-bottom: 5px;
+	}
+	.sl2 {
+		width: 85%;
+	}
+	.listing-info {
+		bottom: 100px;
+	}
+}
