@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GROOMMI</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="GROOMMI">
+			<div class="header-block d-flex">
+				<div class="offer">
+					<h1>Салон красоты для собак и кошек</h1>
+					<p>Доверьте уход за своим питомцем опытным грумерам!</p>
+					<button class="btn header-btn" type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+						Записаться на стрижку
+					</button>
+				</div>
+				<div class="mops">
+					<img src="img/mops.png" alt="Mops">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="skills">
+		<div class="container">
+			<h2>Наши преимущества</h2>
+			<div class="merits">
+				<div class="unit">
+					<h3>Удобное расположение</h3>
+					<p>
+						Мы находимся в новом, уютном жилом квартале, с удобной транспортной развязкой
+					</p>
+				</div>
+				<div class="unit">
+					<h3>Профессионализм</h3>
+					<p>
+						Наши мастера, дипломированные специалисты с опытом работы от двух лет
+					</p>
+				</div>
+				<div class="unit">
+					<h3>Безопасность</h3>
+					<p>
+						Все инструменты поддаются тщательной дезинфекции и стерилизации
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery">
+		<div class="container">
+			<h2>Наши последние работы</h2>
+			<p>
+				Перед тем как записаться к нам - ознакомьтесь с нашими прошлыми работами
+			</p>
+			<div class="photos">
+				<img src="img/cat.png" alt="cat">
+				<img src="img/dogs.jpg" alt="dogs">
+				<img src="img/dog.jpg" alt="dog">
+			</div>
+			<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal-2">
+				Подробнее о стрижках
+			</button>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-items">
+				<div class="footer-item_left">
+					<img src="img/logo.png" alt="GROOMMI">
+					<p>
+						&copy; 2017 Салон красоты для кошек и собак
+					</p>
+				</div>
+				<div class="footer-item_right d-flex">
+					<div class="footer-btn">
+						<a href="#" type="button" data-toggle="modal" data-target="#exampleModal-2">Подробнее о стрижках</a>
+					</div>
+					<div class="footer-btn">
+						<a href="#" type="button" data-toggle="modal" data-target="#exampleModal">Записаться на стрижку</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">Запись на стрижку</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        			<form>
+          				<div class="form-group">
+            				<label for="recipient-name" class="col-form-label">Имя:</label>
+            				<input type="text" class="form-control" id="recipient-name">
+          				</div>
+          				<div class="form-group form-group_left">
+            				<label for="recipient-name" class="col-form-label">Укажите дату:</label>
+            				<input type="date" class="form-control" id="recipient-name" name="date">
+          				</div>
+          				<div class="form-group form-group_right">
+            				<label for="recipient-name" class="col-form-label">Укажите время:</label>
+            				<input type="time" class="form-control" id="recipient-name" name="time">
+          				</div>
+          				<div class="form-group">
+            				<label for="recipient-name" class="col-form-label">Телефон:</label>
+            				<input type="tel" class="form-control" id="recipient-tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Формат номера ХХХ-ХХХ-ХХXX" tabindex="2">
+          				</div>
+          				<div class="form-group">
+            				<label for="message-text" class="col-form-label">Сообщение:</label>
+            				<textarea class="form-control" id="message-text"></textarea>
+          				</div>
+        			</form>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        			<button type="button" class="btn btn-primary">Записаться</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+
+	<div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog modal-lg modal-groom" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">Груминг - виды стрижки собак</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        			<div class="gray-desc">
+        				<p>
+        					<img src="img/groom.jpg" alt="Groomming">
+        					Термин «груминг» обозначает общий уход за видом собаки, но чаще всего этим словом именуется профессиональная стрижка питомца. Люди, у которых никогда не было породистой собаки, наверняка только пожмут плечами: зачем собаке стрижка? Тем не менее, груминг – необходимое мероприятия, основная цель которого – поддержание здоровья питомца. То есть это такая же гигиеническая процедура, как чистка зубов для человека. Представьте, что будет, если вы полгода не будете расчесывать волосы? Собака, которую давно не стригли, испытывает приблизительно такие же ощущения.
+        				</p>
+        				<p>
+        					Лучше всего доверить груминг профессионалу, хотя некоторые владельцы собак стригут своих четвероногих друзей самостоятельно. Многое в процедуре ухода за шерстью зависит от конкретной породы. Но основных видов груминга всего три:
+        				</p>
+        				<div class="gray-desc_item">
+        					<ul class="gray-desc_list">
+        						<li>Гигиенический.</li>
+        						<li>Домашний.</li>
+        						<li>Выставочный.</li>
+        					</ul>
+        					<p>	
+								Чаще всего делается гигиенический вид груминга. Для большинства пород его принято проводить приблизительно раз в месяц, можно чуть чаще. Задача этой процедуры – поддерживать собаку в форме. Гигиеническая стрижка проводится до купания, и для собаки это стресс. Процедура включает такие действия:
+        					</p>
+							<ul class="gray-desc_list">
+        						<li>Стрижка когтей.</li>
+        						<li>Выстригание шерсти между пальцами и подушечками.</li>
+        						<li>Стрижка шерсти на лапах.</li>
+        						<li>Удаление лишней шерсти из ушей.</li>
+        						<li>Стрижка гениталий.</li>
+        					</ul>
+        					<p>
+        						Кроме того, гигиеническая стрижка пса охватывает тримминг и стриппинг. Тримминг проводится дважды в год, это щип отмершей шерсти. Стриппинг направлен на обновление шерсти, он представляет собой искусственно вызываемую линьку.
+        					</p>
+        					<p>
+        						А вот домашний груминг придуман для того, чтобы владельцам было проще ухаживать за своим четвероногим товарищем. Такая процедура означает, что шерсть собаки будет сострижена значительно короче положенного, что упростит хозяевам жизнь. Форма стрижки варьируется в зависимости от породы. Например, терьерам часто состригают нижнюю шерсть с лап и живота, несмотря на то, что это стандарт породы: нижняя шерсть – отличная «щетка», которая собирает на себя много грязи во время прогулки. Пуделей тоже принято выстригать короче, но им удаляют шерсть с лап и «холки».
+        					</p>
+        					<p>
+        						Реже всего владельцы псов прибегают к выставочному виду груминга. Дело в том, что к участию в выставках допускаются только собаки, которые подстрижены одним определенным образом. Для каждой породы этот стандарт, естественно, свой. Есть около четырех сотен официально известных пород собак, то есть одновременно и около четырех сотен видов стрижек.
+        					</p>
+        					<p>
+        						Впрочем, выставочный груминг позволяет замаскировать некоторые недостатки внешнего вида пса, подчеркнув в то же время его достоинства: это зависит от мастерства и профессионализма грумера, который берется за стрижку.
+        					</p>
+        				</div>
+        			</div>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        			<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
