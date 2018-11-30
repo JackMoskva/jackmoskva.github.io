@@ -1,6 +1,6 @@
 @media (min-width: 576px) {
-	.header-phone a {
-		background-position: 0% center;
+	.phone-search a {
+		background-position: 20% center;
 		text-align: right;
 	}
 	.footer-logo img {

@@ -57,6 +57,7 @@ a {
 	display: block;
 	text-decoration: none;
 	cursor: pointer;
+	cursor: hand;
 }
 
 a:hover {
@@ -218,57 +219,57 @@ textarea {
   display: none;
 }
 
-#form-filter input[placeholder],
-#form-filter textarea[placeholder] {
+.form-filter input[placeholder],
+.form-filter textarea[placeholder] {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter input::-moz-placeholder,
-#form-filter textarea::-moz-placeholder {
+.form-filter input::-moz-placeholder,
+.form-filter textarea::-moz-placeholder {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter input:-moz-placeholder,
-#form-filter textarea:-moz-placeholder {
+.form-filter input:-moz-placeholder,
+.form-filter textarea:-moz-placeholder {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter input::-webkit-input-placeholder,
-#form-filter textarea::-webkit-input-placeholder {
+.form-filter input::-webkit-input-placeholder,
+.form-filter textarea::-webkit-input-placeholder {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter input::-o-input-placeholder,
-#form-filter textarea::-o-input-placeholder {
+.form-filter input::-o-input-placeholder,
+.form-filter textarea::-o-input-placeholder {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter input:-ms-input-placeholder,
-#form-filter textarea:-ms-input-placeholder {
+.form-filter input:-ms-input-placeholder,
+.form-filter textarea:-ms-input-placeholder {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
 	text-transform: uppercase;
 }
 
-#form-filter .form-group input,
-#form-filter .form-group textarea,
-#form-filter .form-group select {
+.form-filter .form-group input,
+.form-filter .form-group textarea,
+.form-filter .form-group select {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #000 !important;
@@ -279,13 +280,13 @@ textarea {
 	background: #fff !important;
 }
 
-#form-filter .form-group .form-control:focus {
+.form-filter .form-group .form-control:focus {
     border-color: #ff350d !important;
     box-shadow: none !important;
 }
 
-#form-listing input[placeholder],
-#form-listing textarea[placeholder] {
+.form-filter input[placeholder],
+.form-filter textarea[placeholder] {
 	font-family: 'a_AvanteBs', sans-serif;
 	font-size: 0.875em;
 	color: #afafaf !important;
@@ -383,7 +384,7 @@ textarea {
 	font-size: 1.875em;
 	font-weight: 700;
 	color: #000;
-	background: url(../img/tel.png) no-repeat 10% center;
+	background: url(../img/tel.png) no-repeat 5% center;
 	padding-left: 30px;
 	line-height: 0.95em;
 	text-align: center;
@@ -392,6 +393,7 @@ textarea {
 .header-lang {
 	width: 30px;
 	margin: 0px auto;
+	margin-bottom: 10px;
 }
 
 .header-lang a {
@@ -410,6 +412,7 @@ textarea {
 	background-repeat: no-repeat;
 	background-position: 80% top;
 	background-size: cover;
+	/*min-height: 100%;*/
 }
 
 .main-head {
@@ -422,7 +425,7 @@ textarea {
 .search-btn {
 	display: block;
 	max-width: 580px;
-	min-width: 260px;
+	/*min-width: 260px;*/
 	width: 100%;
 	height: 85px;
 	font-family: 'Avenir LT Std', sans-serif;
@@ -455,11 +458,11 @@ textarea {
 
 .head-screen {
 	background: #fff;
-	border: 2px solid #afafaf;
+	border: 1px solid #afafaf;
 	padding: 15px;
 	color: #5e5e5e;
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 .card {
@@ -473,7 +476,11 @@ textarea {
 	border: 1px solid #000;
 	margin-bottom: 15px;
 	border-radius: 0px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+}
+
+.card-img {
+	padding-bottom: 10px;
 }
 
 .card-text {
@@ -529,8 +536,8 @@ textarea {
 }
 
 .card-look {
-	padding-top: 15px;
-	padding-bottom: 20px;
+	/*padding-top: 15px;*/
+	padding-bottom: 30px;
 	max-width: 90px;
 	margin: 0px auto;
 }
@@ -645,7 +652,7 @@ textarea {
 	font-size: 1.875em;
 	font-weight: 700;
 	color: #fff;
-	background: url(../img/footer_tel.png) no-repeat 10% center;
+	background: url(../img/footer_tel.png) no-repeat 5% center;
 	padding-left: 30px;
 	line-height: 0.95em;
 	text-align: center;
@@ -654,6 +661,11 @@ textarea {
 .footer-items {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+.footer-items a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 
 .footer-item {
@@ -732,7 +744,7 @@ textarea {
 
 .form-search .form-check {
 	padding-left: 2.2em;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .property-search-btn {
@@ -931,15 +943,23 @@ textarea {
 
 .page-item .page-link:hover {
 	border-color: #5e5e5e;
-	color: #5e5e5e !important;
+	color: #000 !important;
 	background-color: transparent;
 }
 
 .page-item .page-link:active {
-	border: none;
-	box-shadow: none;
+	box-shadow: none !important;
+	outline: none !important;
 	border-color: #5e5e5e;
-	color: #5e5e5e !important;
+	color: #000 !important;
+	background-color: transparent;
+}
+
+.page-item .page-link:focus {
+	box-shadow: none !important;
+	outline: none !important;
+	color: #000 !important;
+	border-color: #5e5e5e;
 	background-color: transparent;
 }
 

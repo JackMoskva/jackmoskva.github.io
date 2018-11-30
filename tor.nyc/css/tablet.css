@@ -9,6 +9,7 @@
 	.header-lang {
 		margin: 0px;
 		margin-left: auto;
+		margin-bottom: 5px;
 	}
 	.header-lang a {
 		text-align: right;
@@ -25,6 +26,9 @@
 	h3 {
 		font-size: 1.744em;
 	}
+	.card {
+		margin-bottom: 30px;
+	}
 	.card-text {
 		font-size: 1.013em;
 	}
@@ -37,6 +41,9 @@
 	}
 	.card-cortesy {
 		font-size: 0.675em;
+	}
+	.card-look {
+		margin-top: -20px;
 	}
 	.card-look a {
 		font-size: 1.351em;
@@ -84,6 +91,9 @@
 
 	.filter-desktop {
 		display: none;
+	}
+	.form-search .form-check {
+    	margin-bottom: 50px;
 	}
 
 	/* SORTING RESULT */

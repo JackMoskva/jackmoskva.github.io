@@ -1,4 +1,240 @@
 @media (min-width: 992px) {
+	.header-phone {
+		margin-bottom: 10px;
+	}
+	.header-phone a {
+		background-position: 0% center;
+		text-align: left;
+	}
+	.header-lang {
+		margin: 0px;
+		margin-left: auto;
+		margin-bottom: 5px;
+	}
+	.header-lang a {
+		text-align: right;
+	}
+	.narrow-results {
+		display: block !important;
+	}
+	.main-head {
+		font-size: 3.000em;
+	}
+	h2 {
+		font-size: 2.138em;
+	}
+	h3 {
+		font-size: 1.744em;
+	}
+	.card-text {
+		font-size: 1.013em;
+	}
+	.card-price {
+		/*font-size: 1.688em;*/
+	}
+	.decrease,
+	.increase {
+		/*font-size: 1.013em;*/
+	}
+	.card-cortesy {
+		font-size: 0.675em;
+	}
+	.card-look a {
+		font-size: 1.351em;
+	}
+	.contact-form {
+		padding: 10px 30px;
+	}
+	.contact-btn {
+		margin-top: 0px;
+	}
+	.form-check {
+		margin-top: 10px;
+	}
+	.privacy-policy {
+		margin-bottom: 0px;
+		margin-top: -60px;
+	}
+	.privacy-policy a {
+		text-align: center;
+	}
+	.listing-screen-6 .phone {
+		padding: 5px 0px 10px 0px;
+	}
+	.phone a {
+		font-size: 2.250em;
+	}
+	.contact-btn {
+		max-width: 100%;
+	}
+	.footer-logo img {
+		margin: 0;
+		margin-right: auto;
+	}
+	.footer-phone {
+		margin: 0px;
+		margin-left: auto;
+	}
+	.footer-phone a {
+		line-height: inherit;
+		text-align: right;
+		margin-left: 40px;
+		background-position: 0% center;
+	}
+	.footer-items {
+		text-align: right;
+		padding-right: 10px;
+	}
+	.footer-lic {
+		text-align: left;
+	}
+
+	/* SEARCH */
+
+	/* HEADER */
+
+	/* PROPERTY SEARCH */
+
+	.search-head {
+		margin-bottom: 10px;
+	}
+	.filter-modal {
+		display: block;
+	}
+
+	.filter-desktop {
+		display: none;
+	}
+	.form-search .form-check {
+    	margin-bottom: 50px;
+	}
+
+	/* SORTING RESULT */
+
+	.sorting-item {
+		font-size: 1.000em;
+	}
+	.nevest {
+		padding-right: 10px;
+	}
+	.nevest::after {
+		height: 15px;
+		top: 6px;
+		left: 76px;
+	}
+	.high::after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 6px;
+		left: 240px;
+		width: 2px;
+		height: 15px;
+		background: #d95c43;
+	}
+	.low {
+		padding-right: 20px;
+	}
+	.low::after {
+		height: 15px;
+		top: 6px;
+		left: 170px;
+	}
+	.main-more {
+		max-width: 80px;
+		margin-left: auto;
+	}
+	.more-1::before {
+		height: 15px;
+	}
+	.more-2::before {
+		height: 15px;
+	}
+
+	/* NUMBER PAGES */
+
+	.page-link {
+		font-size: 1.313em;
+	}
+
+	/* LISTING INFO */
+
+	.listing-header {
+		font-size: 1.875em;
+	}
+	.listing-info {
+		bottom: 145px;
+		padding-bottom: 10px;
+	}
+	.listing-info .listin-form-modal-btn {
+		max-width: 520px;
+		margin-bottom: 20px;
+	}
+
+	/* CAROUSEL */
+
+	.main-sl_text {
+		max-width: 320px;
+		position: absolute;
+		top: 550px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.sl_text {
+		width: 100%;
+	}
+	.sl_text-decrease {
+		text-align: right;
+	}
+	.sl_text-card {
+		text-align: right;
+		padding-right: 20px;
+	}
+	.sl_text-info {
+		text-align: right;
+		padding-right: 20px;
+		padding-bottom: 10px;
+	}
+	.sl_text-decrease::before {
+		left: 190px;
+	}
+	.sl2 {
+		width: 90%;
+	}
+	.sl2_slide {
+		width: 145px !important;
+		margin: 0px 14px;
+		outline: none;
+		background-color: #fff;
+	}
+	.sl2_slide .sl2_img {
+		width: 145px;
+		height: 145px;
+		border: 1px solid #000;
+		background-color: #fff;
+		cursor: pointer;
+		-webkit-transition: background .3s;
+		-o-transition: background .3s;
+		transition: background .3s;
+		filter: opacity(0.4);
+	}
+	.sl2_slide .sl2_img:hover,
+	.slick-current .sl2_img {
+		background-color: #fff;
+		filter: opacity(1);
+	}
+
+	/* MODAL Thank you! */
+
+	/*.modal-content {
+		width: 725px;
+		height: 450px;
+	}*/
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px !important;
+	}
 	.header-logo img {
 		margin: 0px;
 	}
@@ -85,6 +321,9 @@
 	.form-filter {
 		margin-bottom: -15px;
 	}
+	.address-filter-desktop {
+		width: 275px;
+	}
 	.input-header-price {
 		padding-left: 33px;
 	}
@@ -133,9 +372,15 @@
 	.page-link {
 		font-size: 1.500em;
 	}
-
 	/* LISTING INFO */
 
+	.carousel-btn {
+		height: 85px;
+		margin-top: 30px;
+	}
+	#form-listing .privacy-policy {
+		margin-bottom: 50px;
+	}
 	.listing-info {
 		top: -133px;
 		margin-bottom: -100px;
@@ -151,6 +396,10 @@
 	}
 	.list-item {
 		font-size: 1.250em;
+	}
+	.listing-screen-6 .phone {
+    	padding-top: 55px;
+    	padding-bottom: 15px;
 	}
 	.listing-screen-6 .header-phone a {
 		text-align: center;
@@ -202,7 +451,7 @@
 	}
 	.sl2_slide {
 		width: 145px !important;
-		margin: 0px 8px;
+		margin: 0px 8.3px;
 		outline: none;
 		background-color: #fff;
 	}
@@ -221,14 +470,5 @@
 	.slick-current .sl2_img {
 		background-color: #fff;
 		filter: opacity(1);
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		max-width: 1200px !important;
-	}
-	.results-desktop {
-		display: block !important;
 	}
 }

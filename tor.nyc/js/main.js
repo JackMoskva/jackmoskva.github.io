@@ -14,6 +14,14 @@ $('.sl2').slick({
 	focusOnSelect: true,
 	responsive: [
     {
+      breakpoint: 991,
+      settings: {
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 5
+      }
+    },
+    {
       breakpoint: 769,
       settings: {
         centerMode: true,
