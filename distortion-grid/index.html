@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Distortion Grid</title>
+
+	<base target="_blank">
+
+	<!-- СТИЛИ -->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<!-- HEADER -->
+
+	<header class="header">
+		<div class="container">
+			<div class="header-up d-flex">
+				<div class="logo">
+					<img src="img/logo.png" alt="Matematic">
+				</div>
+				<div class="mail">
+					<svg version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21 14" width="21" height="16" style="enable-background:new 0 0 21 14;" xml:space="preserve" fill="#f4365c">
+						<g>
+							<path class="st0" d="M11,9.7c-0.4,0.3-0.6,0.3-1,0C9.8,9.6,9.7,9.4,9.5,9.3C9,8.9,8.5,8.4,8,8c-2.2,2.5-4.5,5-6.7,7.5 c0.5,0.3,1,0.4,1.5,0.4c3.4,0,6.8,0,10.2,0c1.7,0,3.5,0,5.2,0c0.5,0,1-0.1,1.5-0.4c-2.2-2.5-4.5-5-6.7-7.5 C12.3,8.6,11.7,9.2,11,9.7z"/>
+							<path class="st0" d="M10.5,8.4c3-2.7,6.1-5.3,9.1-8c-0.5-0.3-0.9-0.3-1.4-0.3c-4.5,0-9,0-13.5,0c-0.7,0-1.5,0-2.2,0 c-0.4,0-0.7,0.2-1.1,0.2c0,0,0,0.1,0,0.1C4.4,3.1,7.5,5.8,10.5,8.4z"/>
+							<path class="st0" d="M0.4,1.4C0.1,1.8,0,2.4,0,2.9c0,1.3,0,2.6,0,3.8c0,2.2,0,4.3,0,6.5c0,0.5,0.1,0.9,0.4,1.3 C2.6,12,4.8,9.6,7,7.1C4.8,5.2,2.6,3.3,0.4,1.4z"/>
+							<path class="st0" d="M21,6.5c0-1.2,0-2.4,0-3.6c0-0.5-0.1-1-0.4-1.5c-2.2,1.9-4.4,3.8-6.6,5.7c2.2,2.5,4.4,4.9,6.6,7.4 c0.2-0.5,0.3-0.9,0.3-1.4C21,10.9,21,8.7,21,6.5z"/>
+						</g>
+					</svg>
+					<a href="mailto:phi@matematic.xyz">phi@matematic.xyz</a>
+				</div>
+				<div class="social-box">
+					<a href="https://www.facebook.com/mathematicxyz" class="social fb">
+						<svg version="1.1" class="social" id="fb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 20" width="10" height="20" style="enable-background:new 0 0 10 20;" xml:space="preserve" fill="#464646">
+							<path class="st0" d="M10,3.9c0-1,0-1.9,0-2.8c0-0.2-0.1-0.4-0.4-0.4c-0.6,0-1.3,0-1.9,0L7,0.8c-2,0-3.7,1.3-4,3.3 c-0.1,0.5-0.1,1-0.1,1.6c0,0.3,0,0.5,0,0.8c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1c0,0.3-0.3,0.6-0.6,0.6l-0.5,0c-0.4,0-0.8,0-1.2,0
+							C0.1,7.4,0,7.5,0,7.9c0,0.9,0,1.8,0,2.8c0,0.4,0.1,0.5,0.5,0.5c0.4,0,0.8,0,1.2,0l0.5,0c0.3,0,0.6,0.3,0.6,0.6l0,2.2
+							c0,1.6,0,3.1,0,4.7c0,0.4,0.1,0.5,0.5,0.5c0.9,0,1.8,0,2.8,0c0.5,0,0.5-0.1,0.5-0.5c0-1.6,0-3.2,0-4.8l0-2.2c0-0.3,0.3-0.6,0.6-0.6
+							l0.7,0c0.5,0,1,0,1.4,0c0.4,0,0.5-0.1,0.5-0.5c0-0.7,0-1.5,0-2.2l0-0.4c0-0.5-0.1-0.6-0.6-0.6c-0.5,0-0.9,0-1.4,0l-0.6,0
+							c-0.3,0-0.6-0.3-0.6-0.6c0-0.2,0-0.3,0-0.5c0-0.3,0-0.7,0-1c0-0.7,0.3-1,1-1h0c0.3,0,0.6,0,1,0c0.3,0,0.6,0,0.9,0 C9.9,4.3,10,4.1,10,3.9z"/>
+						</svg>
+					</a>
+					<a href="https://www.vk.com/matematicxyz" class="social vk">
+						<svg version="1.1" class="social" id="vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 13" width="24" height="13" style="enable-background:new 0 0 24 13;" xml:space="preserve" fill="#464646">
+							<path class="st0" d="M23.2,11.3c-0.7-0.9-1.3-1.8-2-2.7l-0.9-1.3c-0.5-0.6-0.5-1,0-1.6c0.4-0.5,0.7-1,1.1-1.5l0,0 c0.6-0.8,1.2-1.7,1.8-2.5c0.3-0.4,0.3-0.7,0.1-1.1C23.2,0.2,22.9,0,22.4,0l-0.1,0c-0.9,0-1.8,0-2.8,0c-0.5,0-0.8,0.2-1.1,0.6
+							c-0.6,1.1-1.3,2.2-2,3.2c-0.2,0.3-0.4,0.7-0.6,1l0,0c-0.1,0.1-0.1,0.2-0.2,0.3c-0.3,0.3-0.6,0.4-0.9,0.3c-0.3-0.1-0.6-0.3-0.7-0.7 C14,4.6,14,4.4,14,4.2c0-0.4,0-0.8,0-1.1c0-0.7,0-1.3,0-2C14,0.4,13.6,0,12.9,0c-0.4,0-0.9,0-1.3,0l-0.1,0c-0.2,0-0.3,0-0.5,0 c-0.2,0-0.4,0-0.6,0C10,0,9.5,0,9.1,0C8.6,0,8.2,0.3,8,0.7c-0.1,0.5,0,0.9,0.5,1.2C8.8,2,9,2.3,9,2.6c0,0.6,0,1.1,0,1.7 c0,0.2-0.1,0.3-0.1,0.4C8.7,4.9,8.4,5,8.1,4.9C8,4.8,7.9,4.8,7.8,4.7C7.8,4.6,7.7,4.5,7.7,4.5C7.5,4.3,7.3,4,7.1,3.8 c-0.5-0.9-1.1-1.9-1.6-3C5.3,0.2,5,0,4.6,0c-0.9,0-2,0-3.2,0C1,0,0.7,0.3,0.5,0.8c-0.1,0.3,0,0.6,0.3,1.1C0.8,1.9,0.9,2,0.9,2 C3.1,6.6,6,10,9.7,12.4c0.7,0.5,1.5,0.6,2.3,0.5c1.2-0.2,2-1,2-2.2c0-0.2,0-0.4,0-0.6V9.7c0-0.3,0-0.9,0.7-1.1 c0.1,0,0.2-0.1,0.4-0.1c0.5,0,0.8,0.4,0.9,0.6c0.4,0.5,0.8,1.1,1.2,1.6c0.4,0.6,0.9,1.2,1.4,1.8c0.4,0.5,0.7,0.5,0.9,0.6l0.4,0 c0.4,0,0.9,0,1.3,0c0.5,0,1,0,1.4,0c0.5,0,0.8-0.3,0.9-0.8C23.5,11.9,23.4,11.6,23.2,11.3z"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<h1>
+					XYZ.Grid - magnetic Distortion Grid
+				</h1>
+				<fieldset class="slider-box">
+					<legend align="center">
+						For perfect 3d tracking
+					</legend>
+					<p class="slider-text">
+						Get high-quality 3d tracking, create the right scene geometry and save your time and time of the entire film crew
+					</p>
+					<div class="sl">
+						<div class="sl_slide">
+							<img class="sl_img" src="img/grid.png">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" src="img/b1.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" src="img/b2.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" src="img/b3.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" src="img/b4.jpg">
+						</div>
+						<div class="sl_slide">
+							<img class="sl_img" src="img/b5.jpg">
+						</div>
+					</div>
+					<div class="price-box">
+						<div class="price">
+							$60
+						</div>
+					</div>
+				</fieldset>
+				<div class="sl2">
+					<button type="button" class="prev">
+						<i class="fa fa-angle-left"></i>
+					</button>
+					<div class="sl2-box">
+						<div class="sl2_slide">
+							<img class="sl2_img" width="95" src="img/grid.png">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/s1.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/s2.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/s3.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/s4.jpg">
+						</div>
+						<div class="sl2_slide">
+							<img class="sl2_img" src="img/s5.jpg">
+						</div>
+					</div>
+					<button type="button" class="next">
+						<i class="fas fa-angle-right"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- ORDER -->
+
+	<section class="order">
+		<div class="container">
+			<div class="order-box d-flex">
+				<div class="order-info">
+					<h2 class="order-info-head">Order now!</h2>
+					<p class="order-info-text">
+						We ship all over the world and accept all types of payments. Shipping cost depends of destination
+					</p>
+				</div>
+				<form class="order-form" action="/submit.php" method="POST">
+					<input class="order-form-name" type="text" name="name" placeholder="Name*">
+					<input class="order-form-mail" type="email" name="email" placeholder="E-mail*">
+					<button class="order-form-btn" type="submit">
+						Click to order
+					</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- SPECIFICATIONS -->
+
+	<section class="spec">
+		<div class="container">
+			<div class="spec-box d-flex">
+				<!-- <div class="spec-head">
+					<div class="spec-head-black">Specifications</div>
+					<div class="spec-head-white">Specifications</div>
+				</div> -->
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/dimen.png">
+						<div class="number">1</div>
+					</div>
+					<div class="spec-item-head">Dimensions</div>
+					<div class="spec-text">47x24inch (120x62cm)</div>
+				</div>
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/thick.png">
+						<div class="number">2</div>
+					</div>
+					<div class="spec-item-head">Thickness</div>
+					<div class="spec-text">0.028inch (0.7mm)</div>
+				</div>
+				<div class="spec-item d-flex easily">
+					<div class="spec-img">
+						<img src="img/easily.png">
+						<div class="number">3</div>
+					</div>
+					<div class="spec-item-head">Easily to transport</div>
+					<div class="spec-text">Just twist into pipe<br> and there you go!</div>
+				</div>
+				<div class="spec-head">
+					<div class="spec-head-black">Specifications</div>
+					<div class="spec-head-white">Specifications</div>
+				</div>
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/water.png">
+						<div class="number">4</div>
+					</div>
+					<div class="spec-item-head">Water and bending resistance</div>
+					<div class="spec-text">Designed to work in the harshest shooting locations</div>
+				</div>
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/comes.png">
+						<div class="number">5</div>
+					</div>
+					<div class="spec-item-head">Comes with matte finish</div>
+					<div class="spec-text">Helps to reduce glare and hotspots and makes working side scratch resistant</div>
+				</div>
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/stickers.png">
+						<div class="number">6</div>
+					</div>
+					<div class="spec-item-head">Magnetic stickers</div>
+					<div class="spec-text">Helps to collect all necessary information fast and accurate</div>
+				</div>
+				<div class="spec-item d-flex">
+					<div class="spec-img">
+						<img src="img/plate.png">
+						<div class="number">7</div>
+					</div>
+					<div class="spec-item-head">Magnetic plate</div>
+					<div class="spec-text">Metal surface + couple seconds and XYX.Grid ready for shootings, while traditional grids require a lot of time for their installation and alignment.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PDF -->
+
+	<section class="pdf">
+		<div class="container">
+			<div class="pdf-box d-flex">
+				<div class="pdf-left">
+					<h2 class="pdf-head">
+						Send request and get a <span>free bonus:</span><br> PDF manual «How to shoot Distortion Grids»
+					</h2>
+					<form class="order-form d-flex pdf-form">
+						<input class="order-form-name pdf-form-name" type="text" name="name" placeholder="Name*">
+						<input class="order-form-mail pdf-form-mail" type="email" name="email" placeholder="E-mail*">
+						<button class="order-form-btn pdf-form-btn" type="submit">
+							Get my manual
+						</button>
+					</form>
+					<p class="pdf-text">
+						We`ve created for you this manual with instructions and recommendations of how to shoot distortion grids properly and avoid difficulties on post-production stage
+					</p>
+				</div>
+				<div class="pdf-right">
+					<div class="pdf-img">
+						<img src="img/pdf.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-box d-flex">
+				<div class="footer-left">
+					<div class="copy">
+						&copy;&nbsp;matematic.xyz 2018
+					</div>
+				</div>
+				<div class="footer-center d-flex">
+					<div class="mail">
+						<svg version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21 14" width="21" height="16" style="enable-background:new 0 0 21 14;" xml:space="preserve" fill="#f4365c">
+							<g>
+								<path class="st0" d="M11,9.7c-0.4,0.3-0.6,0.3-1,0C9.8,9.6,9.7,9.4,9.5,9.3C9,8.9,8.5,8.4,8,8c-2.2,2.5-4.5,5-6.7,7.5 c0.5,0.3,1,0.4,1.5,0.4c3.4,0,6.8,0,10.2,0c1.7,0,3.5,0,5.2,0c0.5,0,1-0.1,1.5-0.4c-2.2-2.5-4.5-5-6.7-7.5 C12.3,8.6,11.7,9.2,11,9.7z"/>
+								<path class="st0" d="M10.5,8.4c3-2.7,6.1-5.3,9.1-8c-0.5-0.3-0.9-0.3-1.4-0.3c-4.5,0-9,0-13.5,0c-0.7,0-1.5,0-2.2,0 c-0.4,0-0.7,0.2-1.1,0.2c0,0,0,0.1,0,0.1C4.4,3.1,7.5,5.8,10.5,8.4z"/>
+								<path class="st0" d="M0.4,1.4C0.1,1.8,0,2.4,0,2.9c0,1.3,0,2.6,0,3.8c0,2.2,0,4.3,0,6.5c0,0.5,0.1,0.9,0.4,1.3 C2.6,12,4.8,9.6,7,7.1C4.8,5.2,2.6,3.3,0.4,1.4z"/>
+								<path class="st0" d="M21,6.5c0-1.2,0-2.4,0-3.6c0-0.5-0.1-1-0.4-1.5c-2.2,1.9-4.4,3.8-6.6,5.7c2.2,2.5,4.4,4.9,6.6,7.4 c0.2-0.5,0.3-0.9,0.3-1.4C21,10.9,21,8.7,21,6.5z"/>
+							</g>
+						</svg>
+						<a href="mailto:phi@matematic.xyz">phi@matematic.xyz</a>
+					</div>
+					<div class="social-box">
+						<a href="https://www.facebook.com/mathematicxyz" class="social fb">
+							<svg version="1.1" class="social" id="fb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 20" width="10" height="20" style="enable-background:new 0 0 10 20;" xml:space="preserve" fill="#464646">
+								<path class="st0" d="M10,3.9c0-1,0-1.9,0-2.8c0-0.2-0.1-0.4-0.4-0.4c-0.6,0-1.3,0-1.9,0L7,0.8c-2,0-3.7,1.3-4,3.3 c-0.1,0.5-0.1,1-0.1,1.6c0,0.3,0,0.5,0,0.8c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1c0,0.3-0.3,0.6-0.6,0.6l-0.5,0c-0.4,0-0.8,0-1.2,0 C0.1,7.4,0,7.5,0,7.9c0,0.9,0,1.8,0,2.8c0,0.4,0.1,0.5,0.5,0.5c0.4,0,0.8,0,1.2,0l0.5,0c0.3,0,0.6,0.3,0.6,0.6l0,2.2 c0,1.6,0,3.1,0,4.7c0,0.4,0.1,0.5,0.5,0.5c0.9,0,1.8,0,2.8,0c0.5,0,0.5-0.1,0.5-0.5c0-1.6,0-3.2,0-4.8l0-2.2c0-0.3,0.3-0.6,0.6-0.6 l0.7,0c0.5,0,1,0,1.4,0c0.4,0,0.5-0.1,0.5-0.5c0-0.7,0-1.5,0-2.2l0-0.4c0-0.5-0.1-0.6-0.6-0.6c-0.5,0-0.9,0-1.4,0l-0.6,0 c-0.3,0-0.6-0.3-0.6-0.6c0-0.2,0-0.3,0-0.5c0-0.3,0-0.7,0-1c0-0.7,0.3-1,1-1h0c0.3,0,0.6,0,1,0c0.3,0,0.6,0,0.9,0 C9.9,4.3,10,4.1,10,3.9z"/>
+							</svg>
+						</a>
+						<a href="https://www.vk.com/matematicxyz" class="social vk">
+							<svg version="1.1" class="social" id="vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 13" width="24" height="13" style="enable-background:new 0 0 24 13;" xml:space="preserve" fill="#464646">
+								<path class="st0" d="M23.2,11.3c-0.7-0.9-1.3-1.8-2-2.7l-0.9-1.3c-0.5-0.6-0.5-1,0-1.6c0.4-0.5,0.7-1,1.1-1.5l0,0 c0.6-0.8,1.2-1.7,1.8-2.5c0.3-0.4,0.3-0.7,0.1-1.1C23.2,0.2,22.9,0,22.4,0l-0.1,0c-0.9,0-1.8,0-2.8,0c-0.5,0-0.8,0.2-1.1,0.6 c-0.6,1.1-1.3,2.2-2,3.2c-0.2,0.3-0.4,0.7-0.6,1l0,0c-0.1,0.1-0.1,0.2-0.2,0.3c-0.3,0.3-0.6,0.4-0.9,0.3c-0.3-0.1-0.6-0.3-0.7-0.7 C14,4.6,14,4.4,14,4.2c0-0.4,0-0.8,0-1.1c0-0.7,0-1.3,0-2C14,0.4,13.6,0,12.9,0c-0.4,0-0.9,0-1.3,0l-0.1,0c-0.2,0-0.3,0-0.5,0 c-0.2,0-0.4,0-0.6,0C10,0,9.5,0,9.1,0C8.6,0,8.2,0.3,8,0.7c-0.1,0.5,0,0.9,0.5,1.2C8.8,2,9,2.3,9,2.6c0,0.6,0,1.1,0,1.7 c0,0.2-0.1,0.3-0.1,0.4C8.7,4.9,8.4,5,8.1,4.9C8,4.8,7.9,4.8,7.8,4.7C7.8,4.6,7.7,4.5,7.7,4.5C7.5,4.3,7.3,4,7.1,3.8 c-0.5-0.9-1.1-1.9-1.6-3C5.3,0.2,5,0,4.6,0c-0.9,0-2,0-3.2,0C1,0,0.7,0.3,0.5,0.8c-0.1,0.3,0,0.6,0.3,1.1C0.8,1.9,0.9,2,0.9,2 C3.1,6.6,6,10,9.7,12.4c0.7,0.5,1.5,0.6,2.3,0.5c1.2-0.2,2-1,2-2.2c0-0.2,0-0.4,0-0.6V9.7c0-0.3,0-0.9,0.7-1.1 c0.1,0,0.2-0.1,0.4-0.1c0.5,0,0.8,0.4,0.9,0.6c0.4,0.5,0.8,1.1,1.2,1.6c0.4,0.6,0.9,1.2,1.4,1.8c0.4,0.5,0.7,0.5,0.9,0.6l0.4,0 c0.4,0,0.9,0,1.3,0c0.5,0,1,0,1.4,0c0.5,0,0.8-0.3,0.9-0.8C23.5,11.9,23.4,11.6,23.2,11.3z"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-logo">
+						<img src="img/footer-logo.png" alt="Matematic">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  			document.getElementById("header-phone").innerHTML = '<a href="tel:+ 9293248855">(929)324-8855</a>';
+ 		} else	{
+  			document.getElementById("header-phone").innerHTML = '<a href="tel:+ 9293248855">(929)324-8855</a> ';
+		}
+	</script>
+</body>
+</html>
