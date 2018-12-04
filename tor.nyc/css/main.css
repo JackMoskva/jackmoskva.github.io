@@ -267,6 +267,14 @@ textarea {
 	text-transform: uppercase;
 }
 
+.form-filter input[placeholder],
+.form-filter textarea[placeholder] {
+	font-family: 'a_AvanteBs', sans-serif;
+	font-size: 0.875em;
+	color: #afafaf !important;
+	text-transform: uppercase;
+}
+
 .form-filter .form-group input,
 .form-filter .form-group textarea,
 .form-filter .form-group select {
@@ -283,14 +291,6 @@ textarea {
 .form-filter .form-group .form-control:focus {
     border-color: #ff350d !important;
     box-shadow: none !important;
-}
-
-.form-filter input[placeholder],
-.form-filter textarea[placeholder] {
-	font-family: 'a_AvanteBs', sans-serif;
-	font-size: 0.875em;
-	color: #afafaf !important;
-	text-transform: uppercase;
 }
 
 #form-listing input::-moz-placeholder,
