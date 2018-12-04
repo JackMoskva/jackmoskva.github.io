@@ -5,17 +5,17 @@ if (!empty($_POST['name']) AND !empty($_POST['email'])){
 				'Reply-to: moskva84@gmail.com\r\n'.
 				'X-Mailer: PHP/'. phpversion();
 
-	$theme = 'новое сообщение';
+	$theme = "новое сообщение";
 
-	$letter = 'Данные сообщения:\r\n';
-	$letter .='Имя: '.$_POST['name']. '\r\n';
-	$letter .='Email: '.$_POST['email']. '\r\n';
+	$letter = "Данные сообщения:\r\n";
+	$letter .="Имя: ".$_POST['name']. "\r\n";
+	$letter .="Email: ".$_POST['email']. "\r\n";
 
-	if  (mail('moskva84@gmail.com', $theme, $letter, $headers)){
-		header('Location:/thankyou.php');
+	if  (mail("moskva84@gmail.com", $theme, $letter, $headers)){
+		header("Location: /distortion-grid/thankyou.php");
 	} else {
-		header('Location:/');
+		header("Location: /distortion-grid");
 	}
 } else {
-	header('Location:/');
+	header("Location: /distortion-grid");
 }

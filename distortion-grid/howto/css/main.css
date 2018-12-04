@@ -1,0 +1,231 @@
+/* Спецификация */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.d-flex {
+	display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .8s ease;
+}
+
+a:hover {
+	color: #f4365c;
+}
+
+a:focus {
+	color: #f4365c;
+}
+
+/*img {
+	display: block;
+}*/
+
+svg path {
+	fill: inherit;
+	stroke: inherit;
+	stroke-width: inherit;
+}
+
+* {
+	transition: all .5s ease;
+}
+
+.social {
+	transition: all .5s ease;
+}
+
+.social:hover {
+	fill: #fff;
+}
+
+.social:focus {
+	fill: #fff;
+}
+
+button {
+	cursor: pointer;
+}
+
+/* HEADER */
+
+.header {
+	background-color: #272727;
+	background-image: url(../img/howto.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 190px;
+}
+
+.header-up {
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 150px;
+}
+
+.logo img {
+	width: 165px;
+	height: 45px;
+}
+
+.mail {
+	margin-left: auto;
+	margin-right: 30px;
+}
+
+.mail a {
+	font-size: 0.875em;
+	color: #fff;
+	vertical-align: top;
+}
+
+.mail a:hover {
+	color: #f4365c;
+}
+
+.fb {
+	margin-right: 15px;
+}
+
+.header-bottom {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.manual-head {
+	font-size: 1.750em;
+	font-weight: 700;
+	color: #f8f9ff;
+	padding-bottom: 30px;
+}
+
+.manual-head span {
+	color: #f4365c;
+}
+
+.manual-lang a {
+	display: inline-block;
+	width: 195px;
+	height: 40px;
+	font-size: 1.125em;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 65px;
+	text-align: center;
+	line-height: 2.1em;
+}
+
+.en {
+	background-color: #f4365c;
+	margin-right: 15px;
+}
+
+.ru {
+	background-color: #464646
+}
+
+.manual-text {
+	font-weight: 300;
+	color: #9a9c9d;
+	padding-bottom: 25px;
+}
+
+.manual-social a {
+	display: inline-block;
+	width: 195px;
+	height: 40px;
+	font-size: 1.125em;
+	font-weight: 400;
+	color: #9a9a9a;
+	margin-bottom: 65px;
+	text-align: center;
+	line-height: 2.1em;
+	background: transparent;
+	border: 1px solid #464646;
+}
+
+.manual-fb {
+	margin-right: 15px;
+	line-height: 2.1em;
+}
+
+.manual-fb svg {
+	margin-right: 10px;
+	transform: translateY(3px);
+}
+
+.manual-vk {
+	
+}
+
+.manual-vk svg {
+	margin-right: 10px;
+}
+
+.view a {
+	display: inline-block;
+	font-weight: 300;
+	color: #f4365c;
+}
+
+.view a::after {
+	content: '';
+	display: inline-block;
+	width: 31px;
+	height: 8px;
+	background: url(../img/arrow.png) no-repeat center center;
+	padding-left: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #1b1b1b;
+}
+
+.footer-box {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copy {
+	font-size: 0.750em;
+	font-weight: 300;
+	color: #5f5e5e;
+}
