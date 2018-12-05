@@ -156,8 +156,24 @@ button {
 	margin-right: 15px;
 }
 
+.en:hover {
+	background-color: #ff5172;
+}
+
+.en:active {
+	background-color: #c41e49;
+}
+
 .ru {
 	background-color: #464646
+}
+
+.ru:hover {
+	background-color: #5a5858;
+}
+
+.ru:active {
+	background-color: #313030;
 }
 
 .manual-text {
@@ -204,6 +220,14 @@ button {
 	color: #f4365c;
 }
 
+.view a:hover {
+	color: #ff5172;
+}
+
+.view a:active {
+	color: #c41e49;
+}
+
 .view a::after {
 	content: '';
 	display: inline-block;
@@ -228,4 +252,159 @@ button {
 	font-size: 0.750em;
 	font-weight: 300;
 	color: #5f5e5e;
+}
+
+
+/* MEDIA SCREENS */
+
+@media screen and (max-width: 1025px) {
+	.container {
+		width: 960px;
+	}
+	.pdf-img {
+		width: 60%;
+	}
+	.pdf-img img {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 813px) {
+	.container {
+		width: 720px;
+	}
+	.header {
+		padding-bottom: 140px;
+	}
+	.header-up {
+		padding-bottom: 80px;
+	}
+	.header-bottom {
+		flex-direction: column;
+	}
+	.pdf-img {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.footer {
+		margin-top: -1px;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media screen and (max-width: 737px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	body {
+		font-size: 100%;
+	}
+	br {
+		display: none;
+	}
+	.container {
+		width: 90%;
+	}
+	.mail {
+		margin-right: 0px;
+	}
+	.social-box {
+		display: none;
+	}
+	.manual-head {
+		text-align: center;
+	}
+	.manual-lang a {
+		width: 175px;
+	}
+	.manual-text {
+		text-align: center;
+	}
+	.manual-social a {
+		width: 175px;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	body {
+		font-size: 90%;
+	}
+	.container {
+		width: 90%;
+	}
+	.header {
+		padding-bottom: 110px;
+	}
+	.manual-lang a {
+		width: 155px;
+	}
+	.manual-social a {
+		width: 155px;
+	}
+	.footer {
+		margin-top: -40px;
+	}
+	.footer-box {
+		flex-direction: column;
+	}
+	.footer-left {
+		margin-bottom: 15px;
+	}
+	.footer-center {
+		margin-bottom: 15px;
+	}
+	.footer-right {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 80%;
+	}
+	.container {
+		width: 90%;
+	}
+	.header-up {
+		flex-direction: column;
+		padding-bottom: 30px;
+	}
+	.mail {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.manual-lang a {
+		width: 100%;
+		margin-bottom: 20px;
+		line-height: 2.7em;
+	}
+	.manual-social a {
+		width: 100%;
+		margin-bottom: 20px;
+		line-height: 2.7em;
+	}
+	.footer-box {
+		flex-direction: column;
+	}
+	.footer-center {
+		margin-bottom: 15px;
+	}
+	.footer-right {
+		margin-bottom: 15px;
+	}
 }
