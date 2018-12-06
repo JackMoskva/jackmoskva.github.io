@@ -86,16 +86,17 @@ button {
 	background-color: #272727;
 	background-image: url(../img/howto.jpg);
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center center;
 	background-size: cover;
 	padding-top: 20px;
-	padding-bottom: 190px;
+	/*padding-bottom: 60px;*/
+	height: 95%;
 }
 
 .header-up {
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 150px;
+	padding-bottom: 130px;
 }
 
 .logo img {
@@ -201,13 +202,29 @@ button {
 	line-height: 2.1em;
 }
 
+.manual-fb:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.manual-fb:active {
+	color: #fff;
+	border-color: #fff;
+}
+
 .manual-fb svg {
 	margin-right: 10px;
 	transform: translateY(3px);
 }
 
-.manual-vk {
-	
+.manual-vk:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.manual-vk:active {
+	color: #fff;
+	border-color: #fff;
 }
 
 .manual-vk svg {
@@ -221,7 +238,7 @@ button {
 }
 
 .view a:hover {
-	color: #ff5172;
+	color: #fff;
 }
 
 .view a:active {
@@ -240,7 +257,14 @@ button {
 /* FOOTER */
 
 .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	background: #1b1b1b;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -2px;
 }
 
 .footer-box {
@@ -275,6 +299,7 @@ button {
 	}
 	.header {
 		padding-bottom: 140px;
+		height: auto;
 	}
 	.header-up {
 		padding-bottom: 80px;
@@ -287,7 +312,8 @@ button {
 		margin-bottom: 50px;
 	}
 	.footer {
-		margin-top: -1px;
+		position: static;
+		margin-top: -80px;
 		padding-bottom: 10px;
 	}
 }
@@ -363,12 +389,15 @@ button {
 		flex-direction: column;
 	}
 	.footer-left {
+		order: 1;
 		margin-bottom: 15px;
 	}
 	.footer-center {
+		order: 0;
 		margin-bottom: 15px;
 	}
 	.footer-right {
+		order: -1;
 		margin-bottom: 15px;
 	}
 }
