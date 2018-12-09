@@ -69,12 +69,12 @@ svg path {
 	stroke-width: inherit;
 }
 
-* {
-	transition: all .5s ease;
+*:not(.slick-track):not(.slick-list) {
+	transition: all .2s ease;
 }
 
 .social {
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 .social:hover {
@@ -140,7 +140,7 @@ fieldset {
 	margin-bottom: 70px;
 	padding-bottom: 55px;
 	max-width: 750px;
-	max-height: 505px;
+	max-height: 555px;
 }
 
 legend {
@@ -170,11 +170,16 @@ legend {
 	margin: 0px auto;
 	margin-top: 30px;
 	max-width: 560px;
+	visibility: hidden;
+}
+
+.slick-initialized {
+	visibility: visible;
 }
 
 .price-box {
 	position: absolute;
-	top: 445px;
+	top: 455px;
 	left: 50%;
 	margin-left: -60px;
 	width: 95px;
@@ -203,9 +208,17 @@ legend {
 	position: relative;
 }
 
+.sl2-box {
+	visibility: hidden;
+}
+
+.slick-initialized {
+	visibility: visible;
+}
+
 .sl2_slide {
 	width: 95px !important;
-	margin: 0px 8.5px;
+	margin: 0px 9px;
 	cursor: pointer;
 }
 
@@ -352,11 +365,13 @@ legend {
 }
 
 .order-form-btn:hover {
-	background-color: #ff5172;
+	background-color: #ff0066;
+	box-shadow: 0 0 10px 2px #ff0066;
 }
 
 .order-form-btn:active {
-	background-color: #c41e49;
+	background-color: #b21252;
+	box-shadow: 0 0 10px 2px #b21252;
 }
 
 /* SPECIFICATIONS */
@@ -537,6 +552,10 @@ legend {
 	font-size: 0.750em;
 	font-weight: 300;
 	color: #5f5e5e;
+}
+
+.footer-center .mail {
+	padding-top: 5px;
 }
 
 /* MEDIA SCREENS */

@@ -1,15 +1,15 @@
 $('.sl').slick({
-	arrows: false,
-	adaptiveHeight: true,
-	draggable: true,
-	infinite: true,
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	centerMode: false,
-	centerPadding: '40px',
-	respondTo: 'min',
-	asNavFor: '.sl2-box',
-	responsive: [
+  arrows: false,
+  draggable: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite: true,
+  centerMode: false,
+  centerPadding: '40px',
+  respondTo: 'min',
+  asNavFor: '.sl2-box',
+  slickPause: true,
+  responsive: [
     {
       breakpoint: 415,
       settings: {
@@ -32,19 +32,19 @@ $('.sl').slick({
 });
 
 $('.sl2-box').slick({
-	asNavFor: '.sl',
-	variableWidth: true,
-	dots: false,
-	infinite: true,
-	centerMode: false,
-	centerPadding: '0px',
-	slidesToShow: 5,
-	slidesToScroll: 1,
-	arrows: true,
-	focusOnSelect: true,
-	prevArrow: $('.prev'),
-	nextArrow: $('.next'),
-	responsive: [
+  asNavFor: '.sl',
+  variableWidth: true,
+  dots: false,
+  centerMode: false,
+  centerPadding: '0px',
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  infinite: true,
+  arrows: true,
+  focusOnSelect: true,
+  prevArrow: $('.prev'),
+  nextArrow: $('.next'),
+  responsive: [
     {
       breakpoint: 569,
       settings: {
@@ -57,9 +57,9 @@ $('.sl2-box').slick({
     {
       breakpoint: 415,
       settings: {
-      	accessibility: false,
-      	prevArrow: false,
-		nextArrow: false,
+        accessibility: false,
+        prevArrow: false,
+    nextArrow: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 3,
@@ -69,9 +69,9 @@ $('.sl2-box').slick({
     {
       breakpoint: 415,
       settings: {
-      	accessibility: false,
-      	prevArrow: false,
-		nextArrow: false,
+        accessibility: false,
+        prevArrow: false,
+    nextArrow: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 2,
