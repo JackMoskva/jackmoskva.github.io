@@ -39,7 +39,6 @@ p {
 a {
 	text-decoration: none;
 	cursor: pointer;
-	transition: all .8s ease;
 }
 
 a:hover {
@@ -54,14 +53,6 @@ svg path {
 	fill: inherit;
 	stroke: inherit;
 	stroke-width: inherit;
-}
-
-* {
-	transition: all .2s ease;
-}
-
-.social {
-	transition: all .2s ease;
 }
 
 .social:hover {
@@ -85,7 +76,6 @@ button {
 	background-position: center center;
 	background-size: cover;
 	padding-top: 20px;
-	/*padding-bottom: 60px;*/
 	height: 95%;
 }
 
@@ -155,12 +145,10 @@ button {
 
 .en:hover {
 	background-color: #ff0066;
-	box-shadow: 0 0 10px 2px #fff;
 }
 
 .en:active {
 	background-color: #b21252;
-	box-shadow: 0 0 10px 2px #fff;
 }
 
 .ru {
@@ -169,12 +157,10 @@ button {
 
 .ru:hover {
 	background-color: #ff0066;
-	box-shadow: 0 0 10px 2px #fff;
 }
 
 .ru:active {
 	background-color: #484848;
-	box-shadow: 0 0 10px 2px #fff;
 }
 
 .manual-text {
