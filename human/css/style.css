@@ -1,8 +1,8 @@
 /* Спецификация */
 
 html, body {
-	height: 100%;
-	background-color: #0b1f2c;
+	/*height: 100%;*/
+	background-color: #0b1e2c;
 }
 
 body {
@@ -68,11 +68,12 @@ button {
 /* HEADER */
 
 .header {
-	background-image: url(../img/header-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: contain;
+	background-image: url(../img/shine1.png), url(../img/header-bg.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, center top;
+	background-size: cover, auto auto;
 	height: 100%;
+	padding-bottom: 50px;
 }
 
 .navbar {
@@ -205,3 +206,173 @@ video {
 }
 
 /* CALC */
+
+.calc {
+	margin: 50px 0px 0px 0px;
+	background-image: url(../img/star1.png), url(../img/calc-bg.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left bottom, right top;
+	background-size: auto, auto;
+}
+
+.main-frame {
+	max-width: 1140px;
+	width: 100%;
+	min-height: 770px;
+}
+
+/* Что даст полная расшифровка Бодиграфа */
+
+.full {
+	background-image: url(../img/full-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left 50%;
+	background-size: auto;
+}
+
+.full-head {
+
+}
+
+.full-head-up {
+
+}
+
+.full-head-up span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.250em;
+	font-weight: 400;
+	color: #fff;
+	padding-right: 15px;
+}
+
+.full-head-down {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.250em;
+	font-weight: 400;
+}
+
+.full-head-line {
+	vertical-align: inherit;
+	/*width: 75%;*/
+}
+
+.full-item {
+	position: relative;
+	z-index: 999;
+	/*margin-top: 50px;*/
+}
+
+.full-item:not(.full-item-first) {
+	margin-top: 50px;
+}
+
+.full-number {
+	position: absolute;
+	top: -100px;
+	right: 0;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13.563em;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.02);
+	z-index: 100;
+}
+
+.full-item img {
+	padding-right: 15px;
+}
+
+.full-item-line {
+	vertical-align: inherit;
+	width: 60%;
+}
+
+.full-text {
+	padding-top: 20px;
+	font-size: 0.875em;
+	font-weight: 400;
+	color: #fff;
+	z-index: 999;
+}
+
+/* Pасшифровать Бодиграф самостоятельно */
+
+.myself {
+	padding-top: 100px;
+	background-image: url(../img/star3.jpg);
+	background-repeat: no-repeat;
+	background-position: right 50%;
+	background-size: auto;
+}
+
+.myself-head {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.250em;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.myself-line {
+	display: block;
+	margin: 0px auto;
+}
+
+.myself-text {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.000em;
+	font-weight: 400;
+	color: #fff;
+	padding: 20px 20px 50px 20px;
+	text-align: center;
+}
+
+.myself-item {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-width: 265px;
+	width: 100%;
+	height: 120px;
+	background: #102c3e;
+}
+
+.myself-number {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 5.625em;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.02);
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+.myself-item-text {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 0.875em;
+	font-weight: 400;
+	color: #fff;
+	width: 160px;
+}
+
+.myself-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 240px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: linear-gradient(to right, #00aeff, #0d6dd9);
+	z-index: 999;
+}
+
+.myself-next i {
+	content: '';
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.9em;
+}

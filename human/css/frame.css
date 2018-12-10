@@ -2,7 +2,7 @@
 
 html, body {
 	height: 100%;
-	background-color: #0b1f2c;
+	background-color: transparent;
 }
 
 body {
@@ -40,11 +40,11 @@ a {
 }
 
 a:hover {
-	
+	text-decoration: none;
 }
 
 a:focus {
-	
+	text-decoration: none;
 }
 
 svg path {
@@ -70,7 +70,7 @@ ul, li {
 .header {
 	margin-top: 20px;
 	padding-top: 20px;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	background-color: #102c3e;
 }
 
@@ -143,7 +143,6 @@ ul, li {
 
 .tabs-items {
 	background-color: #102c3e;
-	/*border-top: 5px solid #295a6e;*/
 	z-index: 100;
 }
 
@@ -169,22 +168,33 @@ ul, li {
 
 .main-frame-btn {
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .frame-btn {
 	max-width: 355px;
 	border-radius: 120px;
+	margin: 0px auto;
+	height: 100%;
 }
 
 .frame-btn a {
+	display: block;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 1.125em;
 	font-weight: 500;
 	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
 }
 
-.bth-demo {
+.btn-demo {
 	background-image: url(../img/frame.png);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
+}
+
+.btn-full {
+	background: linear-gradient(to right, #00aeff, #0d6dd9);
 }
