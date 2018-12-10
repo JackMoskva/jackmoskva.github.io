@@ -59,23 +59,19 @@ a:focus {
 	color: #f4365c;
 }
 
-/*img {
-	display: block;
-}*/
-
 svg path {
 	fill: inherit;
 	stroke: inherit;
 	stroke-width: inherit;
 }
 
-*:not(.slick-track):not(.slick-list) {
+/**:not(.slick-track):not(.slick-list) {
 	transition: all .2s ease;
 }
 
 .social {
 	transition: all .2s ease;
-}
+}*/
 
 .social:hover {
 	fill: #fff;
@@ -366,12 +362,12 @@ legend {
 
 .order-form-btn:hover {
 	background-color: #ff0066;
-	box-shadow: 0 0 10px 2px #ff0066;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 .order-form-btn:active {
 	background-color: #b21252;
-	box-shadow: 0 0 10px 2px #b21252;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 /* SPECIFICATIONS */
@@ -484,8 +480,8 @@ legend {
 /* PDF */
 
 .pdf {
-	background: #f8f9ff url(../img/form22-bg.jpg) no-repeat center top;
-	padding-bottom: 100px;
+	background: #f8f9ff url(../img/form2-bg.jpg) no-repeat center top;
+	padding-bottom: 110px;
 }
 
 .pdf-box {
@@ -533,6 +529,10 @@ legend {
 .pdf-right {
 	margin-top: 10px;
 	margin-left: 100px;
+}
+
+.pdf-img img {
+	max-width: 383px;
 }
 
 /* FOOTER */

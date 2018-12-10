@@ -1,18 +1,25 @@
-$('.sl').slick({
-	arrows: false,
-	adaptiveHeight: true,
-	asNavFor: '.sl2-box'
-});
+$(document).ready(function() {
 
-$('.sl2-box').slick({
-	asNavFor: '.sl',
-	dots: false,
-	centerMode: true,
-	centerPadding: '0px',
-	slidesToShow: 5,
-	slidesToScroll: 1,
-	arrows: true,
-	focusOnSelect: true,
-	prevArrow: $('.prev'),
-	nextArrow: $('.next')
+  function mouseOver()
+  {
+    $('.en').css('background', '#5b5b5b');
+  }
+  function mouseOut()
+  {
+    $('.en').css('background', '#f4365c');
+  }
+
+  // either of these might work
+  $('.ru').hover(mouseOver, mouseOut); 
+  $('.ru').mouseover(mouseOver).mouseout(mouseOut); 
+  // otherwise use this
+  $('.ru').bind('mouseover', mouseOver).bind('mouseout', mouseOut);
+
+
+  // then to unbind
+  $('.ru').click(function(e) {
+    e.preventDefault();
+    $('.ru').unbind('mouseover', mouseOver).unbind('mouseout', mouseOut);
+  });
+
 });

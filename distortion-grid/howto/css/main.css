@@ -155,12 +155,12 @@ button {
 
 .en:hover {
 	background-color: #ff0066;
-	box-shadow: 0 0 10px 2px #ff0066;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 .en:active {
 	background-color: #b21252;
-	box-shadow: 0 0 10px 2px #b21252;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 .ru {
@@ -168,13 +168,13 @@ button {
 }
 
 .ru:hover {
-	background-color: #828282;
-	box-shadow: 0 0 10px 2px #828282;
+	background-color: #ff0066;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 .ru:active {
 	background-color: #484848;
-	box-shadow: 0 0 10px 2px #484848;
+	box-shadow: 0 0 10px 2px #fff;
 }
 
 .manual-text {
@@ -276,6 +276,10 @@ button {
 	font-size: 0.750em;
 	font-weight: 300;
 	color: #5f5e5e;
+}
+
+.mail {
+	padding-top: 5px;
 }
 
 
