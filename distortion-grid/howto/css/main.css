@@ -144,7 +144,7 @@ button {
 }
 
 .en:hover {
-	background-color: #ff0066;
+	background-color: #ff0066 !important;
 }
 
 .en:active {
