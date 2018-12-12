@@ -6,8 +6,6 @@
 
 	<title>Human Design</title>
 
-	<base target="_blank">
-
 	<!-- СТИЛИ -->
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700|Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,19 +33,25 @@
   						<div class="collapse navbar-collapse" id="navbarSupportedContent">
     						<ul class="navbar-nav ml-auto nav-list">
       							<li class="nav-item active">
-        							<a class="nav-link" href="#">Расчет карты  <span class="sr-only">(current)</span></a>
+        							<a class="nav-link" href="#calc">Расчет карты  <span class="sr-only">(current)</span></a>
       							</li>
       							<li class="nav-item">
-        							<a class="nav-link" href="#">Оплата</a>
+        							<a class="nav-link" href="#service">Оплата</a>
       							</li>
       							<li class="nav-item">
-        							<a class="nav-link disabled" href="#">Отзывы</a>
+        							<a class="nav-link disabled" href="#reviews">Отзывы</a>
       							</li>
     						</ul>
     						<div class="navbar-text">
-    							<img class="vk" src="img/vk.png">
-    							<img class="inst" src="img/inst.png">
-    							<img class="fb" src="img/fb.png">
+    							<a href="#" class="vk">
+    								<img src="img/vk.png">
+    							</a>
+    							<a href="#" class="inst">
+    								<img src="img/inst.png">
+    							</a>
+    							<a href="#" class="fb">
+    								<img src="img/fb.png">
+    							</a>
     						</div>
   						</div>
 					</nav>
@@ -409,7 +413,7 @@
 
 	<!-- Пакеты услуг -->
 
-	<section class="service">
+	<section class="service" id="service">
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -760,7 +764,7 @@
 
 	<!-- Отзывы -->
 
-	<section class="reviews">
+	<section class="reviews" id="reviews">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-3">
@@ -834,6 +838,151 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- FOOTER -->
+
+	<footer class="footer">
+		<div class="planet"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 footer-online-bg">
+					<div class="footer-online">
+						<div class="footer-online-head">
+							Расшифровка бодиграфа on-line
+						</div>
+						<form class="footer-online-form">
+							<div class="form-radio">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option1" checked>
+  								<label class="form-check-label" for="exampleRadios4">
+    								Базовая часть
+    								<span>950 ₽</span>
+  								</label>
+							</div>
+							<div class="form-radio">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option2">
+  								<label class="form-check-label" for="exampleRadios5">
+    								Расширение базовой части
+    								<span>1850 ₽</span>
+  								</label>
+							</div>
+							<div class="form-radio">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option3">
+  								<label class="form-check-label" for="exampleRadios6">
+    								Полный комплект
+    								<span>2600 ₽</span>
+  								</label>
+							</div>
+						</form>
+						<form class="footer-online-form-2">
+							<div class="form-group d-flex justify-content-between">
+								<input type="text" name="name" placeholder="Введите ваше имя">
+								<input type="email" name="mail" placeholder="Введите ваш e-mail">
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="footer-online-check-input" id="exampleCheck3">
+    							<label class="footer-online-check-label" for="exampleCheck3">
+    								Я соглашаюсь на передачу персональных данных согласно 
+    								<a href="#" class="blue">
+    									политике конфиденциальности 
+    								</a>
+    								и 
+    								<a href="#" class="blue">
+    									пользовательскому соглашению
+    								</a>
+    							</label>
+  							</div>
+  							<div class="footer-online-btn">
+                  				<a href="#">
+                    				Заказать
+                  				</a>
+                			</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-xl-6 footer-live-bg">
+					<div class="footer-live">
+						<div class="footer-live-head">
+							Расшифровка бодиграфа живая
+							<p>(консультация)</p>
+						</div>
+						<form class="footer-live-form">
+							<div class="form-radio">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios7" value="option1" checked>
+  								<label class="form-check-label" for="exampleRadios7">
+    								Базовая часть -
+    								<span>30 мин/1300 ₽</span>
+  								</label>
+							</div>
+							<div class="form-radio">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option2">
+  								<label class="form-check-label" for="exampleRadios8">
+    								Расширение базовой части -
+    								<span>1 час/4400 ₽</span>
+  								</label>
+							</div>
+						</form>
+						<form class="footer-live-form-2 d-flex">
+							<div class="form-group">
+								<input type="text" name="name" placeholder="Введите ваше имя">
+								<input type="email" name="mail" placeholder="Введите ваш e-mail">
+							</div>
+							<div class="form-group form-check">
+								<input type="checkbox" class="footer-live-check-input" id="exampleCheck4">
+    							<label class="footer-live-check-label" for="exampleCheck4">
+    								Я соглашаюсь на передачу персональных данных согласно 
+    								<a href="#" class="blue">
+    									политике конфиденциальности 
+    								</a>
+    								и 
+    								<a href="#" class="blue">
+    									пользовательскому соглашению
+    								</a>
+    							</label>
+  							</div>
+						</form>
+						<div class="footer-live-btn">
+                  			<a href="#">
+                    			Заказать
+                  			</a>
+                		</div>
+					</div>
+				</div>
+			</div>
+			<div class="row main-footer">
+				<div class="col-4">
+					<div class="footer-mail">
+						<img src="img/mail.png">
+						<span>info@human-design.space</span>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="footer-logo">
+						<img src="img/footer-logo.png">
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="footer-soc">
+						<a href="#" class="vk">
+							<img src="img/vk.png">
+						</a>
+						<a href="#" class="inst">
+							<img src="img/inst.png">
+						</a>
+						<a href="#" class="fb">
+							<img src="img/fb.png">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="copyright">
+						©2018 "Human-Design". Все права защищены.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	
 	<!-- JavaScript -->
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>

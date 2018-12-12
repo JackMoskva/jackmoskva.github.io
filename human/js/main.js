@@ -15,3 +15,10 @@ $('.sl').slick({
     slidesToShow: 3,
     slidesToScroll: 3
   });
+
+$(window).scroll(function(){
+		// 200px от верха
+		if ($(window).scrollTop() > '200'){
+			$('.navbar').css({"background":"rgba(11, 31, 44, 0.5)"});
+		}
+	});
