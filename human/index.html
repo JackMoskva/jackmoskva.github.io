@@ -15,6 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+
 </head>
 <body>
 
@@ -31,7 +34,7 @@
     						<span class="navbar-toggler-icon"></span>
   						</button>
   						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    						<ul class="navbar-nav ml-auto nav-list">
+    						<ul class="navbar-nav nav-list">
       							<li class="nav-item active">
         							<a class="nav-link" href="#calc">Расчет карты  <span class="sr-only">(current)</span></a>
       							</li>
@@ -65,8 +68,39 @@
 					<p class="header-text">
 						Первая научно обоснованная система для расшифровки генетического предназначения каждого человека на уровне биохимии. Начиная с 1987 года, когда знание появилось мистическим образом, его эффективность зарекомендовала себя во всем мире и оно было признано опережающим свое время.
 					</p>
-					<button class="header-btn">Читать подробнее</button>
+					<button type="button" class="header-btn" data-toggle="modal" data-target="#exampleModalCenter">Читать подробнее</button>
 				</div>
+
+				<!-- MODAL -->
+
+				<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  					<div class="modal-dialog modal-dialog modal-lg modal-dialog-centered" role="document">
+    					<div class="modal-content">
+      						<div class="modal-header">
+      							<h2 class="modal-title" id="exampleModalLongTitle">
+									На чем основан<br> <span class="blue">расчет карты Human Design</span>
+								</h2>
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          							<span aria-hidden="true">&times;</span>
+        						</button>
+      						</div>
+      						<div class="modal-body">
+        						<p class="basis-text basis-text-1">
+									Его духовная глубина основывается на древних эзотерических системах (Астрология, И-Цзин, Каббала, Чакральная система).
+								</p>
+								<p class="basis-text basis-text-2">
+									А практическая точность подтверждается научными данными о генетике и биохимии человека (РНК, Кодоны, Аминокислоты). Инь и Ян вместе. В результате получилось то, что можно назвать научной магией для самопознания.
+								</p>
+								<p class="basis-text basis-text-3">
+									Карта Дизайна Человека или Бодиграф - это точная схема психоэнергетических способностей и слабостей человека. В ней заложена подробная инструкция для вашей самореализации и освобождения ума от деструктивных мыслей и решений.
+								</p>
+      						</div>
+    					</div>
+  					</div>
+				</div>
+
+				<!-- end modal -->
+
 				<div class="col-xl-8 align-self-end">
 					<div class="video-box">
 						<svg width="55" height="55" class="arrow-top">
@@ -124,7 +158,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
-					<iframe class="embed-responsive-item main-frame" src="calc.html" allowfullscreen width="1140px" height="770px" frameborder="0">
+					<iframe id="iframe" class="embed-responsive-item main-frame" src="calc.html" allowfullscreen width="100%" height="650" frameborder="0">
   							
   					</iframe>
 				</div>

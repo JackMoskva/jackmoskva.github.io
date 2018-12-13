@@ -1,7 +1,7 @@
 /* Спецификация */
 
 html, body {
-	height: 100%;
+	min-height: 100%;
 	background-color: transparent;
 }
 
@@ -97,6 +97,25 @@ ul, li {
 .list-item .result {
 	font-size: 1.500em;
 	color: #00aeff;
+}
+
+.payment-btn {
+	max-width: 255px;
+	border-radius: 120px;
+	margin: 0px auto;
+	margin-top: 40px;
+	height: 100%;
+	background: linear-gradient(to right, #00aeff, #0d6dd9);
+}
+
+.payment-btn a {
+	display: block;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.125em;
+	font-weight: 500;
+	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
 }
 
 .design-img {
