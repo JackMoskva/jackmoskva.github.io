@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 100%;
 	font-weight: 400;
 	color: #2A2A2A;
@@ -49,16 +49,32 @@ a {
 
 .project-box .pack {
 	max-width: 300px;
+	height: 1455px;
 	width: 100%;
 	background: #fff;
 	border-top: 5px solid #0D4692;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.project-box .pack2 {
+	border-top: 5px solid #ce1424;
+}
+
+.project-box .pack:hover {
+	transform: scale(1.1);
+	background: #fff;
+}
+
+.project-box .pack1,
+.project-box .pack3 {
+	background: #e0e7f0;
 }
 
 .pack .pack-head {
 	font-size: 21px;
 	font-weight: 600;
 	text-align: center;
-	padding-top: 40px;
 	padding-bottom: 5px;
 }
 
@@ -80,9 +96,9 @@ a {
 }
 
 .pack .pack-price span {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
-	color: #6286b7;
+	color: #9cc2f5;
 	text-decoration: line-through;
 }
 
@@ -95,11 +111,12 @@ a {
 }
 
 .subtitle {
+	min-height: 120px;
 	font-size: 17px;
-	font-weight: 500;
+	font-weight: 700;
 	color: #0D4692;
 	text-align: center;
-	padding: 0px 15px 20px 15px;
+	padding: 20px 15px 20px 15px;
 }
 
 .pack-list {
@@ -178,6 +195,10 @@ a {
 	margin-top: 10px;
 	margin-bottom: 30px;
 	cursor: pointer; 
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .pack-btn:hover {
@@ -201,6 +222,8 @@ a {
 		width: 100%;
 		margin-bottom: 40px;
 		padding: 0px 25px;
+		height: 100%;
+		position: static;
 	}
 	.project-header {
 		font-size: 40px;
@@ -238,6 +261,10 @@ a {
 	.present-list .present-list-item {
 		font-size: 22px;
 	}
+	.pack-btn {
+		position: static;
+		transform: none;
+	}
 	.pack-btn a {
 		font-size: 22px;
 	}
@@ -253,5 +280,11 @@ a {
 	}
 	.project-box .pack {
 		margin-bottom: 20px;
+		height: 100%;
+		position: static;
+	}
+	.pack-btn {
+		position: static;
+		transform: none;
 	}
 }
