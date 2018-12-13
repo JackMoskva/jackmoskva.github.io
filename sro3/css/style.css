@@ -55,10 +55,20 @@ a {
 .project-box .pack {
 	max-width: 370px;
 	width: 100%;
+	height: 1420px;
 	background: #f8f7f7;
 	padding: 0px 25px;
 	padding-bottom: 45px;
 	position: relative;
+	margin-bottom: 50px;
+}
+
+.project-box .pack2 {
+	background: #fef3d4;
+}
+
+.project-box .pack:hover {
+	transform: scale(1.1);
 }
 
 .pack .pack-head {
@@ -67,7 +77,6 @@ a {
 	color: #ce1424;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
@@ -101,7 +110,7 @@ a {
 }
 
 .price-main .price {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
 	text-decoration: line-through;
 	text-align: left;
@@ -118,9 +127,9 @@ a {
 
 .subtitle {
 	font-size: 17px;
-	font-weight: 600;
-	text-align: left;
-	padding: 0px 15px 20px 15px;
+	font-weight: 400;
+	text-align: center;
+	padding: 30px 15px 20px 15px;
 }
 
 .pack-list {
@@ -250,6 +259,7 @@ a {
 	.project-box .pack {
 		max-width: 550px;
 		width: 100%;
+		height: 100%;
 		margin-bottom: 40px;
 		padding: 0px 25px;
 	}
@@ -312,6 +322,8 @@ a {
 	}
 	.project-box .pack {
 		padding: 0px 10px;
+		padding-bottom: 40px;
 		margin-bottom: 40px;
+		height: 100%;
 	}
 }
