@@ -1,0 +1,317 @@
+/* Спецификация */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2A2A2A;
+	background: #fff;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.project {
+	padding-top: 50px;
+}
+
+.project-header {
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.project-header span {
+	color: #ce1424;
+}
+
+.project-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 50px;
+}
+
+.project-box .pack {
+	max-width: 370px;
+	width: 100%;
+	background: #f8f7f7;
+	padding: 0px 25px;
+	padding-bottom: 45px;
+	position: relative;
+}
+
+.pack .pack-head {
+	font-size: 24px;
+	font-weight: 500;
+	color: #ce1424;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.pack-price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pack-price .pack-sale {
+	font-size: 26px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+	text-decoration: none;
+	background: #ce1424;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	line-height: 35px;
+	padding: 20px 0px;
+}
+
+.pack-price .price-main {
+	font-size: 28px;
+	font-weight: bolder;
+	color: #000;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.price-main .price {
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: line-through;
+	text-align: left;
+}
+
+.pack .pack-term {
+	font-size: 15px;
+	color: #878b91;
+	font-style: italic;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.subtitle {
+	font-size: 17px;
+	font-weight: 600;
+	text-align: left;
+	padding: 0px 15px 20px 15px;
+}
+
+.pack-list {
+	padding: 0px 40px;
+}
+
+.pack-list .pack-list-item {
+	position: relative;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	list-style-type: none;
+}
+
+.pack-list .pack-list-item:last-child {
+	padding-bottom: 10px;
+}
+
+.pack-list .pack-list-item::before {
+	content: '';
+	width: 25px;
+	height: 23px;
+	background: url(../img/check2.png) no-repeat center center;
+	position: absolute;
+	left: -30px;
+	top: 3%;
+}
+
+.info {
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 15px 20px 15px;
+}
+
+.pack3 .present {
+	margin-top: 25px;
+}
+
+.present {
+	max-width: 350px;
+	margin: 0px auto;
+	margin-top: 5px;
+	border-top: 1px solid #DFDFDF;
+	padding: 20px 0px 20px 0px;
+	text-align: center; 
+}
+
+.present img {
+	width: 35px;
+	height: 35px;
+}
+
+.present span {
+	font-size: 26px;
+	font-weight: 700;
+	color: #ce1424;
+}
+
+.present-list {
+	padding: 0px 40px;
+}
+
+.present-list .present-list-item {
+	padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.system-list {
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.system-list .system-list-item {
+	position: relative;
+	list-style-type: none;
+	padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.system-list .system-list-item::before {
+	content: '';
+	width: 25px;
+	height: 23px;
+	background: url(../img/check2.png) no-repeat center center;
+	position: absolute;
+	left: -30px;
+	top: -3%;
+}
+
+.system-list .system-list-item:last-child {
+	padding-bottom: 0px;
+}
+
+.pack-btn {
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 43px;
+	background: #ce1424;
+	border-radius: 30px;
+	line-height: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 20px;
+	cursor: pointer; 
+}
+
+.pack-btn:hover {
+	background: #ed4251;
+}
+
+.pack-btn a {
+	color: #fff;
+}
+
+@media (max-width: 959px) and (min-width: 768px) {
+	.container {
+		width: 720px;
+	}
+	.project-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-box .pack {
+		max-width: 550px;
+		width: 100%;
+		margin-bottom: 40px;
+		padding: 0px 25px;
+	}
+	.project-header {
+		font-size: 40px;
+	}
+	.pack .pack-head {
+		font-size: 31px;
+	}
+	.pack .pack-sale {
+		width: 105px;
+		height: 105px;
+		top: -55px;
+    	left: 205px;
+		line-height: 65px;
+		font-size: 36px;
+	}
+	.pack .pack-price {
+		font-size: 48px;
+	}
+	.pack .pack-price span {
+		font-size: 26px;
+	}
+	.pack .pack-term {
+		font-size: 20px;
+	}
+	.subtitle {
+		font-size: 24px;
+	}
+	.pack-list .pack-list-item {
+		font-size: 22px;
+	}
+	.present-list .present-list-item:last-child {
+		padding-bottom: 50px;
+	}
+	.info {
+		font-size: 24px;
+	}
+	.present {
+		max-width: 550px;
+	}
+	.present span {
+		font-size: 34px;
+	}
+	.present-list .present-list-item {
+		font-size: 22px;
+	}
+	.pack-btn a {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.project-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-box .pack {
+		padding: 0px 10px;
+		margin-bottom: 40px;
+	}
+}
