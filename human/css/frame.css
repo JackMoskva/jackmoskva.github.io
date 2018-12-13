@@ -81,7 +81,7 @@ ul, li {
 
 .list-item .list-item-head,
 .list-item .list-item-text {
-	font-size: 0.875em;
+	font-size: 1.000em;
 	font-weight: 500;
 	width: 100%;
 }
@@ -91,7 +91,7 @@ ul, li {
 }
 
 .list-item .list-item-text {
-	color: #fff;
+	color: #b6cad6;
 }
 
 .list-item .result {

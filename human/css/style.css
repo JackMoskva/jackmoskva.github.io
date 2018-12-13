@@ -91,7 +91,7 @@ button {
 }
 
 .nav-item {
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .nav-item .nav-link {
@@ -112,7 +112,7 @@ button {
 
 .main-head {
 	margin-top: 130px;
-	font-size: 3.500em;
+	font-size: 3.000em;
 	font-weight: 400;
 	color: #fff;
 	text-transform: uppercase;
@@ -142,13 +142,18 @@ button {
 .modal-content {
 	background: #0b1f2c;
 	box-shadow: 30px 30px 0px 0px #0d6dd9;
+	padding: 40px;
+}
+
+.modal-header {
+	border: none;
 }
 
 .modal-title {
 	font-size: 2.250em;
 	font-weight: 400;
 	color: #fff;
-	padding-bottom: 25px;
+	line-height: 1.2em;
 }
 
 .close {
