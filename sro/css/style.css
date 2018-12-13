@@ -51,7 +51,7 @@ a {
 	max-width: 300px;
 	height: 1455px;
 	width: 100%;
-	background: #fff;
+	background: #e0e7f0;
 	border-top: 5px solid #0D4692;
 	position: relative;
 	margin-bottom: 50px;
@@ -63,12 +63,11 @@ a {
 
 .project-box .pack:hover {
 	transform: scale(1.1);
-	background: #fff;
 }
 
 .project-box .pack1,
 .project-box .pack3 {
-	background: #e0e7f0;
+	background: #fff;
 }
 
 .pack .pack-head {
@@ -113,7 +112,7 @@ a {
 .subtitle {
 	min-height: 120px;
 	font-size: 17px;
-	font-weight: 700;
+	font-weight: 400;
 	color: #0D4692;
 	text-align: center;
 	padding: 20px 15px 20px 15px;
