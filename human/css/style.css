@@ -267,7 +267,8 @@ video {
 /* Что даст полная расшифровка Бодиграфа */
 
 .full {
-	
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 .full-head {
@@ -360,7 +361,7 @@ video {
 	font-size: 1.000em;
 	font-weight: 400;
 	color: #fff;
-	padding: 20px 20px 50px 20px;
+	padding: 20px 20px 100px 20px;
 	text-align: center;
 }
 
@@ -730,6 +731,11 @@ video {
 	padding: 10px 0px;
 }
 
+.service-item-img img {
+	max-width: 200px;
+	width: 100%;
+}
+
 .service-list {
 	margin-top: 30px;
 }
@@ -825,19 +831,19 @@ video {
 	background: #2f536a;
 }
 
+.full-list {
+	padding-left: 50px;
+}
+
 .full-list .full-list-item {
 	margin: 0px auto;
-	text-align: center;
+	text-align: left;
 	padding-right: 0px;
 }
 
 .full-list .full-list-item i {
 	top: 2px;
-	left: 80px;
-}
-
-.full-list .full-list-item:nth-child(n+2) i {
-	left: 90px;
+	left: 20px;
 }
 
 .full-diz-text-2 {
@@ -850,7 +856,8 @@ video {
 }
 
 .main-quote {
-	margin-top: 40px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .quote-info-item {
@@ -956,7 +963,10 @@ video {
 .choice-form .form-radio input[type="radio"]:checked ~ label::before {
 	content: '';
 	text-align: center;
+	font-size: 30px;
+	color: #000;
 	border-color: #00adfd;
+	background-color: #fff;
 }
 
 .choice-item {
@@ -1376,10 +1386,6 @@ a:active {
 	padding-left: 20px;
 }
 
-/*.footer-online-form .form-radio {
-	margin-bottom: 10px;
-}*/
-
 .footer-online-form .form-radio label {
 	position: relative;
 	font-family: 'Exo 2', sans-serif;
@@ -1419,6 +1425,7 @@ a:active {
 	content: '';
 	text-align: center;
 	border-color: #00adfd;
+	background-color: #fff;
 }
 
 .footer-online-form .form-radio input[type="radio"]:checked ~ label {
@@ -1594,10 +1601,6 @@ a:active {
 	padding-left: 20px;
 }
 
-/*.footer-live-form .form-radio {
-	margin-bottom: 10px;
-}*/
-
 .footer-live-form .form-radio label {
 	position: relative;
 	font-family: 'Exo 2', sans-serif;
@@ -1636,6 +1639,7 @@ a:active {
 	content: '';
 	text-align: center;
 	border-color: #0c417c;
+	background-color: #fff;
 }
 
 .footer-live-form .form-radio input[type="radio"]:checked ~ label {

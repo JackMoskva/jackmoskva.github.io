@@ -129,9 +129,9 @@
 	.footer-live-bg::before {
 		display: none;
 	}
-	.btn-full {
+	/*.btn-full {
 		margin-top: 20px;
-	}
+	}*/
 	.frame-btn {
 		height: auto;
 	}

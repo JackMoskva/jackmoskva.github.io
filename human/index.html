@@ -27,35 +27,37 @@
 			<div class="row">
 				<div class="col-12">
 					<nav class="navbar fixed-top navbar-expand-lg navbar-dark justify-content-between">
-  						<a class="navbar-brand" href="#">
-  							<img src="img/logo.png" class="d-inline-block align-top" alt="">
-  						</a>
-  						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    						<span class="navbar-toggler-icon"></span>
-  						</button>
-  						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    						<ul class="navbar-nav nav-list ml-auto">
-      							<li class="nav-item active">
-        							<a class="nav-link" href="#calc">Расчет карты  <span class="sr-only">(current)</span></a>
-      							</li>
-      							<li class="nav-item">
-        							<a class="nav-link" href="#service">Оплата</a>
-      							</li>
-      							<li class="nav-item">
-        							<a class="nav-link disabled" href="#reviews">Отзывы</a>
-      							</li>
-    						</ul>
-    						<div class="navbar-text">
-    							<a href="#" class="vk">
-    								<img src="img/vk.png">
-    							</a>
-    							<a href="#" class="inst">
-    								<img src="img/inst.png">
-    							</a>
-    							<a href="#" class="fb">
-    								<img src="img/fb.png">
-    							</a>
-    						</div>
+  						<div class="container">
+  							<a class="navbar-brand" href="#">
+  								<img src="img/hd_logo_up.svg" class="d-inline-block align-top" alt="">
+  							</a>
+  							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    							<span class="navbar-toggler-icon"></span>
+  							</button>
+  							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    							<ul class="navbar-nav nav-list ml-auto">
+      								<li class="nav-item active">
+        								<a class="nav-link" href="#calc">Расчет карты  <span class="sr-only">(current)</span></a>
+      								</li>
+      								<li class="nav-item">
+        								<a class="nav-link" href="#service">Оплата</a>
+      								</li>
+      								<li class="nav-item">
+        								<a class="nav-link disabled" href="#reviews">Отзывы</a>
+      								</li>
+    							</ul>
+    							<div class="navbar-text">
+    								<a href="#" class="vk">
+    									<img src="img/vk.png">
+    								</a>
+    								<a href="#" class="inst">
+    									<img src="img/inst.png">
+    								</a>
+    								<a href="#" class="fb">
+    									<img src="img/fb.png">
+    								</a>
+    							</div>
+  							</div>
   						</div>
 					</nav>
 				</div>
@@ -412,10 +414,39 @@
 						Покупая расшифровку своего Бодиграфа вы экономите время на самостоятельном изучении и обеспечиваете себя фундаментальной информацией о своей природе и ее применении. Это лучший вариант для знакомства со своим Дизайном
 					</div>
 					<div class="zakaz-btn">
-						<a href="#">
+						<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">
 							Читать преимущества
 						</a>
 					</div>
+					<!-- MODAL -->
+
+					<div class="modal fade bd-example-modal-lg" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  						<div class="modal-dialog modal-dialog modal-lg modal-dialog-centered" role="document">
+    						<div class="modal-content">
+      							<div class="modal-header">
+      								<h2 class="modal-title" id="exampleModalLongTitle2">
+										Преимущества<br> <span class="blue">электронной расшифровки</span>
+									</h2>
+        							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          								<span aria-hidden="true">&times;</span>
+        							</button>
+      							</div>
+      							<div class="modal-body">
+        							<p class="basis-text basis-text-1">
+										Его духовная глубина основывается на древних эзотерических системах (Астрология, И-Цзин, Каббала, Чакральная система).
+									</p>
+									<p class="basis-text basis-text-2">
+										А практическая точность подтверждается научными данными о генетике и биохимии человека (РНК, Кодоны, Аминокислоты). Инь и Ян вместе. В результате получилось то, что можно назвать научной магией для самопознания.
+									</p>
+									<p class="basis-text basis-text-3">
+										Карта Дизайна Человека или Бодиграф - это точная схема психоэнергетических способностей и слабостей человека. В ней заложена подробная инструкция для вашей самореализации и освобождения ума от деструктивных мыслей и решений.
+									</p>
+      							</div>
+    						</div>
+  						</div>
+					</div>
+
+				<!-- end modal -->
 				</div>
 				<div class="col-xl-7 col-lg-12 col-md-12">
 					<div class="zakaz-item d-flex">
@@ -514,7 +545,7 @@
 							ПОЛНАЯ
 						</div>
 						<div class="service-item-img">
-							<img src="img/full-diz.png">
+							<img src="img/hd_logo_rgb.svg">
 						</div>
 						<div class="full-diz-head blue">
 							ВЕСЬ ПАКЕТ
@@ -630,7 +661,7 @@
 						</div>
 						<form class="choice-form">
 							<div class="form-radio">
-  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
   								<label class="form-check-label" for="exampleRadios1">
     								Базовая часть
   								</label>
@@ -642,7 +673,7 @@
   								</label>
 							</div>
 							<div class="form-radio">
-  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
   								<label class="form-check-label" for="exampleRadios3">
     								Полный комплект
   								</label>
@@ -717,7 +748,7 @@
         								</a>
       								</h4>
         						</div>
-        						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        						<div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
           							<div class="panel-body">
             							После оплаты выбранного продукта в течении 5 минут вам на почту высылается доступ в личный кабинет. В кабинете вы указываете свои данные о рождении и получаете готовую расшифровку своего Бодиграфа (карта дизайн человека). В течении последующих дней к вам на почту будут приходить дополнительные материалы.
           							</div>
@@ -886,7 +917,7 @@
 						</div>
 						<form class="footer-online-form">
 							<div class="form-radio">
-  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option1" checked>
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option1">
   								<label class="form-check-label" for="exampleRadios4">
     								Базовая часть
     								<span>950 ₽</span>
@@ -900,7 +931,7 @@
   								</label>
 							</div>
 							<div class="form-radio">
-  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option3">
+  								<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option3" checked>
   								<label class="form-check-label" for="exampleRadios6">
     								Полный комплект
     								<span>2600 ₽</span>
@@ -991,7 +1022,7 @@
 				</div>
 				<div class="col-4 col-md-4 col-12">
 					<div class="footer-logo">
-						<img src="img/footer-logo.png">
+						<img src="img/hd_logo_rgb.svg">
 					</div>
 				</div>
 				<div class="col-4 col-md-4 col-12">
