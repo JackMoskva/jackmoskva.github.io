@@ -246,7 +246,7 @@ video {
 /* CALC */
 
 .calc {
-	margin: 100px 0px 50px 0px;
+	margin: 50px 0px 0px 0px;
 }
 
 .main-frame {
@@ -259,7 +259,7 @@ video {
 /* Что даст полная расшифровка Бодиграфа */
 
 .full {
-	margin-top: 100px;
+	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
@@ -1780,11 +1780,36 @@ a:active {
 	border: none;
 }
 
+.banner {
+	margin-top: 50px;
+}
+
+.banner1 {
+	display: block;
+}
+
+.banner2 {
+	display: none;
+}
+
+.banner3 {
+	display: none;
+}
+
+.banner4 {
+	display: none;
+}
+
+.banner img {
+	display: block;
+	margin: 0px auto;
+}
+
 .main-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .footer-mail span {

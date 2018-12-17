@@ -359,6 +359,19 @@
 		width: 0px !important;
 		display: none !important;
 	}
+	.banner1 {
+		display: none;
+	}
+	.banner2 {
+		display: block;
+	}
+	.banner3 {
+		display: none;
+	}
+
+	.banner4 {
+		display: none;
+	}
 	.footer-mail span {
 		font-size: 0.875em;
 	}
@@ -723,6 +736,19 @@
 		width: 0px !important;
 		display: none !important;
 	}
+	.banner1 {
+		display: none;
+	}
+	.banner2 {
+		display: none;
+	}
+	.banner3 {
+		display: block;
+	}
+
+	.banner4 {
+		display: none;
+	}
 	.main-footer {
 		flex-direction: column;
 		justify-content: center;
@@ -756,8 +782,12 @@
 		padding-top: 20px;
 	}
 	#calc-form .form-group {
+		max-width: 350px;
 		width: 100% !important;
 		display: block !important;
+	}
+	#day {
+		margin-bottom: 40px;
 	}
 	#myTab {
 		flex-direction: column;
@@ -875,7 +905,10 @@
    		padding-bottom: 10px;
 	}
 	.calc {
-    	margin: 50px 0px 50px 0px;
+    	margin: 50px 0px 0px 0px;
+	}
+	.full {
+		margin-top: 50px;
 	}
 	.full-head-up span {
 		font-size: 1.800em;
@@ -1014,13 +1047,6 @@
 	.service {
     	margin-top: 50px;
 	}
-	/*.full-list .full-list-item i {
-    	top: 2px;
-    	left: 85px;
-	}
-	.full-list .full-list-item:nth-child(n+2) i {
-    	left: 95px;
-	}*/
 	.full-diz-mob {
 		margin-top: 70px;
 		margin-bottom: 0px;
@@ -1131,6 +1157,19 @@
 		width: 0px !important;
 		display: none !important;
 	}
+	.banner1 {
+		display: none;
+	}
+	.banner2 {
+		display: none;
+	}
+	.banner3 {
+		display: none;
+	}
+
+	.banner4 {
+		display: block;
+	}
 	.main-footer {
 		flex-direction: column;
 		justify-content: center;
@@ -1187,8 +1226,8 @@
 	.calc {
 		margin: 0px;
 	}
-	.calc-box {
-		padding-bottom: 20px;
+	#calc-box {
+		padding-bottom: 30px;
 	}
 	.calc-head {
 		padding-top: 20px;
@@ -1207,10 +1246,14 @@
 		margin-left: 10px;
 		text-align: left;
 	}
+	#calc-form .time-label {
+		padding-left: 0px;
+	}
 	#calc-form .country input[type="text"] {
 		width: 100%;
 	}
 	#calc-form .calc-form-btn {
+		margin-top: 20px;
 		background-size: 100%;
 	}
 	#myTab {
@@ -1218,6 +1261,19 @@
 	}
 	#myTab .nav-item:first-child {
 		margin-top: 0px;
+	}
+	#calc-form select:last-child {
+		margin-right: 0px;
+	}
+	#calc-form select {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	#calc-form .date {
+		margin-bottom: 20px;
+	}
+	#calc-form .country {
+		margin-bottom: 0px;
 	}
 	#myTab .nav-item {
 		margin-bottom: 0px;

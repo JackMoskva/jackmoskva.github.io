@@ -18,7 +18,7 @@
       <div class="row">
         <div class="col">
           <div class="calc-line"></div>
-            <div class="calc-box">
+            <div id="calc-box" class="calc-box">
               <p class="calc-head">
                 Сделать расчет
               </p>
@@ -33,8 +33,8 @@
               </p>
               <form class="calc-form" name="calc-form" id="calc-form" method="post">
                 <div class="form-group date">
-                  <label for="day">День</label>
-                  <select class="day" id="day" name="day">
+                  <label for="day">Дата</label>
+                  <select class="day " id="day" name="day">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -67,7 +67,6 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                   </select>
-                  <label for="month">Месяц</label>
                   <select class="month" id="month" name="month">
                     <option value="1">Январь</option>
                     <option value="2">Февраль</option>
@@ -82,7 +81,6 @@
                     <option value="11">Ноябрь</option>
                     <option value="12">Декабрь</option>
                   </select>
-                  <label for="year">Год</label>
                   <select class="year" id="year" name="year">
                     <option value="2018">2018</option>
                     <option value="2017">2017</option>
@@ -204,9 +202,7 @@
                     <option value="1901">1901</option>
                     <option value="1900">1900</option>
                   </select>
-                </div>
-                <div class="form-group time">
-                  <label for="hour">Час</label>
+                  <label class="time-label" for="hour">Время</label>
                   <select class="hour" id="hour" name="hour">
                     <option value="0">00</option>
                     <option value="1">01</option>
@@ -233,7 +229,6 @@
                     <option value="22">22</option>
                     <option value="23">23</option>
                   </select>
-                  <label for="minute">Минута</label>
                   <select class="minute" id="minute" name="minute">
                     <option value="0">00</option>
                     <option value="1">01</option>
