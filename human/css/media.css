@@ -1170,6 +1170,10 @@
 	.banner4 {
 		display: block;
 	}
+	.banner4 img {
+		width: 280px;
+		height: 70px;
+	}
 	.main-footer {
 		flex-direction: column;
 		justify-content: center;
