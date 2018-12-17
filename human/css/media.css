@@ -945,6 +945,15 @@
 		margin: 0px auto;
 		margin-bottom: 20px;
 	}
+	.myself-item .myself-number {
+		padding-right: 25px;
+	}
+	.myself-item-1 .myself-number {
+		padding-right: 37px;
+	}
+	.myself-item-4 .myself-number {
+		padding-right: 19px;
+	}  
 	.myself-next {
 		display: none;
 	}
