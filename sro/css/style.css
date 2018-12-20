@@ -1,6 +1,6 @@
 /* Спецификация */
 
-body {
+.sro-packs {
 	margin: 0;
 	padding: 0;
 	font-family: 'Exo 2', sans-serif;
@@ -16,14 +16,9 @@ body {
 	margin: 0;
 }
 
-.container {
+.container-packs {
 	width: 960px;
 	margin: 0px auto;
-}
-
-p {
-	margin: 0;
-	padding: 0;
 }
 
 a {
@@ -33,6 +28,7 @@ a {
 
 .project {
 	padding-top: 50px;
+	overflow-x: hidden;
 }
 
 .project-header {
@@ -208,9 +204,9 @@ a {
 	color: #fff;
 }
 
-@media (max-width: 959px) and (min-width: 768px) {
-	.container {
-		width: 720px;
+@media (max-width: 959px) and (min-width: 599px) {
+	.container-packs {
+		width: 580px;
 	}
 	.project-box {
 		flex-direction: column;
@@ -270,7 +266,7 @@ a {
 }
 
 @media screen and (max-width: 576px) {
-	.container {
+	.container-packs {
 		width: 90%;
 	}
 	.project-box {
