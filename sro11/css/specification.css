@@ -1,0 +1,288 @@
+/* Спецификация */
+
+.sro-packs {
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	color: #2A2A2A;
+	background: #F5F5F5;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container-packs {
+	width: 960px;
+	margin: 0px auto;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.project {
+	padding-top: 50px;
+}
+
+.project-header {
+	font-size: 36px;
+	text-align: center;
+}
+
+.project-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+.project-box .pack {
+	max-width: 300px;
+	height: 1455px;
+	width: 100%;
+	background: #e0e7f0;
+	border-top: 5px solid #0D4692;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.project-box .pack2 {
+	border-top: 5px solid #ce1424;
+}
+
+.project-box .pack:hover {
+	transform: scale(1.1);
+}
+
+.project-box .pack1,
+.project-box .pack3 {
+	background: #fff;
+}
+
+.pack .pack-head {
+	font-size: 21px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.pack .pack-sale {
+	font-size: 36px;
+	font-weight: 700;
+	color: #ce1424;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.pack .pack-price {
+	background: #0D4692;
+	font-size: 28px;
+	font-weight: bolder;
+	color: #fff;
+	text-align: center;
+	padding: 25px 10px;
+}
+
+.pack .pack-price span {
+	font-size: 20px;
+	font-weight: 400;
+	color: #9cc2f5;
+	text-decoration: line-through;
+}
+
+.pack .pack-term {
+	font-size: 15px;
+	color: #aaa;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.subtitle {
+	min-height: 120px;
+	font-size: 17px;
+	font-weight: 400;
+	color: #0D4692;
+	text-align: center;
+	padding: 20px 15px 20px 15px;
+}
+
+.pack-list {
+	padding: 0px 40px;
+}
+
+.pack-list .pack-list-item {
+	padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.info {
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 15px 20px 15px;
+}
+
+.pack3 .present {
+	margin-top: 10px;
+}
+
+.present {
+	max-width: 250px;
+	margin: 0px auto;
+	margin-top: 5px;
+	border-top: 1px solid #DFDFDF;
+	padding: 20px 0px 20px 0px;
+	text-align: center; 
+}
+
+.present img {
+	width: 35px;
+	height: 35px;
+}
+
+.present span {
+	font-size: 26px;
+	font-weight: 700;
+	color: #ce1424;
+}
+
+.present-list {
+	padding: 0px 40px;
+}
+
+.present-list .present-list-item {
+	padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.system-list {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.system-list .system-list-item {
+	list-style-type: disc;
+	padding-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.system-list .system-list-item:last-child {
+	padding-bottom: 0px;
+}
+
+.pack-btn {
+	width: 250px;
+	height: 40px;
+	background: #0D4692;
+	border-radius: 2px;
+	line-height: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	cursor: pointer; 
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.pack-btn:hover {
+	background: #00273d;
+}
+
+.pack-btn a {
+	color: #fff;
+}
+
+@media (max-width: 959px) and (min-width: 599px) {
+	.container-packs {
+		width: 580px;
+	}
+	.project-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-box .pack {
+		max-width: 550px;
+		width: 100%;
+		margin-bottom: 40px;
+		padding: 0px 25px;
+		height: 100%;
+		position: static;
+	}
+	.project-header {
+		font-size: 40px;
+	}
+	.pack .pack-head {
+		font-size: 31px;
+	}
+	.pack .pack-sale {
+		font-size: 56px;
+	}
+	.pack .pack-price {
+		font-size: 48px;
+	}
+	.pack .pack-price span {
+		font-size: 26px;
+	}
+	.pack .pack-term {
+		font-size: 20px;
+	}
+	.subtitle {
+		font-size: 24px;
+	}
+	.pack-list .pack-list-item {
+		font-size: 22px;
+	}
+	.info {
+		font-size: 24px;
+	}
+	.present {
+		max-width: 550px;
+	}
+	.present span {
+		font-size: 34px;
+	}
+	.present-list .present-list-item {
+		font-size: 22px;
+	}
+	.pack-btn {
+		position: static;
+		transform: none;
+	}
+	.pack-btn a {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.project-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-box .pack {
+		margin-bottom: 20px;
+		height: 100%;
+		position: static;
+	}
+	.pack-btn {
+		position: static;
+		transform: none;
+	}
+}
+
+/*.callbuttons {
+	color: white;
+}*/
