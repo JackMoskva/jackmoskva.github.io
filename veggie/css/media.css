@@ -1,0 +1,524 @@
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 960px;
+	}
+	.special {
+		justify-content: center;
+	}
+	.special-item:nth-child(n+4) img {
+		float: left;
+	}
+	.special-item:nth-child(n+4) .special-item_text {
+    	padding-left: 205px;
+    	padding-right: 5px;
+	}
+	#about {
+		padding-bottom: 80px;
+	}
+	.menu {
+		padding-bottom: 0px;
+	}
+	.menu-left {
+		float: none;
+		width: 90%;
+		margin: 0px auto;
+	}
+	.menu-right {
+		float: none;
+		width: 90%;
+		margin: 0px auto;
+		padding-top: 0px;
+	}
+	.contact {
+		width: 420px;
+	}
+	.contact-form_item {
+		width: 200px;
+	}
+	.contact-form textarea {
+		padding: 10px 15px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.container {
+		width: 720px;
+	}
+	.menu-nav-icon {
+		display: inline-block;
+	}
+	.nav-list {
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		top: -100px;
+		right: 40px;
+		/*left: 0;*/
+		margin-top: 70px;
+		background: transparent;
+		z-index: 1000;
+		overflow: auto;
+	}
+	.nav-list_item {
+		display: block;
+		margin-right: 0;
+		width: 70px;
+	}
+	.main-head {
+    	width: 450px;
+    	margin-top: 200px;
+	}
+	.columns {
+		flex-direction: column;
+	}
+	.column-item {
+		width: 80%;
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+	#about {
+		background-position: right center;
+		padding-bottom: 50px;
+	}
+	.about-item {
+		width: 350px;
+	}
+	.about-item h2 {
+		padding-top: 55px;
+	}
+	.about-item p {
+		padding-bottom: 10px;
+	}
+	.about-item img {
+		width: 30%;
+	}
+	#footer {
+		background-position: right top;
+	}
+	.contact {
+		float: none;
+		width: 420px;
+		margin: 0px auto;
+	}
+}
+@media screen and (max-width: 420px) {
+	.container {
+		width: 400px;
+	}
+	.menu-nav-icon {
+		display: inline-block;
+	}
+	.nav-list {
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		top: -100px;
+		right: 40px;
+		/*left: 0;*/
+		margin-top: 70px;
+		background: transparent;
+		z-index: 1000;
+		overflow: auto;
+	}
+	.nav-list_item {
+		display: block;
+		margin-right: 0;
+		width: 70px;
+	}
+	#header {
+		background-position: right top;
+		padding-bottom: 100px;
+	}
+	.main-head {
+    	width: 400px;
+    	margin-top: 200px;
+	}
+	.columns {
+		flex-direction: column;
+	}
+	.column-item {
+		width: 80%;
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+	#about {
+		background-position: left bottom;
+		padding-bottom: 150px;
+	}
+	.about-item {
+		width: 350px;
+		float: none;
+		margin: 0px auto;
+	}
+	.about-item h2 {
+		padding-top: 55px;
+	}
+	.about-item p {
+		padding-bottom: 10px;
+	}
+	.about-item img {
+		width: 30%;
+	}
+	.menu-nav {
+    	width: 380px;
+    	padding-top: 45px;
+    	margin: 0px auto;
+	}
+	.menu-nav .nav-list-2 {
+    	display: flex;
+    	justify-content: space-between;
+    	padding-left: 0px;	
+	}
+	.nav-list_item-2 {
+    	margin-right: 5px;
+    	text-align: center;
+    	padding: 5px 5px;
+	}
+	.dotted::after {
+    	height: 11px;
+    	border-bottom: 1px dotted #3c3c3c;
+	}
+	.dotted .menu-head {
+    	font-size: 0.750em;
+	}
+	.dotted .menu-price {
+    	font-size: 0.750em;
+	}
+	.menu-text {
+    	font-size: 0.750em;
+	}
+	#footer {
+		background-position: right top;
+	}
+	.contact {
+		float: none;
+		width: 420px;
+		margin: 0px auto;
+	}
+	.veggie {
+		float: none;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.reservation {
+		float: none;
+		text-align: center;
+	}
+	.contact-form .contacts-title {
+		padding-left: 10px;
+	}
+	.contact-form_item {
+		width: 95%;
+	}
+	.contact-form-item-left {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form-item-right {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form textarea {
+		width: 90%;
+		margin-left: 10px;
+	}
+	.social {
+    	right: 10px;
+    	top: 770px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.container {
+		width: 350px;
+	}
+	.menu-nav-icon {
+		display: inline-block;
+	}
+	.nav-list {
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		top: -100px;
+		right: 40px;
+		/*left: 0;*/
+		margin-top: 70px;
+		background: transparent;
+		z-index: 1000;
+		overflow: auto;
+	}
+	.nav-list_item {
+		display: block;
+		margin-right: 0;
+		width: 70px;
+	}
+	#header {
+		background-position: right top;
+		padding-bottom: 100px;
+	}
+	.main-head {
+    	width: 350px;
+    	margin-top: 200px;
+	}
+	.columns {
+		flex-direction: column;
+	}
+	.column-item {
+		width: 90%;
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+	.special-item {
+		width: 350px;
+	}
+	.special-item img {
+		width: 150px;
+		height: 150px;
+	}
+	.special-item h3 {
+    	padding-top: 5px;
+	}
+	.special-item:nth-child(-n+3) .special-item_text {
+		padding: 0;
+	}
+	.special-item:nth-child(n+4) .special-item_text {
+		padding: 0;
+	}
+	#about {
+		background-position: left bottom;
+		padding-bottom: 150px;
+	}
+	.about-item {
+		width: 350px;
+		float: none;
+		margin: 0px auto;
+	}
+	.about-item h2 {
+		padding-top: 55px;
+	}
+	.about-item p {
+		padding-bottom: 10px;
+	}
+	.about-item img {
+		width: 30%;
+	}
+	.menu-nav {
+    	width: 350px;
+    	padding-top: 45px;
+    	margin: 0px auto;
+	}
+	.menu-nav .nav-list-2 {
+    	display: flex;
+    	justify-content: space-between;
+    	padding-left: 0px;	
+	}
+	.nav-list_item-2 {
+    	margin-right: 5px;
+    	text-align: center;
+    	padding: 5px 5px;
+	}
+	.dotted::after {
+    	height: 11px;
+    	border-bottom: 1px dotted #3c3c3c;
+	}
+	.dotted .menu-head {
+    	font-size: 0.750em;
+	}
+	.dotted .menu-price {
+    	font-size: 0.750em;
+	}
+	.menu-text {
+    	font-size: 0.750em;
+	}
+	#footer {
+		background-position: right top;
+	}
+	.contact {
+		float: none;
+		width: 350px;
+		margin: 0px auto;
+	}
+	.veggie {
+		float: none;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.reservation {
+		float: none;
+		text-align: center;
+	}
+	.contact-form .contacts-title {
+		padding-left: 10px;
+	}
+	.contact-form_item {
+		width: 95%;
+	}
+	.contact-form-item-left {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form-item-right {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form textarea {
+		width: 90%;
+		margin-left: 10px;
+	}
+	.social {
+    	right: 10px;
+    	top: 770px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.container {
+		width: 300px;
+	}
+	.menu-nav-icon {
+		display: inline-block;
+	}
+	.nav-list {
+		position: absolute;
+		display: none;
+		flex-direction: column;
+		top: -100px;
+		right: 40px;
+		/*left: 0;*/
+		margin-top: 70px;
+		background: transparent;
+		z-index: 1000;
+		overflow: auto;
+	}
+	.nav-list_item {
+		display: block;
+		margin-right: 0;
+		width: 70px;
+	}
+	#header {
+		background-position: right top;
+		padding-bottom: 100px;
+	}
+	.main-head {
+    	width: 300px;
+    	margin-top: 170px;
+	}
+	.columns {
+		flex-direction: column;
+	}
+	.column-item {
+		width: 90%;
+		margin: 0px auto;
+		margin-bottom: 50px;
+	}
+	.special-item {
+		width: 300px;
+	}
+	.special-item img {
+		width: 150px;
+		height: 150px;
+	}
+	.special-item h3 {
+    	padding-top: 5px;
+	}
+	.special-item:nth-child(-n+3) .special-item_text {
+		padding: 0;
+		margin: 5px auto;
+	}
+	.special-item:nth-child(n+4) .special-item_text {
+		padding: 0;
+		margin: 5px auto;
+	}
+	.special-item .special-item_price {
+		margin: 5px auto;
+	}
+	#about {
+		background-position: left bottom;
+		padding-bottom: 150px;
+	}
+	.about-item {
+		width: 300px;
+		float: none;
+		margin: 0px auto;
+	}
+	.about-item h2 {
+		padding-top: 55px;
+	}
+	.about-item p {
+		padding-bottom: 10px;
+	}
+	.about-item img {
+		width: 30%;
+	}
+	.menu-nav {
+    	width: 300px;
+    	padding-top: 45px;
+    	margin: 0px auto;
+	}
+	.menu-nav .nav-list-2 {
+    	display: flex;
+    	justify-content: space-between;
+    	padding-left: 0px;	
+	}
+	.nav-list_item-2 {
+    	margin-right: 5px;
+    	text-align: center;
+    	padding: 5px 5px;
+	}
+	.dotted::after {
+    	height: 11px;
+    	border-bottom: 1px dotted #3c3c3c;
+	}
+	.dotted .menu-head {
+    	font-size: 0.750em;
+	}
+	.dotted .menu-price {
+    	font-size: 0.750em;
+	}
+	.menu-text {
+    	font-size: 0.750em;
+	}
+	#footer {
+		background-position: right top;
+	}
+	.contact {
+		float: none;
+		width: 300px;
+		margin: 0px auto;
+	}
+	.veggie {
+		float: none;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.reservation {
+		float: none;
+		text-align: center;
+	}
+	.contact-form .contacts-title {
+		padding-left: 10px;
+	}
+	.contact-form_item {
+		width: 95%;
+	}
+	.contact-form-item-left {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form-item-right {
+    	float: none;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.contact-form textarea {
+		width: 90%;
+		margin-left: 10px;
+	}
+	.social {
+    	right: 10px;
+    	top: 770px;
+	}
+}
