@@ -1,0 +1,148 @@
+/*
+P.S: if you like my content maybe you will become a donator and donate some money? That helps me to create new awesome materials. https://www.paypal.me/melnik909
+*/
+
+/*
+* The function calc is working wrong in case calculations in the Firefox
+*/
+
+.photobox{
+  display: inline-block;
+}
+
+.photobox__previewbox{
+  position: relative;
+  overflow: hidden;
+}
+
+.photobox__preview{
+  display: block;
+  max-width: 100%;
+}
+
+.photobox__previewbox:before{
+  content: "";
+}
+
+/* type 10 */
+
+.photobox_type10 .photobox__previewbox:before{
+  width: 0;
+  height: 0;
+  padding: 25%;
+  
+  background-color: var(--photoboxOverlay, rgba(0, 0, 0, .8));
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+  will-change: transform;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.photobox_type10:hover .photobox__previewbox:before{
+  transform: translate(-50%, -50%) scale(4);
+  transition-duration: var(--photoboxAnimationDuration, .8s);
+}
+
+.photobox_type10 .photobox__label{
+  width: 95%;
+  text-align: center;
+  
+  opacity: 0;  
+  transition: opacity calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9), transform calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+  will-change: opacity, transform;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  z-index: 3;
+}
+
+.photobox_type10:hover .photobox__label{
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 2);
+  transition-delay: calc(var(--photoboxAnimationDuration, .8s) / 4);
+}
+
+/*
+* demo styles for photobox
+*/
+
+.photobox{
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 31%;
+  --photoboxOverlay: rgba(72, 27, 174, .7);
+  /*--photoboxAnimationDuration: .5s;*/
+}
+
+@media screen and (max-width: 480px){
+  .photobox{
+    width: 100%;
+  }
+}
+
+/*
+* demo page
+*/
+
+@media screen and (min-width: 768px){
+
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  html{
+    font-size: 50%;
+  }
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;   
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:focus{
+  text-decoration: underline;
+}
+
+.page{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.page__demo{
+  flex-grow: 1;
+}
+
+.page__container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.main-container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
