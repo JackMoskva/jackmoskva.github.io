@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/Georgia-BoldItalic.eot');
+    src: url('../fonts/Georgia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Georgia-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Georgia-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Heavy.eot');
+	src: url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Heavy.woff2') format('woff2'),
+		url('../fonts/Lato-Heavy.woff') format('woff'),
+		url('../fonts/Lato-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Medium.eot');
+	src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Medium.woff2') format('woff2'),
+		url('../fonts/Lato-Medium.woff') format('woff'),
+		url('../fonts/Lato-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.eot');
+	src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato-Regular.woff') format('woff'),
+		url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
