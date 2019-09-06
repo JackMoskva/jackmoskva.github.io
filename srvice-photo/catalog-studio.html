@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Photo Studio</title>
+    <meta name="description" content="Личный кабинет">
+    <meta name="keywords" content="Личный кабинет">
+    <link rel="image_src" href="http://fl.farma.loc/files/img/favicon/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/app.min.css" />
+    <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/zoom.css">
+    <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+<!-- HEADER -->
+
+<div class="menu-btn push"><img src="files/swg/bars.svg" aria-hidden="true"></div>
+
+<section class="adv push">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <div class="adv__center">
+                    <a href="">
+                        Здесь может быть ваша реклама
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="adv2 push d-none d-md-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 ">
+                <a href="">Заказать рекламу на сайте</a>
+            </div>
+
+            <div class="col-7 text-right">
+                <a href=""> Вход для фотостудий</a>
+                <a class="adv2__delimetr" href=""> Вход для фотографов</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<header class="header push d-none d-md-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-12  col-xl-7  ">
+                <ul class="header__nav list-inline">
+                    <li class=""><a href=""> Мероприятия</a></li>
+                    <li class="header__nav_active"><a href=""> Блоги</a></li>
+                    <li class=""><a href=""> Новости</a></li>
+                    <li class=""><a href=""> Отзывы</a></li>
+                    <li class=""><a href=""> Скидки</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xl-5 col-12 header__right-part">
+                <form action="" method="">
+
+                    <input type="text" class="header__input" placeholder="Поиск по сайту">
+                    <div class="header__buttons">
+                        <div class="header__select">
+                            <span class="header__buttons_activate"> Новости <img src="files/swg/chevronDown.svg"></span>
+                            <ul class="header__select_hidden">
+                                <li>Новости</li>
+                                <li>Новости</li>
+                                <li>Новости</li>
+                                <li>Новости</li>
+                            </ul>
+                        </div>
+
+                        <button type="submit"><img src="files/swg/lope.svg"></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="logo push">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-6 logo__first">
+                <a href="/">
+                    <img src="files/img/logo_2.png" class="img-fluid" alt="logo">
+                </a>
+            </div>
+            <div class="col-md-3 col-6 logo__text">
+                <p>Сегодня на сайте:</p>
+                <p><b><span class="themeColor">169</span> фотостудий и <span class="themeColor">67</span> фотографов</b>
+                </p>
+            </div>
+            <div class="col-md-6 col-12 text-right logo__right">
+                <div class="logo__caption">
+                    <a href="">
+                        <img src="files/swg/sudio.svg" alt="студия"> Найти студию
+                    </a>
+                </div>
+
+                <div class="logo__caption">
+                    <a href="">
+                        <img src="files/swg/photo.svg" alt="найти фотографа"> Найти фотографа
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- END HEADER -->
+
+<main class="push">
+
+    <section class="breadcrumb-block">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item breadcrumb-item-home">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Каталог фотостудий
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- CARD STUDIO -->
+
+    <section class="search-studio catalog-studio">
+        <div class="container">
+            <h2 class="search-studio-title">
+                Каталог фотостудий
+            </h2>
+            <button class="search-message filter-push-btn" data-toggle="modal" data-target="#filterModalLong">
+                Открыть фильтр
+            </button>
+            <div class="search-container">
+                <div class="card-studio-left">
+                    <div class="card-filter">
+                        <div class="card-filter-result">
+                            <span>Найдено:</span>
+                            <span>139 фотостудий</span>
+                        </div>
+                        <div class="card-filter-sort">
+                            <img src="files/swg/up-down.svg" alt="up-down">
+                            <span>Сортировать по:</span>
+                            <a href="#">названию</a>
+                            <a href="#">цене</a>
+                        </div>
+                        <div class="card-filter-refresh">
+                            <!-- <img src="files/swg/refresh.svg" alt="refresh"> -->
+                            <a href="#">
+                                <img src="files/swg/refresh.svg" alt="refresh">
+                                Сбросить параметры
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-studio-box">
+                        <div class="card-studio-items">
+                            <div class="card-studio-item">
+                                <div class="card-studio-info">
+                                    <div class="card-studio-info-head">
+                                        <div class="card-studio-info-logo">
+                                            <img src="files/img/pink.png" alt="pink">
+                                        </div>
+                                        <div class="card-studio-info-head-content">
+                                            <h3>Best Memories</h3>
+                                            <div class="card-studio-info-head-adress">
+                                                Дмитрия Ульянова 42, 5 подъезд, 3 этаж, офис 25
+                                            </div>
+                                            <div class="card-studio-info-head-town">
+                                                <span>Москва</span>
+                                                <span>Юго-Западный округ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-studio-info-text">
+                                        <span>Best Memories</span>— это современная и прекрасно оборудованная фотостудия на территории ВДНХ, на
+                                        которой располагаются уникальные
+                                        сооружения, фасады павильонов, парк с красивыми деревьями, пруды, конюшня и многое другое.
+                                    </p>
+                                </div>
+                                <div class="card-studio-links">
+                                    <div class="card-studio-links-head">
+                                        <div class="card-studio-links-premise">
+                                            <span>4 зала</span>
+                                            <span>/</span>
+                                            <span>200 м2</span>
+                                        </div>
+                                        <div class="card-studio-links-price">
+                                            <span>от 1000</span>
+                                            <span>до 3000 руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-studio-links-body">
+                                        <a href="#" class="card-studio-links-favorites">Добавить в избранное</a>
+                                        <a href="#" class="card-studio-links-sale">Есть купоны на скидку</a>
+                                    </div>
+                                    <button class="card-studio-links-btn">
+                                        <span>Оформить заказ</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-studio-slider">
+                                <div class="studio-slider">
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-studio-items">
+                            <div class="card-studio-item">
+                                <div class="card-studio-info">
+                                    <div class="card-studio-info-head">
+                                        <div class="card-studio-info-logo">
+                                            <img src="files/img/pink.png" alt="pink">
+                                        </div>
+                                        <div class="card-studio-info-head-content">
+                                            <h3>Best Memories</h3>
+                                            <div class="card-studio-info-head-adress">
+                                                Дмитрия Ульянова 42, 5 подъезд, 3 этаж, офис 25
+                                            </div>
+                                            <div class="card-studio-info-head-town">
+                                                <span>Москва</span>
+                                                <span>Юго-Западный округ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-studio-info-text">
+                                        <span>Best Memories</span>— это современная и прекрасно оборудованная фотостудия на территории ВДНХ, на
+                                        которой располагаются уникальные
+                                        сооружения, фасады павильонов, парк с красивыми деревьями, пруды, конюшня и многое другое.
+                                    </p>
+                                </div>
+                                <div class="card-studio-links">
+                                    <div class="card-studio-links-head">
+                                        <div class="card-studio-links-premise">
+                                            <span>4 зала</span>
+                                            <span>/</span>
+                                            <span>200 м2</span>
+                                        </div>
+                                        <div class="card-studio-links-price">
+                                            <span>от 1000</span>
+                                            <span>до 3000 руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-studio-links-body">
+                                        <a href="#" class="card-studio-links-favorites">Добавить в избранное</a>
+                                        <a href="#" class="card-studio-links-sale">Есть купоны на скидку</a>
+                                    </div>
+                                    <button class="card-studio-links-btn">
+                                        <span>Оформить заказ</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-studio-slider">
+                                <div class="studio-slider">
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-studio-items">
+                            <div class="card-studio-item">
+                                <div class="card-studio-info">
+                                    <div class="card-studio-info-head">
+                                        <div class="card-studio-info-logo">
+                                            <img src="files/img/pink.png" alt="pink">
+                                        </div>
+                                        <div class="card-studio-info-head-content">
+                                            <h3>Best Memories</h3>
+                                            <div class="card-studio-info-head-adress">
+                                                Дмитрия Ульянова 42, 5 подъезд, 3 этаж, офис 25
+                                            </div>
+                                            <div class="card-studio-info-head-town">
+                                                <span>Москва</span>
+                                                <span>Юго-Западный округ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-studio-info-text">
+                                        <span>Best Memories</span>— это современная и прекрасно оборудованная фотостудия на территории ВДНХ, на
+                                        которой располагаются уникальные
+                                        сооружения, фасады павильонов, парк с красивыми деревьями, пруды, конюшня и многое другое.
+                                    </p>
+                                </div>
+                                <div class="card-studio-links">
+                                    <div class="card-studio-links-head">
+                                        <div class="card-studio-links-premise">
+                                            <span>4 зала</span>
+                                            <span>/</span>
+                                            <span>200 м2</span>
+                                        </div>
+                                        <div class="card-studio-links-price">
+                                            <span>от 1000</span>
+                                            <span>до 3000 руб.</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-studio-links-body">
+                                        <a href="#" class="card-studio-links-favorites">Добавить в избранное</a>
+                                        <a href="#" class="card-studio-links-sale">Есть купоны на скидку</a>
+                                    </div>
+                                    <button class="card-studio-links-btn">
+                                        <span>Оформить заказ</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-studio-slider">
+                                <div class="studio-slider">
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink1.png" class="lightzoom">
+                                            <img src="files/img/pink1.png" alt="pink1">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink2.png" class="lightzoom">
+                                            <img src="files/img/pink2.png" alt="pink2">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink3.png" class="lightzoom">
+                                            <img src="files/img/pink3.png" alt="pink3">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink4.png" class="lightzoom">
+                                            <img src="files/img/pink4.png" alt="pink4">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="studio-slider-item">
+                                        <a href="files/img/pink5.png" class="lightzoom">
+                                            <img src="files/img/pink5.png" alt="pink5">
+                                            <div class="studio-slider-poster">
+                                                <img src="files/swg/gallery-btn.svg" alt="gallery-btn">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-studio-nav">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                            <path
+                                                d="M7.8921 14.3334C8.05728 14.3334 8.22245 14.2717 8.34806 14.1475C8.60013 13.9006 8.60013 13.4983 8.34806 13.2506L2.50145 7.49955L8.34806 1.7493C8.59927 1.50165 8.59927 1.09931 8.34806 0.852492C8.09599 0.604833 7.68735 0.604833 7.43528 0.852492L1.13357 7.05072C0.881499 7.29838 0.881499 7.69988 1.13357 7.94754L7.43528 14.1458C7.56174 14.2717 7.72692 14.3334 7.8921 14.3334Z"
+                                                fill="#B2BDC2" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item d-none d-md-block"><a class="page-link" href="#">6</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">12</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                                            <path
+                                                d="M1.1079 14.3333C0.942723 14.3333 0.777546 14.2716 0.651942 14.1473C0.399874 13.9005 0.399874 13.4982 0.651942 13.2505L6.49855 7.49943L0.651942 1.74918C0.400734 1.50152 0.400734 1.09918 0.651942 0.85237C0.90401 0.604711 1.31265 0.604711 1.56472 0.85237L7.86643 7.0506C8.1185 7.29826 8.1185 7.69976 7.86643 7.94741L1.56472 14.1456C1.43826 14.2716 1.27308 14.3333 1.1079 14.3333Z"
+                                                fill="#B2BDC2" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="search-right">
+                    <div class="filter-search-title">
+                        Поиск по параметрам
+                    </div>
+                    <div class="search-options">
+                        <div class="options-box">
+                            <div class="options-city">
+                                <a href="" class="options-city-moskow option-city-item">
+                                    Москва
+                                </a>
+                                <span>/</span>
+                                <a href="" class="options-city-piter option-city-item">
+                                    Санкт-Петербург
+                                </a>
+                                <a class="options-city-btn" role="button">
+                                    <img src="files/swg/marker.svg" alt="marker">
+                                </a>
+                                <div class="options-city-btn-hover" id="optionsCityBtnHover">
+                                    <div class="accordion accordion-choose accordion-options" id="accordionCity">
+                                        <div class="card">
+                                            <div class="card-header" id="headingCity">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                        data-target="#collapseCity" aria-expanded="true" aria-controls="collapseCity">
+                                                        Центральный округ
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                
+                                            <div id="collapseCity" class="collapse" aria-labelledby="headingCity" data-parent="#accordionCity">
+                                                <div class="card-body">
+                                                    <div class="interior-options options-check">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Цена в час
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double" data-min="200"
+                                        data-max="6000" data-from="200" data-to="6000" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Площадь
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double" data-min="13"
+                                        data-max="6000" data-from="13" data-to="6000" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Количество залов
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double" data-min="1"
+                                        data-max="33" data-from="1" data-to="33" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Потолки
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double" data-min="240"
+                                        data-max="1700" data-from="240" data-to="1700" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion accordion-choose accordion-options" id="accordionOptions">
+                                <div class="card">
+                                    <div class="card-header" id="headingInterior">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseInterior" aria-expanded="true" aria-controls="collapseInterior">
+                                                Интерьеры
+                                            </button>
+                                        </h5>
+                                    </div>
+                            
+                                    <div id="collapseInterior" class="collapse" aria-labelledby="headingInterior" data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3">Подвесная система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5" disabled>
+                                                    <label class="custom-control-label" for="customCheck5">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                    <label class="custom-control-label" for="customCheck6">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                                    <label class="custom-control-label" for="customCheck7">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck8" disabled>
+                                                    <label class="custom-control-label" for="customCheck8">Генератор мыльных пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck9" disabled>
+                                                    <label class="custom-control-label" for="customCheck9">Световой куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck10" disabled>
+                                                    <label class="custom-control-label" for="customCheck10">Стол для предметной съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingOpportunities">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOpportunities"
+                                                aria-expanded="true" aria-controls="collapseOpportunities">
+                                                Возможности
+                                            </button>
+                                        </h5>
+                                    </div>
+                                
+                                    <div id="collapseOpportunities" class="collapse" aria-labelledby="headingOpportunities" data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                                    <label class="custom-control-label" for="customCheck11">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                                    <label class="custom-control-label" for="customCheck12">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck13">
+                                                    <label class="custom-control-label" for="customCheck13">Подвесная система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                                    <label class="custom-control-label" for="customCheck14">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck15" disabled>
+                                                    <label class="custom-control-label" for="customCheck15">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                                    <label class="custom-control-label" for="customCheck16">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                                    <label class="custom-control-label" for="customCheck17">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck18" disabled>
+                                                    <label class="custom-control-label" for="customCheck18">Генератор мыльных пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck19" disabled>
+                                                    <label class="custom-control-label" for="customCheck19">Световой куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck20" disabled>
+                                                    <label class="custom-control-label" for="customCheck20">Стол для предметной съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingEquipment">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEquipment"
+                                                aria-expanded="true" aria-controls="collapseEquipment">
+                                                Оборудование
+                                            </button>
+                                        </h5>
+                                    </div>
+                                
+                                    <div id="collapseEquipment" class="collapse show" aria-labelledby="headingEquipment" data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                                    <label class="custom-control-label" for="customCheck21">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                                    <label class="custom-control-label" for="customCheck22">Подвесная система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                                    <label class="custom-control-label" for="customCheck23">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                                    <label class="custom-control-label" for="customCheck24">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck25" disabled>
+                                                    <label class="custom-control-label" for="customCheck25">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck26">
+                                                    <label class="custom-control-label" for="customCheck26">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck27">
+                                                    <label class="custom-control-label" for="customCheck27">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck28" disabled>
+                                                    <label class="custom-control-label" for="customCheck28">Генератор мыльных пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck29" disabled>
+                                                    <label class="custom-control-label" for="customCheck29">Световой куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck30" disabled>
+                                                    <label class="custom-control-label" for="customCheck30">Стол для предметной съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingSupply">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSupply"
+                                                aria-expanded="true" aria-controls="collapseSupply">
+                                                Оснащение
+                                            </button>
+                                        </h5>
+                                    </div>
+                                
+                                    <div id="collapseSupply" class="collapse" aria-labelledby="headingSupply" data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck31">
+                                                    <label class="custom-control-label" for="customCheck31">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck32">
+                                                    <label class="custom-control-label" for="customCheck32">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck33">
+                                                    <label class="custom-control-label" for="customCheck33">Подвесная система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck34">
+                                                    <label class="custom-control-label" for="customCheck34">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck35" disabled>
+                                                    <label class="custom-control-label" for="customCheck35">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck36">
+                                                    <label class="custom-control-label" for="customCheck36">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck37">
+                                                    <label class="custom-control-label" for="customCheck37">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck38" disabled>
+                                                    <label class="custom-control-label" for="customCheck38">Генератор мыльных пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck39" disabled>
+                                                    <label class="custom-control-label" for="customCheck39">Световой куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck10" disabled>
+                                                    <label class="custom-control-label" for="customCheck40">Стол для предметной съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingAdditional">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseAdditional"
+                                                aria-expanded="true" aria-controls="collapseAdditional">
+                                                Дополнительные услуги
+                                            </button>
+                                        </h5>
+                                    </div>
+                                
+                                    <div id="collapseAdditional" class="collapse" aria-labelledby="headingAdditional" data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck41">
+                                                    <label class="custom-control-label" for="customCheck41">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck42">
+                                                    <label class="custom-control-label" for="customCheck42">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck43">
+                                                    <label class="custom-control-label" for="customCheck43">Подвесная система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck44">
+                                                    <label class="custom-control-label" for="customCheck44">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck45" disabled>
+                                                    <label class="custom-control-label" for="customCheck45">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck46">
+                                                    <label class="custom-control-label" for="customCheck46">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck47">
+                                                    <label class="custom-control-label" for="customCheck47">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck48" disabled>
+                                                    <label class="custom-control-label" for="customCheck48">Генератор мыльных пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck49" disabled>
+                                                    <label class="custom-control-label" for="customCheck49">Световой куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck50" disabled>
+                                                    <label class="custom-control-label" for="customCheck50">Стол для предметной съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="options-btn">
+                                <span>Показать</span>
+                                <span>200 студий</span>
+                            </button>
+                            <a href="#" class="options-link">
+                                Сбросить параметры
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END CARD STUDIO -->
+
+    <!-- CATALOG STUDIOS -->
+
+    <section class="catalog-studios-block">
+        <div class="container">
+            <div class="catalog-studios">
+                <h3>Каталог фотостудий</h3>
+                <p>
+                    Ищете где арендовать фотостудию? Тогда Вам крупно повезло! Этот сайт создан именно для того, чтобы помочь
+                    сориентироваться в огромном количестве <a href="#">фотостудий Москвы</a> и <a href="#">Санкт-Петербурга</a>. Этот проект является независимым, т.е.
+                    здесь все объективно и не продвигается какая-то конкретная студия. Ваши комментарии — вот критерий оценки работы любой
+                    фотостудии.
+                </p>
+                <p>
+                    Очень просто найти, допустим, все <a href="#">фотостудии в Центре Cанкт-Петербурга</a> или на <a href="#">Васильевском острове</a>. В <a href="#">расширенном поиске</a>
+                    вы можете выбрать любые параметры поиска — по цене, допустим — <a href="#">не дороже 600 рублей в час</a>. Надеюсь, что этот сайт
+                    поможет Вам определится с выбором фотостудии.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- END CATALOG STUDIOS -->
+        
+    <section class="subscrybe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7 pt-4 mt-2">
+                    <h2>Подписаться на новостную рассылку</h2>
+                </div>
+                <div class="col-12 col-lg-5 text-right">
+                    <form>
+                        <input name="seaarch" type="text" placeholder="Введите свой e-mail" class="subscrybe__input">
+                        <button type="submit" class="subscrybe__btn"> Подписаться</button>
+                        <div class="text-center pt-3">
+                            <label class="seaarch__checkKonf" for="checkKonf">
+                                <input type="checkbox" class="form-control seaarch__checkKonf_input"
+                                           id="checkKonf">
+                                <span class="seaarch__checkKonf_new-input"></span>
+                                Я принимаю <a href=""> условия политики конфиденциальности</a> 
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</main>
+    <footer class="footer push">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 ">
+                    <a href="/">
+                        <img src="files/img/logo_bottom.png" class="img-fluid" alt="logo">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-8  footer__align_right ">
+                    <div>
+                        <div class="footer__caption">
+                            <a href="">
+                                <img src="files/swg/sudio.svg" alt="студия"> Найти студию
+                            </a>
+                        </div>
+    
+                        <div class="footer__caption">
+                            <a href="">
+                                <img src="files/swg/photo.svg" alt="найти фотографа"> Найти фотографа
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__nav">
+                        <li class=""><a href=""> Мероприятия</a></li>
+                        <li class=""><a href=""> Блоги</a></li>
+                        <li class=""><a href=""> Новости</a></li>
+                        <li class=""><a href=""> Отзывы</a></li>
+                        <li class=""><a href=""> Скидки</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer__policy">
+                <div class="col-12 col-md-6 ">
+                    © 2019 Ticket Photo. Все права защищены
+                </div>
+                <div class="col-12 col-md-6 footer__policy_right">
+                    <a class="footerr_link" href="">Условия пользования сайтом</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <div class="sidebar-menu pushy pushy-left">
+        <header class="sidebar-menu__header">
+    
+            <div class="header__right-part">
+                <form action="" method="">
+    
+                    <input type="text" class="header__input" placeholder="Поиск по сайту">
+                    <div class="header__buttons">
+                        <!--<div class="header__select">-->
+                        <!--Новости <img src="files/swg/chevronDown.svg">-->
+                        <!--</div>-->
+                        <button type="submit"><img src="files/swg/lope.svg"></button>
+                    </div>
+    
+                </form>
+            </div>
+    
+            <ul>
+                <li class=""><a href=""> Мероприятия</a></li>
+                <li class=""><a href=""> Блоги</a></li>
+                <li class=""><a href=""> Новости</a></li>
+                <li class=""><a href=""> Отзывы</a></li>
+                <li class=""><a href=""> Скидки</a></li>
+    
+    
+                <li class=""><a href=""> Заказать рекламу на сайте</a></li>
+                <li class="bg-black"><a href=""> Вход для фотостудий</a></li>
+                <li class="bg-black"><a href=""> Вход для фотографов</a></li>
+    
+            </ul>
+        </header>
+    </div>
+    <div class="cart">
+        <a href="">
+            <span class="cart__text"> Оформить заказ </span>
+            <div class="cart__img d-inline-block">
+    
+                <img src="files/img/order.png" class="img-fluid" alt="orderr">
+            </div>
+            <span class="cart__num">3</span>
+        </a>
+    </div>
+
+
+    <div class="modal fade filter-modal-long" id="filterModalLong" tabindex="-1" role="dialog"
+        aria-labelledby="filterModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="filter-search-title" id="filterModalLongTitle">
+                        Поиск по параметрам
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="search-options">
+                        <div class="options-box">
+                            <div class="options-city">
+                                <a href="" class="options-city-moskow option-city-item">
+                                    Москва
+                                </a>
+                                <span>/</span>
+                                <a href="" class="options-city-piter option-city-item">
+                                    Санкт-Петербург
+                                </a>
+                                <a class="options-city-btn" role="button">
+                                    <img src="files/swg/marker.svg" alt="marker">
+                                </a>
+                                <div class="options-city-btn-hover" id="optionsCityBtnHover">
+                                    <div class="accordion accordion-choose accordion-options" id="accordionCity">
+                                        <div class="card">
+                                            <div class="card-header" id="headingCity">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" type="button"
+                                                        data-toggle="collapse" data-target="#collapseCity"
+                                                        aria-expanded="true" aria-controls="collapseCity">
+                                                        Центральный округ
+                                                    </button>
+                                                </h5>
+                                            </div>
+    
+                                            <div id="collapseCity" class="collapse" aria-labelledby="headingCity"
+                                                data-parent="#accordionCity">
+                                                <div class="card-body">
+                                                    <div class="interior-options options-check">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Москва</a>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <a href="#" class="options-city-btn-item">Санкт-Петербург</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Цена в час
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double"
+                                        data-min="200" data-max="6000" data-from="200" data-to="6000" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Площадь
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double"
+                                        data-min="13" data-max="6000" data-from="13" data-to="6000" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Количество залов
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double"
+                                        data-min="1" data-max="33" data-from="1" data-to="33" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="range-slider range-slider-price">
+                                <h4 class="range-slider-title">
+                                    Потолки
+                                </h4>
+                                <div class="range-slider-scroll">
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-type="double"
+                                        data-min="240" data-max="1700" data-from="240" data-to="1700" data-grid="false" />
+                                </div>
+                                <div class="range-slider-hover-box">
+                                    <div class="range-slider-hover">
+                                        <div class="range-slider-result">
+                                            <span>Найдено</span>
+                                            <span>369</span>
+                                        </div>
+                                        <div class="range-slider-link">
+                                            <a href="#">
+                                                показать
+                                                <img src="files/swg/chevron-red.svg" alt="img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion accordion-choose accordion-options" id="accordionOptions">
+                                <div class="card">
+                                    <div class="card-header" id="headingInterior">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseInterior" aria-expanded="true"
+                                                aria-controls="collapseInterior">
+                                                Интерьеры
+                                            </button>
+                                        </h5>
+                                    </div>
+    
+                                    <div id="collapseInterior" class="collapse" aria-labelledby="headingInterior"
+                                        data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck1">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3">Подвесная
+                                                        система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck4">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck5">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck6">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck7">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck8"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck8">Генератор мыльных
+                                                        пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck9"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck9">Световой
+                                                        куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck10"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck10">Стол для
+                                                        предметной
+                                                        съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingOpportunities">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseOpportunities" aria-expanded="true"
+                                                aria-controls="collapseOpportunities">
+                                                Возможности
+                                            </button>
+                                        </h5>
+                                    </div>
+    
+                                    <div id="collapseOpportunities" class="collapse" aria-labelledby="headingOpportunities"
+                                        data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck11">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck12">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck13">
+                                                    <label class="custom-control-label" for="customCheck13">Подвесная
+                                                        система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck14">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck15"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck15">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck16">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck17">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck18"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck18">Генератор
+                                                        мыльных
+                                                        пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck19"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck19">Световой
+                                                        куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck20"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck20">Стол для
+                                                        предметной
+                                                        съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingEquipment">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#collapseEquipment" aria-expanded="true"
+                                                aria-controls="collapseEquipment">
+                                                Оборудование
+                                            </button>
+                                        </h5>
+                                    </div>
+    
+                                    <div id="collapseEquipment" class="collapse show" aria-labelledby="headingEquipment"
+                                        data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck21">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck22">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                                    <label class="custom-control-label" for="customCheck23">Подвесная
+                                                        система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck24">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck25"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck25">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck26">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck26">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck27">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck27">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck28"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck28">Генератор
+                                                        мыльных
+                                                        пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck29"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck29">Световой
+                                                        куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck30"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck30">Стол для
+                                                        предметной
+                                                        съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingSupply">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseSupply" aria-expanded="true"
+                                                aria-controls="collapseSupply">
+                                                Оснащение
+                                            </button>
+                                        </h5>
+                                    </div>
+    
+                                    <div id="collapseSupply" class="collapse" aria-labelledby="headingSupply"
+                                        data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck31">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck31">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck32">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck32">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck33">
+                                                    <label class="custom-control-label" for="customCheck33">Подвесная
+                                                        система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck34">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck34">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck35"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck35">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck36">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck36">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck37">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck37">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck38"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck38">Генератор
+                                                        мыльных
+                                                        пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck39"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck39">Световой
+                                                        куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck10"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck40">Стол для
+                                                        предметной
+                                                        съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingAdditional">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseAdditional" aria-expanded="true"
+                                                aria-controls="collapseAdditional">
+                                                Дополнительные услуги
+                                            </button>
+                                        </h5>
+                                    </div>
+    
+                                    <div id="collapseAdditional" class="collapse" aria-labelledby="headingAdditional"
+                                        data-parent="#accordionOptions">
+                                        <div class="card-body">
+                                            <div class="interior-options options-check">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck41">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck41">Видео-свет</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck42">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck42">Моноблоки</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck43">
+                                                    <label class="custom-control-label" for="customCheck43">Подвесная
+                                                        система</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck44">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck44">Генераторы</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck45"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck45">PARA</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck46">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck46">Вентилятор</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck47">
+                                                    <label class="custom-control-label"
+                                                        for="customCheck47">Дым-машина</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck48"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck48">Генератор
+                                                        мыльных
+                                                        пузырей</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck49"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck49">Световой
+                                                        куб</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck50"
+                                                        disabled>
+                                                    <label class="custom-control-label" for="customCheck50">Стол для
+                                                        предметной
+                                                        съемки</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="options-btn">
+                                <span>Показать</span>
+                                <span>200 студий</span>
+                            </button>
+                            <a href="#" class="options-link">
+                                Сбросить параметры
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="site-overlay"></div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            $(".options-city-btn").on("click", function () {
+                $(".options-city-btn-hover").addClass("active-city", 1000, callback);
+            });
+
+            function callback() {
+                setTimeout(function () {
+                    $("#effect").removeClass("newClass");
+                }, 500);
+            }
+        });
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/app.min.js"></script> -->
+    <script src="assets/js/ion.rangeSlider.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/pushy.js"></script>
+    <script src="assets/js/lightzoom.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    
+    </body>
+    </html>
