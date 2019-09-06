@@ -1,0 +1,854 @@
+@media screen and (max-width: 1441px) {
+    .main-header {
+        background-size: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .main-header {
+        background-size: 50%;
+    }
+    .goals-block {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .main-header {
+        background-size: 55% 50%;
+    }
+    .first-screen-left {
+        width: 100%;
+    }
+    .first-screen-right {
+        display: flex;
+        align-items: flex-end;
+    }
+    .first-screen-right img {
+        width: 100%;
+    }
+    .skills-orders {
+        display: none;
+    }
+    .skill-info {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    .nav-tabs .nav-link {
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .tab-pane-img img {
+        width: 385px;
+        height: auto;
+    }
+    .tab-pane-footer {
+        padding-top: 25px;
+    }
+    .prior-list-item:nth-child(n+3) {
+        margin-top: 70px;
+    }
+    .degree-block {
+        background: #f2f7fd;
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+    }
+    .degree-content {
+        padding-top: 0;
+    }
+    .degree-text-set {
+        padding-top: 20px;
+    }
+    .degree-btn {
+        margin-top: 0;
+    }
+    .prior-block {
+        background: #f2f7fd;
+        height: auto;
+    }
+    .prior-list-item:nth-child(n+4) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .goals-block {
+        background-size: cover;
+        top: 4640px;
+    }
+    .about-iron-man {
+        bottom: 50px;
+        right: -57px;
+    }
+    .about-iron-man img {
+        width: 75%;
+    }
+    .form {
+        background: #f2f7fd;
+        padding-bottom: 30px;
+    }
+    .form-img {
+        position: absolute;
+        bottom: -30px;
+    }
+    .form-group input {
+        max-width: 280px;
+    }
+    .copy-form {
+        display: none;
+    }
+    .footer {
+        position: relative;
+        z-index: 700;
+        top: 0;
+        width: 100%;
+        padding-top: 25px;
+    }
+    .copy-footer {
+        display: block;
+        color: rgba(255, 255, 255, .5)
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .about-iron-man {
+        bottom: 50px;
+        right: -70px;
+    }
+    .about-iron-man img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .tab-pane-content {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .tab-pane-img {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .main-header {
+        background-size: 75% 20%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-header {
+        background-size: 75% 20%;
+    }
+    .first-screen-left {
+        background: url(../img/first-bg.png) no-repeat bottom right;
+        background-size: 275px 227px;
+    } 
+    .first-screen-right {
+        display: none;
+    }
+    .skills-box {
+        height: 850px;
+    }
+    .skill-info-img {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .skill-info-3 .skill-info-img {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .skill-info-4 .skill-info-img {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .skill-info-6 .skill-info-img {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .skill-info-text {
+        padding: 10px 55px 30px 0px;
+    }
+    .skill-info-name {
+        height: 240px;
+    }
+    .skill-info-name4 {
+        height: 270px;
+    }
+    .skill-info-name span {
+        padding: 10px 10px 70px 10px;
+    }
+    .skill-info-name2 span,
+    .skill-info-name3 span {
+        padding-bottom: 85px;
+    }
+    .skill-info-name4 span {
+        padding-bottom: 80px;
+    }
+    .skill-info-name5 span {
+        padding-bottom: 85px;
+    }
+    .skill-info-name6 span {
+        padding-bottom: 50px;
+    }
+    .point-block {
+        background: linear-gradient(to bottom, #3652e4, #54cff0);
+        height: 100%;
+    }
+    .point-white {
+        margin-top: 70px;
+    }
+    .nav-tabs .nav-link {
+        width: 160px;
+        padding: 10px 0px;
+    }
+    #backTab, #backContent,
+    #frontTab, #frontContent {
+        display: none;
+    }
+    .accordion {
+        display: block;
+    }
+    .card {
+        border: 1px solid #749cf1;
+    }
+    .card-header {
+        background-color: #e6f1ff;
+        border-bottom: 1px solid #749cf1;
+    }
+    .btn-link {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #060839;
+        text-transform: uppercase;
+        padding: 15px 0px;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    .btn-link:hover,
+    .btn-link:focus,
+    .btn-link:active {
+        color: #060839;
+        background: transparent;
+        border: none;
+        outline: none;
+        text-decoration: none;
+    }
+    .card-header .point-office-line {
+        top: 73px;
+    }
+    .btn-link:not(.collapsed) + .point-office-line {
+        visibility: visible;
+        animation: visible3 .5s cubic-bezier(0, 0, 1, 1) 200ms forwards;
+    }
+    @keyframes visible3 {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+    .tab-pane-container {
+        flex-direction: column;
+        position: relative;
+        height: 910px;
+        border-radius: 0px;
+    }
+    .internal-content .tab-pane-container {
+        height: 710px;
+    }
+    .referral-content .tab-pane-container {
+        height: 620px;
+    }
+    .tab-pane-img {
+        position: absolute;
+        right: auto;
+        top: 330px;
+        left: 25px;
+    }
+    .tab-pane-content {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .tab-pane-footer {
+        padding: 25px;
+        height: auto;
+        left: 0;
+        border-radius: 0;
+    }
+    .tab-pane-text {
+        padding-left: 25px;
+        padding-top: 0;
+    }
+    .tab-pane-img img {
+        width: 100%;
+    }
+    .internal-content .tab-pane-img {
+        top: 170px;
+    }
+    .tab-pane-footer p:first-child {
+        padding-bottom: 10px;
+    }
+    .referral-content .tab-pane-img {
+        top: 100px;
+    }
+    .automated-content .tab-pane-img {
+        top: 340px;
+    }
+    .landing-content .tab-pane-img {
+        top: 270px;
+    }
+    .skill-info {
+        height: auto;
+    }
+    .prior-row {
+        flex-direction: column;
+    }
+    .prior-left {
+        margin-left: 0;
+    }
+    .prior-right {
+        max-width: 100%;
+    }
+    .prior-list-item {
+        max-width: 330px;
+    }
+    .degree-block {
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .degree-img {
+        position: relative;
+        bottom: 0;
+    }
+    .goals-block {
+        position: relative;
+        top: 0;
+        background: linear-gradient(to bottom, #3652e4, #54cff0);
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .goal-item {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .about-block {
+        padding-top: 50px;
+    }
+    .about-quote-box {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .about-iron-man {
+        bottom: 0px;
+        right: 15px;
+    }
+    .about-iron-man img {
+        width: 100%;
+    }
+    .value {
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+    .form-img {
+        display: none;
+    }
+    .main-form {
+        margin-top: 30px;
+    }
+    .form-group input {
+        max-width: 48%;
+    }
+    .form-group input[type=text] {
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .header-nav-list .nav-list-item:nth-child(-n+2) {
+        display: none;
+    }
+    .typed-text {
+        font-size: 24px;
+    }
+    .first-screen-left {
+        background: transparent;
+    }
+    .skill-info-img {
+        display: none;
+    }
+    .tab-pane-container {
+        height: 890px;
+    }
+    .landing-content .tab-pane-container {
+        height: 785px;
+    }
+    .tab-pane-img {
+        top: 320px;
+    }
+    .training-content .tab-pane-img {
+        padding-right: 0;
+        top: 330px;
+    }
+    .internal-content .tab-pane-img {
+        top: 180px;
+    }
+    .referral-content .tab-pane-img {
+        top: 110px;
+        padding: 0;
+    }
+    .landing-content .tab-pane-img {
+        top: 220px;
+        padding: 0;
+    }
+    .prior-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .prior-list-item:nth-child(n+2) {
+        margin-top: 70px;
+    }
+    .about-iron-man {
+        right: -12px;
+    }
+    .about-iron-man img {
+        width: 90%;
+    }
+    .mission {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .container {
+        width: 90%;
+    }
+    .first-screen-info-text .screen-text-description {
+        font-size: 18px;
+    }
+    .about-iron-man {
+        right: -42px;
+    }
+    .about-iron-man img {
+        width: 80%;
+    }
+    .referral-content .tab-pane-text {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-header {
+        background-size: 100% 25%;
+    }
+    .header-nav {
+        flex-direction: column;
+    }
+    .header-nav-list {
+        margin-top: 10px;
+    }
+    .main-title {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .typed-text {
+        font-size: 16px;
+    }
+    .screen-text-line {
+        width: 100%;
+    }
+    .first-screen-info {
+        margin-top: 0; 
+    }
+    .first-screen-info-text {
+        max-width: 290px;
+    }
+    .first-screen-info-dots {
+        margin-right: 40px;
+        margin-left: 30px;
+    }
+    .first-screen-info-dot {
+        top: 9px;
+    }
+    .dashed-line {
+        top: 20px;
+    }
+    @keyframes height {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 200px;
+        }
+    }
+    .first-screen-info-check {
+        top: 120px;
+    }
+    .first-screen-info-check2 {
+        top: 200px;
+    }
+    .first-screen-info-text .screen-text-title {
+        font-size: 16px;
+        width: 100%;
+    }
+    .first-screen-info-text .screen-text-description {
+        font-size: 14px;
+    }
+    .first-screen-info-text .screen-text-paragraph {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 20px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;
+    }
+    .skills-box {
+        height: 1020px;
+    }
+    .skill-info {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .skill-info-description {
+        padding-left: 40px;
+    }
+    .skill-info-name {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 0px 0px 50px;
+    }
+    .skill-info-name span {
+        padding: 0;
+        text-align: center;
+        display: block;
+        transform: none;
+        writing-mode: inherit;
+    }
+    .point-office-item {
+        margin-right: 20px;
+    }
+    .tab-pane-img img {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .card-header .point-office-line {
+        top: 80px;
+    }
+    .accordion .btn {
+        margin-top: 0;
+    }
+    .training-content .tab-pane-container {
+        height: 790px;
+    }
+    .internal-content .tab-pane-container {
+        height: 650px;
+    }
+    .referral-content .tab-pane-container {
+        height: 530px;
+    }
+    .landing-content .tab-pane-container {
+        height: 685px;
+    }
+    .tab-pane-text {
+        padding-left: 25px;
+    }
+    .tab-pane-img {
+        top: 350px;
+    }
+    .internal-content .tab-pane-img {
+        top: 230px;
+    }
+    .referral-content .tab-pane-img {
+        top: 130px;
+    }
+    .automated-content .tab-pane-img {
+        top: 430px;
+    }
+    .prior-img-box {
+        width: 100%;
+        height: auto;
+    }
+    .prior-column {
+        bottom: 90px;
+        left: 80px;
+    }
+    .prior-column2 {
+        left: 95px;
+    }
+    .prior-column3 {
+        left: 110px;
+    }
+    .prior-column4 {
+        left: 125px;
+    }
+    .prior-column5 {
+        left: 140px;
+    }
+    .prior-column6 {
+        left: 155px;
+    }
+    .prior-column-blue {
+        bottom: 90px;
+        left: 80px;
+    }
+    .prior-column-blue2 {
+        left: 95px;
+    }
+    .prior-column-blue3 {
+        left: 110px;
+    }
+    .prior-column-blue4 {
+        left: 125px;
+    }
+    .prior-column-blue5 {
+        left: 140px;
+    }
+    .prior-column-blue6 {
+        left: 155px;
+    }
+    .prior-left {
+        margin: 0 auto;
+    }
+    .prior-left img {
+        width: 100%;
+    }
+    .goal-item {
+        max-width: 100%;
+    }
+    .about-iron-man {
+        display: none;
+    }
+    .about-quote {
+        max-width: 100%;
+    }
+    .mission {
+        top: -120px;
+    }
+    .form h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .form-group input {
+        max-width: 100%;
+    }
+    .form-group input[type=text] {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .form-btn {
+        width: 290px;
+    }
+    .footer-info {
+        flex-direction: column;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .footer-phone {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .copy {
+        margin: 0 auto;
+    }
+    .modal.show .modal-dialog {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main-header {
+        background-size: 100% 30%;
+    }
+    .main-title {
+        margin-top: 20px;
+    }
+    .typed-text {
+        line-height: 29px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mission {
+        top: -140px;
+    }
+    .automated-content .tab-pane-img {
+        top: 455px;
+    }
+    .landing-content .tab-pane-img {
+        top: 235px;
+    }
+    .prior-column {
+        bottom: 80px;
+    }
+    .prior-column-blue {
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 90%;
+        padding: 0px 16px;
+        margin: 0 auto;
+    }
+    .main-header {
+        background-image: linear-gradient(to right, #3652e4, #54cff0);
+        background-position: 10% 0;
+        background-repeat: no-repeat;
+        background-size: 100% 20%;
+    }
+    .desktop-logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .header-nav-list .nav-list-item {
+        padding-left: 0;
+    }
+    .header-nav-list .nav-list-item-mail {
+        padding-left: 15px;
+    }
+    .first-screen {
+        margin-top: 0;
+    }
+    .main-title {
+        margin-top: 50px;
+        height: 53px;
+        margin-bottom: 30px;
+    }
+    .typed-text {
+        font-size: 20px;
+    }
+    .first-screen-info-check {
+        top: 180px;
+    }
+    .first-screen-info-check2 {
+        top: 260px;
+    }
+    @keyframes height {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 260px;
+        }
+    }
+    .first-screen-info-text {
+        max-width: 280px;
+    }
+    .first-screen-info-dots {
+        margin-right: 30px;
+        margin-left: 0px;
+    }
+    .tab-pane-container {
+        padding: 10px;
+    }
+    .tab-pane-text {
+        padding-left: 0;
+    }
+    .tab-pane-list {
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .tab-pane-img {
+        top: 320px;
+        left: 15px;
+    }
+    .internal-content .tab-pane-img {
+        top: 245px;
+    }
+    .referral-content .tab-pane-img {
+        top: 140px;
+    }
+    .automated-content .tab-pane-img {
+        top: 450px;
+    }
+    .landing-content .tab-pane-img {
+        top: 220px;
+        padding: 0;
+    }
+    .prior-man {
+        left: 20px;
+    }
+    .prior-man img {
+        width: 55%;
+    }
+    .prior-column {
+        bottom: 60px;
+        left: 52px;
+        width: 7px;
+        max-height: 40px;
+    }
+    .prior-column2 {
+        left: 63px;
+        max-height: 50px;
+    }
+    .prior-column3 {
+        left: 74px;
+        max-height: 30px;
+    }
+    .prior-column4 {
+        left: 85px;
+        max-height: 45px;
+    }
+    .prior-column5 {
+        left: 96px;
+        max-height: 55px;
+    }
+    .prior-column6 {
+        left: 107px;
+        max-height: 43px;
+    }
+    .prior-column-blue {
+        bottom: 60px;
+        left: 52px;
+        width: 7px;
+        max-height: 23px;
+    }
+    .prior-column-blue2 {
+        left: 63px;
+        max-height: 43px;
+    }
+    .prior-column-blue3 {
+        left: 74px;
+        max-height: 23px;
+    }
+    .prior-column-blue4 {
+        left: 85px;
+        max-height: 37px;
+    }
+    .prior-column-blue5 {
+        left: 96px;
+        max-height: 45px;
+    }
+    .prior-column-blue6 {
+        left: 107px;
+        max-height: 33px;
+    }
+    .about-quote {
+        padding-left: 25px;
+    }
+    .mission {
+        top: -180px;
+    }
+    .form-btn {
+        width: 260px;
+    }
+}

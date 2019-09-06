@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>NetworkingLab</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="header-nav d-flex">
+                        <div class="header-logo desktop-logo">
+                            <a href="#" class="main-logo">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="header-logo mobile-logo">
+                            <a href="#" class="main-logo">
+                                <img src="img/footer-logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <nav class="header-nav-list">
+                            <a href="#" class="nav-list-item">Функционал</a>
+                            <a href="#" class="nav-list-item">Пакеты</a>
+                            <a href="tel:+1111111100" class="nav-list-item">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px">
+                                       <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                        d="M19.290,9.792 C19.275,9.792 19.259,9.792 19.245,9.792 L17.637,9.792 C17.472,9.791 17.300,9.792 17.132,9.793 C16.765,9.794 16.386,9.795 16.014,9.791 C15.581,9.785 15.313,9.538 15.315,9.145 C15.316,8.754 15.594,8.500 16.022,8.498 C16.592,8.494 17.141,8.493 17.676,8.493 C18.230,8.493 18.770,8.494 19.302,8.498 C19.722,8.500 20.003,8.763 20.001,9.152 C19.999,9.544 19.733,9.783 19.290,9.792 ZM14.726,6.189 C14.507,6.405 14.232,6.454 13.972,6.323 C13.747,6.210 13.620,6.031 13.567,5.750 C13.590,5.702 13.611,5.655 13.631,5.609 C13.687,5.481 13.741,5.361 13.816,5.283 C14.529,4.547 15.299,3.774 16.313,2.776 C16.608,2.486 16.996,2.476 17.277,2.752 C17.398,2.871 17.462,3.027 17.457,3.191 C17.452,3.364 17.370,3.539 17.228,3.684 C16.490,4.436 15.695,5.232 14.726,6.189 ZM18.985,15.497 C19.202,15.801 19.200,16.098 18.980,16.404 C17.699,18.184 16.077,19.311 14.160,19.753 C11.352,20.401 8.891,19.780 6.845,17.907 C5.389,16.574 3.981,15.135 2.619,13.744 L2.361,13.482 C0.826,11.914 0.031,10.017 -0.001,7.844 C0.072,4.975 1.240,2.751 3.569,1.046 C3.937,0.776 4.171,0.782 4.572,1.070 C6.374,2.368 7.546,4.138 8.053,6.331 C8.133,6.674 8.065,6.917 7.827,7.142 C7.480,7.469 7.150,7.808 6.831,8.135 C6.229,8.753 6.227,9.542 6.827,10.147 C7.804,11.132 8.819,12.147 9.842,13.162 C10.463,13.778 11.263,13.775 11.882,13.155 C12.002,13.035 12.123,12.916 12.244,12.797 C12.452,12.592 12.667,12.379 12.874,12.165 C13.093,11.939 13.336,11.871 13.662,11.945 C15.875,12.449 17.666,13.645 18.985,15.497 ZM12.964,13.895 C12.789,14.061 12.609,14.232 12.424,14.386 C11.558,15.103 10.049,15.089 9.258,14.357 C7.977,13.170 6.862,12.081 5.849,11.026 C4.945,10.083 4.806,8.801 5.496,7.759 C5.695,7.458 5.964,7.184 6.225,6.920 C6.306,6.838 6.386,6.757 6.465,6.674 C6.607,6.525 6.736,6.331 6.608,6.030 C6.545,5.880 6.489,5.722 6.434,5.570 C6.360,5.360 6.282,5.142 6.183,4.933 C5.709,3.932 5.033,3.084 4.174,2.413 C4.100,2.355 3.996,2.355 3.923,2.414 C2.391,3.633 1.521,5.210 1.335,7.100 C1.125,9.237 1.833,11.132 3.437,12.734 C4.044,13.340 4.650,13.946 5.256,14.552 C5.929,15.226 6.604,15.900 7.278,16.574 C8.690,17.982 10.335,18.693 12.177,18.693 C12.462,18.693 12.753,18.676 13.047,18.642 C14.842,18.433 16.368,17.574 17.584,16.087 C17.642,16.016 17.645,15.915 17.591,15.840 C16.807,14.754 15.141,13.637 13.876,13.352 C13.711,13.314 13.512,13.393 13.401,13.490 C13.250,13.622 13.105,13.760 12.964,13.895 ZM11.502,2.848 C11.503,3.210 11.504,3.585 11.500,3.952 C11.495,4.411 11.247,4.696 10.854,4.696 C10.854,4.696 10.854,4.696 10.854,4.696 C10.466,4.695 10.204,4.398 10.201,3.955 C10.196,2.902 10.196,1.820 10.201,0.740 C10.203,0.292 10.459,0.001 10.852,0.001 C10.852,0.001 10.853,0.001 10.853,0.001 C11.247,0.001 11.495,0.284 11.500,0.740 C11.504,1.116 11.503,1.500 11.502,1.871 C11.502,2.035 11.501,2.199 11.501,2.362 C11.501,2.524 11.502,2.686 11.502,2.848 Z"/>
+                                    </svg>
+                                </span>
+                                <span>+1111111100</span>
+                            </a>
+                            <a href="mailto: hello@nlab.com" class="nav-list-item nav-list-item-mail">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="20px">
+                                       <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                        d="M10.951,19.999 C7.991,19.999 5.031,20.000 2.071,19.999 C0.875,19.999 0.012,19.174 0.009,18.014 C0.002,14.685 -0.001,11.357 -0.001,8.029 C-0.000,7.221 0.432,6.657 1.092,6.213 C3.441,4.633 5.782,3.043 8.126,1.458 C8.629,1.117 9.128,0.771 9.637,0.440 C10.574,-0.171 11.490,-0.138 12.416,0.490 C15.146,2.341 17.868,4.205 20.626,6.017 C21.593,6.652 22.016,7.417 21.996,8.572 C21.943,11.711 21.988,14.853 22.001,17.993 C22.005,19.083 21.102,19.997 19.988,19.998 C16.976,20.001 13.963,19.999 10.951,19.999 ZM20.543,7.688 C20.388,7.554 20.285,7.442 20.161,7.358 C17.298,5.424 14.430,3.497 11.571,1.558 C11.148,1.271 10.799,1.294 10.381,1.578 C7.580,3.479 4.766,5.363 1.959,7.255 C1.791,7.368 1.641,7.505 1.455,7.653 C1.571,7.750 1.642,7.823 1.726,7.877 C3.865,9.270 6.012,10.652 8.141,12.060 C8.433,12.252 8.604,12.157 8.833,12.009 C10.867,10.690 11.127,10.684 13.140,12.007 C13.436,12.202 13.629,12.201 13.921,12.008 C15.848,10.736 17.790,9.483 19.726,8.224 C19.985,8.056 20.243,7.885 20.543,7.688 ZM20.533,18.499 C20.317,18.328 20.218,18.236 20.107,18.164 C17.315,16.339 14.523,14.517 11.729,12.696 C11.055,12.256 10.916,12.260 10.221,12.715 C8.038,14.138 5.857,15.561 3.676,16.987 C2.968,17.449 2.264,17.914 1.558,18.378 C1.562,18.426 1.567,18.474 1.572,18.522 C1.795,18.572 2.017,18.665 2.239,18.666 C8.073,18.674 13.906,18.674 19.740,18.666 C19.966,18.665 20.192,18.573 20.533,18.499 ZM14.769,13.062 C16.741,14.348 18.644,15.589 20.580,16.852 C20.580,14.293 20.580,11.832 20.580,9.283 C18.617,10.560 16.721,11.793 14.769,13.062 ZM1.418,16.842 C3.371,15.567 5.263,14.333 7.214,13.059 C5.253,11.785 3.360,10.555 1.418,9.294 C1.418,11.857 1.418,14.306 1.418,16.842 Z"/>
+                                    </svg>
+                                </span>
+                                <span>hello@nlab.com</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="first-screen">
+                <div class="row">
+                    <div class="col-xl-12 pl-0 pr-0">
+                        <div class="first-screen-block">
+                            <div class="first-screen-left">
+                                <div class="main-title">
+                                    <span id="typedText" class="typed-text"></span>
+                                    <span class="typed-cursor typed-cursor--blink">|</span>
+                                </div>
+                                <div class="first-screen-info">
+                                    <div class="first-screen-info-dots">
+                                        <div class="first-screen-info-dot"></div>
+                                        <div class="dashed-line"></div>
+                                        <div class="first-screen-info-check">
+                                                <span class="info-check">&#10004;</span>
+                                        </div>
+                                        <div class="first-screen-info-check first-screen-info-check2">
+                                            <span class="info-check">&#10004;</span>
+                                        </div>
+                                    </div>
+                                    <div class="first-screen-info-text">
+                                        <div class="screen-text-title">
+                                            Networking Lab is the fastest way to grow
+                                        </div>
+                                        <div class="screen-text-description">
+                                            Virtual office of a multi-level marketing company, platform for integrated digitalization of a MLM company’s activities.  
+                                        </div>
+                                        <div class="screen-text-line"></div>
+                                        <div class="screen-text-paragraph">
+                                            Attract skilled professionals, unite your team to pursue a common goal working expediently and in perfect coordination.
+                                        </div>
+                                        <div class="screen-text-paragraph screen-text-paragraph2">
+                                                Attract skilled professionals, unite your team to pursue a common goal working expediently and in perfect coordination.
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn">
+                                    Become the company of the new generation
+                                </button>
+                            </div>
+                            <div class="first-screen-right">
+                                <img src="img/first-bg.png" alt="first">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Degree -->
+    <section class="degree-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="degree-content">
+                        <h2>This is your 360 degree view</h2>
+                        <p class="degree-text">
+                            Networking Lab provides the necessary tools for implementation of your strategy of development.
+                        </p>
+                        <p class="degree-text">
+                            By using assessment of knowledge, educational modules, you will be able to build your
+                            organization in accordance with digital trends, upgrade skills and information awareness of
+                            personnel, create a team that will be working faster and more efficiently.
+                        </p>
+                        <p class="degree-text-set">
+                            Set up a testing team and get a free 6 week trial
+                        </p>
+                        <button class="btn degree-btn">
+                            Create your closed (in-house) space and start team testing
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Degree -->
+
+    <!-- Point -->
+    <section class="point-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Simple actions. Tipping point</h2>
+                    <p>
+                         Being an expert, you realize that limitless possibilities provided by modern day technologies are available for you. Destroy negative image of the multi-level marketing as far as it concerns your company by altering only a few details. Without making any changes to the company’s structure, its basic principles and operating procedure, systematize its activities and allow your employees to develop the structure. Excel in what you do.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="point-office">
+                        <ul class="nav point-office-list" id="paintOfficeTab" role="tablist">
+                            <li class="point-office-item"> 
+                                <a class="paint-office-link active" id="backOfficeTab" data-toggle="tab" href="#backOffice" role="tab" aria-controls="backOffice" aria-selected="true">
+                                    BACKOFFICE
+                                </a>
+                                <div class="point-office-line"></div>
+                            </li>
+                            <li class="point-office-item">
+                                <a class="paint-office-link" id="frontOfficeTab" data-toggle="tab" href="#frontOffice" role="tab" aria-controls="frontOffice" aria-selected="false">
+                                    FRONT OFFICE
+                                </a>
+                                <div class="point-office-line"></div>
+                            </li>
+                        </ul>
+                        <div class="tab-content point-office-content" id="pointOfficeContent">
+                            <div class="point-office-tab-pane tab-pane fade show active" id="backOffice" role="tabpanel" aria-labelledby="backOfficeTab">
+                                <div class="point-office-content-title">
+                                    Simplify interaction between your team members
+                                </div>
+                                <ul class="nav nav-tabs" id="backTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link active" id="socialTab" data-toggle="tab" href="#socialContent" role="tab" aria-controls="socialContent" aria-selected="true">
+                                            Social network
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link" id="trainingTab" data-toggle="tab" href="#trainingContent" role="tab" aria-controls="trainingContent" aria-selected="false">
+                                            Training and certification
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link" id="internalTab" data-toggle="tab" href="#internalContent" role="tab" aria-controls="internalContent" aria-selected="false">
+                                            Internal (local) messenger
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link" id="referralTab" data-toggle="tab" href="#referralContent" role="tab" aria-controls="referralContent" aria-selected="false">
+                                            Referral system
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="backContent">
+                                    <div class="tab-pane fade show active social-content" id="socialContent" role="tabpanel" aria-labelledby="socialTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    Same page tool. Closed social network aimed at uniting your community in order to bring it to a new level of information awareness and involvement. 
+                                                </div>
+                                                <ul class="tab-pane-list">
+                                                    <li class="tab-pane-list-item">
+                                                        RSS feed
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Polls
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Blog
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Knowledge data base 
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Event calendar
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        The company’s performance depends on who promotes its product and the way how it is done. If you have a lot of
+                                                        employees, it is difficult to attain a uniform level of knowledge without gaps and misrepresentations, to communicate
+                                                        with each individual, to provide timely information, to make the personnel take important issues into account.
+                                                        Oftentimes people come out with lots of ideas, and it creates chaos at the workplace.
+                                                    </p>  
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/socialnet.png" alt="social-point">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade training-content" id="trainingContent" role="tabpanel" aria-labelledby="trainingTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    Implementation of training programs for internal PR and staff development.
+                                                </div>
+                                                <ul class="tab-pane-list">
+                                                    <li class="tab-pane-list-item">
+                                                        Webinar room
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Knowledge data base (wiki)
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Blogging
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Test and poll building 
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Certification of participants
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        A possibility to select the best and gradually train all those who you invite to join your team.<br>
+                                                        Raise the bar for the personnel by developing and implementing the selection system and constantly training your team.
+                                                    </p>   
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/sertification.png" alt="training-point">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade internal-content" id="internalContent" role="tabpanel" aria-labelledby="internalTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    With a wide range of possibilities which enable comprehensive exchange of information within the team in the workplace. Personal and group chats make it possible to exchange messages and files, make phone and video calls, store and search for messages, send audio messages. 
+                                                </div>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        Major part of the issues has to be resolved right now. If even a minor delay happens, you miss out on the opportunities. 
+                                                    </p> 
+                                                    <p>
+                                                        Do you need prompt decisions and realized opportunities provided by the messengers?  
+                                                    </p> 
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/chat3.png" alt="internal-point">
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="tab-pane fade referral-content" id="referralContent" role="tabpanel" aria-labelledby="referralTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    Automatic connection of employees to the company and access to their own structural unit. 
+                                                </div>
+                                                <ul class="tab-pane-list">
+                                                    <li class="tab-pane-list-item">
+                                                        The owner of the structure generates a link that sends to a new member.
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        The new member in his in turn, using the link, automatically joins the necessary structure, excluding the process of
+                                                        multi-way search throughout the system.
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        Timely and effortless access to your workplace.
+                                                    </p> 
+                                                    <p>
+                                                        Do you want to get rid of the confusion at the online shopping platform? We can help  
+                                                    </p> 
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/referal3.png" alt="referral-point">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="backOfficeAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingSocial">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSocial" aria-expanded="true" aria-controls="collapseSocial">
+                                                    Social network
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                  
+                                        <div id="collapseSocial" class="collapse show social-content" aria-labelledby="headingSocial" data-parent="#backOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        Same page tool. Closed social network aimed at uniting your community in order to bring it to a new level of information awareness and involvement. 
+                                                    </div>
+                                                    <ul class="tab-pane-list">
+                                                        <li class="tab-pane-list-item">
+                                                            RSS feed
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Polls
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Blog
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Knowledge data base 
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Event calendar
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-pane-footer">
+                                                        The company’s performance depends on who promotes its product and the way how it is done. If you have a lot of employees, it is difficult to attain a uniform level of knowledge without gaps and misrepresentations, to communicate with each individual, to provide timely information, to make the personnel take important issues into account. Oftentimes people come out with lots of ideas, and it creates chaos at the workplace.  
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/socialnet.png" alt="social-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTraining">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTraining" aria-expanded="false" aria-controls="collapseTraining">
+                                                    Training and certification
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTraining" class="collapse training-content" aria-labelledby="headingTraining" data-parent="#backOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        Implementation of training programs for internal PR and staff development.
+                                                    </div>
+                                                    <ul class="tab-pane-list">
+                                                        <li class="tab-pane-list-item">
+                                                            Webinar room
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Knowledge data base (wiki)
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Blogging
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Test and poll building 
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Certification of participants
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-pane-footer">
+                                                        A possibility to select the best and gradually train all those who you invite to join your team.<br> 
+                                                        Raise the bar for the personnel by developing and implementing the selection system and constantly training your team.   
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/sertification.png" alt="training-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingInternal">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseInternal" aria-expanded="false" aria-controls="collapseInternal">
+                                                    Internal (local) messenger
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseInternal" class="collapse internal-content" aria-labelledby="headingInternal" data-parent="#backOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        With a wide range of possibilities which enable comprehensive exchange of information within the team in the workplace. Personal and group chats make it possible to exchange messages and files, make phone and video calls, store and search for messages, send audio messages. 
+                                                    </div>
+                                                    <div class="tab-pane-footer">
+                                                        <p>
+                                                            Major part of the issues has to be resolved right now. If even a minor delay happens, you miss out on the opportunities. 
+                                                        </p> 
+                                                        <p>
+                                                            Do you need prompt decisions and realized opportunities provided by the messengers?  
+                                                        </p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/chat3.png" alt="internal-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingReferral">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseReferral" aria-expanded="false" aria-controls="collapseReferral">
+                                                    Referral system
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseReferral" class="collapse referral-content" aria-labelledby="headingReferral" data-parent="#backOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        Automatic connection of employees to the company and access to their own structural unit. 
+                                                    </div>
+                                                    <div class="tab-pane-footer">
+                                                        <p>
+                                                            Timely and effortless access to your workplace.
+                                                        </p> 
+                                                        <p>
+                                                            Do you want to get rid of the confusion at the online shopping platform? We can help  
+                                                        </p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/referal3.png" alt="referral-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="point-office-tab-pane tab-pane fade" id="frontOffice" role="tabpanel" aria-labelledby="frontOfficeTab">
+                                <div class="point-office-content-title">
+                                    Provide tools for development of your unit managers online
+                                </div>
+                                <ul class="nav nav-tabs" id="frontTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link active" id="automatedTab" data-toggle="tab" href="#automatedContent" role="tab" aria-controls="automatedContent" aria-selected="true">
+                                            Automated marketing (mail user agent)
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-item nav-link" id="landingTab" data-toggle="tab" href="#landingContent" role="tab" aria-controls="landingContent" aria-selected="false">
+                                            Landing page builder
+                                        </a>
+                                        <div class="point-office-line"></div>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="frontContent">
+                                    <div class="tab-pane fade show active automated-content" id="automatedContent" role="tabpanel" aria-labelledby="automatedTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    Bulk mailing for simultaneous delivery of information or creation of a letter thread with an aim to prompt the message recipient into action (automatic marketing funnel)
+                                                </div>
+                                                <ul class="tab-pane-list">
+                                                    <li class="tab-pane-list-item">
+                                                        Letter templates + flexible template editor
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Flexible management of recipient list and working sequence
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        User-friendly intuitive interface, simple set-up
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Knowledge data base 
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Event calendar
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        MLM oversteps the limits of interpersonal communication and goes online. Offline possibilities for creating traffic are very limited.
+                                                    </p>
+                                                    <p>
+                                                        Do you want to give your employees to improve sales and develop your network still faster? 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/marketing.png" alt="automated-point">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade landing-content" id="landingContent" role="tabpanel" aria-labelledby="landingTab">
+                                        <div class="tab-pane-container">
+                                            <div class="tab-pane-content">
+                                                <div class="tab-pane-text">
+                                                    Creation of website-cum-online office in 30 minutes is a mandatory lead generation tool.
+                                                </div>
+                                                <ul class="tab-pane-list">
+                                                    <li class="tab-pane-list-item">
+                                                        Block library
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Block library
+                                                    </li>
+                                                    <li class="tab-pane-list-item">
+                                                        Intuitive interface
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-pane-footer">
+                                                    <p>
+                                                        New MLM is not high-pressure selling. It is dealing with target users and satisfying their demand, propaganda and customer development, and not merely sales.
+                                                    </p>
+                                                    <p>
+                                                        Do you want to give your staff more possibilities and to increase the market potential? 
+                                                    </p> 
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane-img">
+                                                <img src="img/contructor.png" alt="landing-point">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="frontOfficeAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="headingAutomated">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseAutomated" aria-expanded="true" aria-controls="collapseAutomated">
+                                                    Automated marketing (mail user agent)
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                  
+                                        <div id="collapseAutomated" class="collapse show automated-content" aria-labelledby="headingAutomated" data-parent="#frontOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        Bulk mailing for simultaneous delivery of information or creation of a letter thread with an aim to prompt the message recipient into action (automatic marketing funnel)
+                                                    </div>
+                                                    <ul class="tab-pane-list">
+                                                        <li class="tab-pane-list-item">
+                                                            Letter templates + flexible template editor
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Flexible management of recipient list and working sequence
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            User-friendly intuitive interface, simple set-up
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Knowledge data base 
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Event calendar
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-pane-footer">
+                                                        <p>
+                                                            MLM oversteps the limits of interpersonal communication and goes online. Offline possibilities for creating traffic are very limited.
+                                                        </p>
+                                                        <p>
+                                                            Do you want to give your employees to improve sales and develop your network still faster? 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/marketing.png" alt="automated-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingLanding">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseLanding" aria-expanded="false" aria-controls="collapseLanding">
+                                                    Landing page builder
+                                                </button>
+                                                <div class="point-office-line"></div>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseLanding" class="collapse landing-content" aria-labelledby="headingLanding" data-parent="#frontOfficeAccordion">
+                                            <div class="card-body tab-pane-container">
+                                                <div class="tab-pane-content">
+                                                    <div class="tab-pane-text">
+                                                        Creation of website-cum-online office in 30 minutes is a mandatory lead generation tool.
+                                                    </div>
+                                                    <ul class="tab-pane-list">
+                                                        <li class="tab-pane-list-item">
+                                                            Block library
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Block library
+                                                        </li>
+                                                        <li class="tab-pane-list-item">
+                                                            Intuitive interface
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-pane-footer">
+                                                        <p>
+                                                            New MLM is not high-pressure selling. It is dealing with target users and satisfying their demand, propaganda and customer development, and not merely sales.
+                                                        </p>
+                                                        <p>
+                                                            Do you want to give your staff more possibilities and to increase the market potential? 
+                                                        </p> 
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane-img">
+                                                    <img src="img/contructor.png" alt="landing-point">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Point -->
+
+    <!-- Skills -->
+    <section class="skills-block" data-parallax="scroll">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Attain more<br> using your skills</h2>
+                </div>
+            </div>
+            <div class="skills-box" data-toggle="tooltip" data-placement="top" title="Scroll down">
+                <div class="skills-orders">
+                    <div class="skills-order-line dots">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <!-- <div></div>
+                        <div></div> -->
+                    </div>
+                    <div class="container-down" id="fixed">
+                        <div class="down">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                        </div>
+                    </div>
+                    <div class="skill-order skill-order-1">
+                        <div class="skill-order-number">#1</div>
+                    </div>
+                    <div class="skill-order skill-order-2">
+                        <div class="skill-order-number">#2</div>
+                    </div>
+                    <div class="skill-order skill-order-3">
+                        <div class="skill-order-number">#3</div>
+                    </div>
+                    <div class="skill-order skill-order-4">
+                        <div class="skill-order-number">#4</div>
+                    </div>
+                    <div class="skill-order skill-order-5">
+                        <div class="skill-order-number">#5</div>
+                    </div>
+                    <div class="skill-order skill-order-6">
+                        <div class="skill-order-number">#6</div>
+                    </div>
+                </div>
+                <div class="skills-info-box">
+                    <div class="skill-info skill-info-1">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Inspire the best
+                            </div>
+                            <div class="skill-info-text">
+                                Lack of information about a company is regarded as cheating. And the policy “everyone can
+                                join us” undermines expertness of the company’s team. The best experts prefer working at a
+                                reliable company with skilled personnel and good prospects.
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill1.png" alt="skill1">
+                        </div>
+                        <div class="skill-info-name">
+                            <span>Onboarding</span>
+                        </div>
+                    </div>
+                    <div class="skill-info skill-info-2">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Select the worthy
+                            </div>
+                            <div class="skill-info-text">
+                                By letting anybody join your company, you build a community of the unknowns. Persons who
+                                lack business skills bring discredit on your company, blame you for their own failures and
+                                damage your company’s reputation
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill2.png" alt="skill2">
+                        </div>
+                        <div class="skill-info-name skill-info-name2">
+                            <span>Testing</span>
+                        </div>
+                    </div>
+                    <div class="skill-info skill-info-3">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Provide knowledge
+                            </div>
+                            <div class="skill-info-text">
+                                Orientation towards network growth instead of quality of sales has a negative impact on the
+                                company’s stability and its reputation. Focusing on the quality of sales and its relations
+                                with the customers, the MLM companies improve their financial performance
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill3.png" alt="skill3">
+                        </div>
+                        <div class="skill-info-name skill-info-name3">
+                            <span>Training</span>
+                        </div>
+                    </div>
+                    <div class="skill-info skill-info-4">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Create motivation for success
+                            </div>
+                            <div class="skill-info-text">
+                                Are there many people who are self-organized enough to be able, with no control, no contact
+                                with the team, no “esprit de corps” and no meetups, to stay motivated and efficient?
+                                Consultants with little involvement in the process are just dead weight who only draw on the
+                                company’s potential, they are burned out
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill4.png" alt="skill4">
+                        </div>
+                        <div class="skill-info-name skill-info-name4">
+                            <span>Involvement</span>
+                        </div>
+                    </div>
+                    <div class="skill-info skill-info-5">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Speed up operations
+                            </div>
+                            <div class="skill-info-text">
+                                We live in a time when you can buy anything online, everything you want is just one click
+                                away. If there are delays in your communication with customers, it could hinder sales.
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill5.png" alt="skill5">
+                        </div>
+                        <div class="skill-info-name skill-info-name5">
+                            <span>Mobility</span>
+                        </div>
+                    </div>
+                    <div class="skill-info skill-info-6">
+                        <div class="skill-info-description">
+                            <div class="skill-info-title">
+                                Create the flow
+                            </div>
+                            <div class="skill-info-text">
+                                Selling the same products through the same sale venues, failing to ensure proper management
+                                of sales territory, the company restricts its development with its own hands.
+                            </div>
+                        </div>
+                        <div class="skill-info-img">
+                            <img src="img/skill6.png" alt="skill6">
+                        </div>
+                        <div class="skill-info-name skill-info-name6">
+                            <span>Lead generation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills -->
+
+    <!-- Prior -->
+    <section class="prior-block">
+        <div class="container">
+            <div class="prior-row">
+                <div class="prior-left">
+                    <div class="prior-img-box">
+                        <div class="prior-img">
+                            <img src="img/prior-bg.png" alt="prior-bg">
+                        </div>
+                        <div class="prior-column prior-column1 wow" data-wow-offset="50"></div>
+                        <div class="prior-column prior-column2 wow" data-wow-offset="50"></div>
+                        <div class="prior-column prior-column3 wow" data-wow-offset="50"></div>
+                        <div class="prior-column prior-column4 wow" data-wow-offset="50"></div>
+                        <div class="prior-column prior-column5 wow" data-wow-offset="50"></div>
+                        <div class="prior-column prior-column6 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue1 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue2 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue3 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue4 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue5 wow" data-wow-offset="50"></div>
+                        <div class="prior-column-blue prior-column-blue6 wow" data-wow-offset="50"></div>
+                        <div class="prior-man">
+                            <img src="img/prior-man.png" alt="Man">
+                        </div>
+                    </div>
+                </div>
+                <div class="prior-right">
+                    <div class="prior-text">
+                        Prior to full-scale testing of the platform which involves your team members, you can check our demo version and see how we arranged everything (no registration is needed)<br>
+                        <span>Welcome. The kettle is on the boil :)</span>
+                    </div>
+                    <button class="prior-btn btn">
+                        Take a look at the system
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="prior-list">
+                        <div class="prior-list-item">
+                            <div class="list-item-img">
+                                <!-- <img src="img/prior1.png" alt="prior1"> -->
+                            </div>
+                            <div class="list-item-text">
+                                New platform format oriented towards the problems of the MLM companies which the latter had to solve manually previously
+                            </div>
+                        </div>
+                        <div class="prior-list-item">
+                            <div class="list-item-img list-item-img2">
+                                <!-- <img src="img/prior2.png" alt="prior2"> -->
+                            </div>
+                            <div class="list-item-text">
+                                Seamless combination of front office and back office, common database – fully integrated approach
+                            </div>
+                        </div>
+                        <div class="prior-list-item">
+                            <div class="list-item-img list-item-img3">
+                                <!-- <img src="img/prior3.png" alt="prior3"> -->
+                            </div>
+                            <div class="list-item-text">
+                                Mobile application + desktop version give you a possibility to work in a format which suits you best, to be mobile and  thorough at the same time
+                            </div>
+                        </div>
+                        <div class="prior-list-item">
+                            <div class="list-item-img list-item-img4">
+                                <!-- <img src="img/prior4.png" alt="prior4"> -->
+                            </div>
+                            <div class="list-item-text">
+                                The system is simple to use but capable of solving very important business tasks
+                            </div>
+                        </div>
+                        <div class="prior-list-item">
+                            <div class="list-item-img list-item-img5">
+                                <!-- <img src="img/prior5.png" alt="prior5"> -->
+                            </div>
+                            <div class="list-item-text">
+                                The platform is being constantly developed – each day we improve and amend it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Prior -->
+
+    <!-- Goals -->
+    <section class="goals-block">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Global changes. Clear goals</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="goal-item">
+                        <h3 class="goal-item-title">Basic</h3>
+                        <div class="goal-item-price">
+                            <span class="price-secondary">$</span>
+                            <span class="price-first">299</span>
+                            <span class="price-secondary">/ год</span>
+                        </div>
+                        <ul class="goal-item-list goal-basic-list">
+                            <li>Неограниченный доступ к платформе</li>
+                            <li>Мощная панель администратора</li>
+                            <li>Обновления продукта</li>
+                            <li>Безрисковая гарантия</li>
+                            <li>E-mail поддержка</li>
+                            <li>Маркетинговая служба</li>
+                            <li>Премиум поддержка 24/7</li>
+                        </ul>
+                        <button class="btn goal-item-btn">
+                            Начать использование
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="goal-item">
+                        <h3 class="goal-item-title goal-standart-title">Standart</h3>
+                        <div class="goal-item-price">
+                            <span class="price-secondary">$</span>
+                            <span class="price-first price-first-standart">499</span>
+                            <span class="price-secondary">/ год</span>
+                        </div>
+                        <ul class="goal-item-list goal-standart-list">
+                            <li>Неограниченный доступ к платформе</li>
+                            <li>Мощная панель администратора</li>
+                            <li>Обновления продукта</li>
+                            <li>Безрисковая гарантия</li>
+                            <li>E-mail поддержка</li>
+                            <li>Маркетинговая служба</li>
+                            <li>Премиум поддержка 24/7</li>
+                        </ul>
+                        <button class="btn goal-item-btn goal-standart-btn">
+                            Начать использование
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="goal-item">
+                        <h3 class="goal-item-title goal-premium-title">Premium</h3>
+                        <div class="goal-item-price">
+                            <span class="price-secondary">$</span>
+                            <span class="price-first price-first-premium">699</span>
+                            <span class="price-secondary">/ год</span>
+                        </div>
+                        <ul class="goal-item-list">
+                            <li>Неограниченный доступ к платформе</li>
+                            <li>Мощная панель администратора</li>
+                            <li>Обновления продукта</li>
+                            <li>Безрисковая гарантия</li>
+                            <li>E-mail поддержка</li>
+                            <li>Маркетинговая служба</li>
+                            <li>Премиум поддержка 24/7</li>
+                        </ul>
+                        <button class="btn goal-item-btn goal-premium-btn">
+                            Начать использование
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Goals -->
+
+    <!-- About Company -->
+    <section class="about-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>About company</h2>
+                    <p class="about-text">
+                        For more than 6 years we collaborated with the MLM companies and assisted them in building up their teams by developing customized software. 12 companies trusted us with finding solutions for their tasks, and our long-term and fruitful cooperation bore fruit. 
+                    </p>
+                    <p class="about-text">
+                        We looked at the industry from the inside, which enabled us to understand what hinders the companies’ development, what they have to struggle against every day. So we decided that it was high time to create something new, something that would solve numerous problems weighing upon every player in this market. We hope it will have a worldwide impact and transform the industry.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-quote-box">
+                        <div class="about-quote">
+                            <img src="img/quotes.png" alt="quotes">
+                            <p class="about-quote-text">
+                                MLM business may improve its image, thus expanding the market. It’s a mistake to perceive it as it is done now 
+                            </p>
+                            <p class="about-quote-author">
+                                —  Максим Фамилия, должность
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-iron-man">
+                        <img src="img/iron-man.png" alt="iron-man">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4 class="values-title">
+                        Company values
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="value">
+                        <div class="value-img">
+                            <img src="img/value1.png" alt="value1">
+                        </div>
+                        <div class="value-content">
+                            <h6 class="value-title">
+                                Reputation
+                            </h6>
+                            <p class="value-text">
+                                We are keen to give the MLM companies a possibility to excel in what they do
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="value">
+                        <div class="value-img">
+                            <img src="img/value2.png" alt="value2">
+                        </div>
+                        <div class="value-content">
+                            <h6 class="value-title">
+                                Tipping point
+                            </h6>
+                            <p class="value-text">
+                                We seek to give the MLM business, in the classic principles of which we believe, new tools that could change its current image to the better and to gain the market’s trust
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="value">
+                        <div class="value-img">
+                            <img src="img/value3.png" alt="value3">
+                        </div>
+                        <div class="value-content">
+                            <h6 class="value-title">
+                                Innovative approach to applications
+                            </h6>
+                            <p class="value-text">
+                                The world of new applications differs significantly from the old approach to doing business. It concerns efficiency of operations and opening vistas. We are following all new technologies in order to be able to present them to the MLM companies at one venue
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="value">
+                        <div class="value-img">
+                            <img src="img/value4.png" alt="value4">
+                        </div>
+                        <div class="value-content">
+                            <h6 class="value-title">
+                                Relations with users
+                            </h6>
+                            <p class="value-text">
+                                To ensure the ultimate usefulness of the product we constantly check whether our improvements really help our customers. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Company -->
+
+    <!-- Form -->
+    <section class="form">
+        <div class="container">
+            <div class="mission">
+                <div class="mission-title">
+                    Our mission
+                </div>
+                <div class="mission-line"></div>
+                <div class="mission-text">
+                    Is to demonstrate the existing possibilities for implementation of the new approach to doing business to all MLM companies, to help set up an outstanding team, achieve high goals, have impact on the industry. 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>
+                        If you have<br> any more questions:
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-img">
+                        <img src="img/form-man.png" alt="form-man">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <form class="main-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your name">
+                            <input type="email" name="mail" placeholder="Your e-mail address">
+                        </div>
+                        <textarea name="text" placeholder="Your question"></textarea>
+                        <button type="button" class="btn form-btn" data-toggle="modal" data-target="#formModal">
+                            Send your message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex">
+                    <div class="copy copy-form">
+                        © 2007-2019, Networking Lab
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Form -->
+
+    <!-- Pop Up -->
+    <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/pop-up.png" alt="pop-up">
+                    <h3>Thank you for contacting us!</h3>
+                    <p>Our managers will contact you shortly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Pop Up -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-8 col-sm-12">
+                    <div class="footer-info">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="img/footer-logo.png" alt="footer-logo">
+                            </a>
+                        </div>
+                        <a href="tel:+1111111100" class="nav-list-item footer-phone">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px">
+                                   <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                    d="M19.290,9.792 C19.275,9.792 19.259,9.792 19.245,9.792 L17.637,9.792 C17.472,9.791 17.300,9.792 17.132,9.793 C16.765,9.794 16.386,9.795 16.014,9.791 C15.581,9.785 15.313,9.538 15.315,9.145 C15.316,8.754 15.594,8.500 16.022,8.498 C16.592,8.494 17.141,8.493 17.676,8.493 C18.230,8.493 18.770,8.494 19.302,8.498 C19.722,8.500 20.003,8.763 20.001,9.152 C19.999,9.544 19.733,9.783 19.290,9.792 ZM14.726,6.189 C14.507,6.405 14.232,6.454 13.972,6.323 C13.747,6.210 13.620,6.031 13.567,5.750 C13.590,5.702 13.611,5.655 13.631,5.609 C13.687,5.481 13.741,5.361 13.816,5.283 C14.529,4.547 15.299,3.774 16.313,2.776 C16.608,2.486 16.996,2.476 17.277,2.752 C17.398,2.871 17.462,3.027 17.457,3.191 C17.452,3.364 17.370,3.539 17.228,3.684 C16.490,4.436 15.695,5.232 14.726,6.189 ZM18.985,15.497 C19.202,15.801 19.200,16.098 18.980,16.404 C17.699,18.184 16.077,19.311 14.160,19.753 C11.352,20.401 8.891,19.780 6.845,17.907 C5.389,16.574 3.981,15.135 2.619,13.744 L2.361,13.482 C0.826,11.914 0.031,10.017 -0.001,7.844 C0.072,4.975 1.240,2.751 3.569,1.046 C3.937,0.776 4.171,0.782 4.572,1.070 C6.374,2.368 7.546,4.138 8.053,6.331 C8.133,6.674 8.065,6.917 7.827,7.142 C7.480,7.469 7.150,7.808 6.831,8.135 C6.229,8.753 6.227,9.542 6.827,10.147 C7.804,11.132 8.819,12.147 9.842,13.162 C10.463,13.778 11.263,13.775 11.882,13.155 C12.002,13.035 12.123,12.916 12.244,12.797 C12.452,12.592 12.667,12.379 12.874,12.165 C13.093,11.939 13.336,11.871 13.662,11.945 C15.875,12.449 17.666,13.645 18.985,15.497 ZM12.964,13.895 C12.789,14.061 12.609,14.232 12.424,14.386 C11.558,15.103 10.049,15.089 9.258,14.357 C7.977,13.170 6.862,12.081 5.849,11.026 C4.945,10.083 4.806,8.801 5.496,7.759 C5.695,7.458 5.964,7.184 6.225,6.920 C6.306,6.838 6.386,6.757 6.465,6.674 C6.607,6.525 6.736,6.331 6.608,6.030 C6.545,5.880 6.489,5.722 6.434,5.570 C6.360,5.360 6.282,5.142 6.183,4.933 C5.709,3.932 5.033,3.084 4.174,2.413 C4.100,2.355 3.996,2.355 3.923,2.414 C2.391,3.633 1.521,5.210 1.335,7.100 C1.125,9.237 1.833,11.132 3.437,12.734 C4.044,13.340 4.650,13.946 5.256,14.552 C5.929,15.226 6.604,15.900 7.278,16.574 C8.690,17.982 10.335,18.693 12.177,18.693 C12.462,18.693 12.753,18.676 13.047,18.642 C14.842,18.433 16.368,17.574 17.584,16.087 C17.642,16.016 17.645,15.915 17.591,15.840 C16.807,14.754 15.141,13.637 13.876,13.352 C13.711,13.314 13.512,13.393 13.401,13.490 C13.250,13.622 13.105,13.760 12.964,13.895 ZM11.502,2.848 C11.503,3.210 11.504,3.585 11.500,3.952 C11.495,4.411 11.247,4.696 10.854,4.696 C10.854,4.696 10.854,4.696 10.854,4.696 C10.466,4.695 10.204,4.398 10.201,3.955 C10.196,2.902 10.196,1.820 10.201,0.740 C10.203,0.292 10.459,0.001 10.852,0.001 C10.852,0.001 10.853,0.001 10.853,0.001 C11.247,0.001 11.495,0.284 11.500,0.740 C11.504,1.116 11.503,1.500 11.502,1.871 C11.502,2.035 11.501,2.199 11.501,2.362 C11.501,2.524 11.502,2.686 11.502,2.848 Z"/>
+                                </svg>
+                            </span>
+                            <span>+1111111100</span>
+                        </a>
+                        <a href="mailto: hello@nlab.com" class="nav-list-item footer-mail">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="20px">
+                                   <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                    d="M10.951,19.999 C7.991,19.999 5.031,20.000 2.071,19.999 C0.875,19.999 0.012,19.174 0.009,18.014 C0.002,14.685 -0.001,11.357 -0.001,8.029 C-0.000,7.221 0.432,6.657 1.092,6.213 C3.441,4.633 5.782,3.043 8.126,1.458 C8.629,1.117 9.128,0.771 9.637,0.440 C10.574,-0.171 11.490,-0.138 12.416,0.490 C15.146,2.341 17.868,4.205 20.626,6.017 C21.593,6.652 22.016,7.417 21.996,8.572 C21.943,11.711 21.988,14.853 22.001,17.993 C22.005,19.083 21.102,19.997 19.988,19.998 C16.976,20.001 13.963,19.999 10.951,19.999 ZM20.543,7.688 C20.388,7.554 20.285,7.442 20.161,7.358 C17.298,5.424 14.430,3.497 11.571,1.558 C11.148,1.271 10.799,1.294 10.381,1.578 C7.580,3.479 4.766,5.363 1.959,7.255 C1.791,7.368 1.641,7.505 1.455,7.653 C1.571,7.750 1.642,7.823 1.726,7.877 C3.865,9.270 6.012,10.652 8.141,12.060 C8.433,12.252 8.604,12.157 8.833,12.009 C10.867,10.690 11.127,10.684 13.140,12.007 C13.436,12.202 13.629,12.201 13.921,12.008 C15.848,10.736 17.790,9.483 19.726,8.224 C19.985,8.056 20.243,7.885 20.543,7.688 ZM20.533,18.499 C20.317,18.328 20.218,18.236 20.107,18.164 C17.315,16.339 14.523,14.517 11.729,12.696 C11.055,12.256 10.916,12.260 10.221,12.715 C8.038,14.138 5.857,15.561 3.676,16.987 C2.968,17.449 2.264,17.914 1.558,18.378 C1.562,18.426 1.567,18.474 1.572,18.522 C1.795,18.572 2.017,18.665 2.239,18.666 C8.073,18.674 13.906,18.674 19.740,18.666 C19.966,18.665 20.192,18.573 20.533,18.499 ZM14.769,13.062 C16.741,14.348 18.644,15.589 20.580,16.852 C20.580,14.293 20.580,11.832 20.580,9.283 C18.617,10.560 16.721,11.793 14.769,13.062 ZM1.418,16.842 C3.371,15.567 5.263,14.333 7.214,13.059 C5.253,11.785 3.360,10.555 1.418,9.294 C1.418,11.857 1.418,14.306 1.418,16.842 Z"/>
+                                </svg>
+                            </span>
+                            <span>hello@nlab.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 d-flex col-sm-12">
+                    <div class="copy copy-footer">
+                        © 2007-2019, Networking Lab
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scrips -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
