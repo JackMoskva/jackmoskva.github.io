@@ -1,0 +1,110 @@
+.main__footer {
+  background: #e8e8e8;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #202020;
+  padding-bottom: 35px;
+}
+
+.footer__nav_item,
+.footer__contacts_item {
+  padding-bottom: 15px;
+}
+
+.footer__nav_item:last-child,
+.footer__contacts_item:last-child {
+  padding-bottom: 0px;
+}
+
+.footer__nav_link,
+.footer__contacts_link {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #202020;
+  text-decoration: none;
+}
+
+.footer__nav_link:hover,
+.footer__nav_link:focus,
+.footer__nav_link:active,
+.footer__contacts_link:hover,
+.footer__contacts_link:focus,
+.footer__contacts_link:active {
+  color: #202020;
+  text-decoration: none;
+}
+
+.footer__contacts_link {
+  display: block;
+  background: url(../img/telegram.png) no-repeat center left;
+  background-size: 10%;
+  padding-left: 40px;
+  height: 32px;
+}
+
+.footer__contacts_link_phone {
+  background: url(../img/whatsapp.png) no-repeat center left;
+  background-size: 10%;
+}
+
+.footer__contacts_link_mail {
+  background: url(../img/email.png) no-repeat center left;
+  background-size: 10%;
+}
+
+.footer__contacts_link_adres {
+  background: url(../img/location.png) no-repeat center left;
+  background-size: 10%;
+}
+
+.footer__conditions_link img {
+  width: 90%;
+}
+
+
+/* Media */
+
+@media (max-width: 1599.9px) {
+  .footer__nav_item,
+  .footer__contacts_item {
+    padding-bottom: 15px;
+  }
+  .footer__contacts_link {
+    height: auto;
+    background-size: 10%;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .footer__nav,
+  .footer__contacts {
+    margin-bottom: 50px;
+  }
+  .footer__contacts_link {
+    background-size: 4%;
+    padding-left: 30px;
+  }
+}

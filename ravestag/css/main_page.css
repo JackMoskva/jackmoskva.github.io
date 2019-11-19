@@ -1,0 +1,1302 @@
+/* Спецификация */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  font-size: 1rem;
+  font-style: normal;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  letter-spacing: -0.06em;
+}
+
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 0;
+}
+
+
+/* First Screen */
+
+.first__screen {
+  background: #2e4366;
+  padding-top: 80px;
+  padding-bottom: 85px;
+}
+
+.first__screen_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first__screen_content_left {
+  width: 55%;
+}
+
+.main__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+}
+
+.main__slogan {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #afafaf;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.exchange__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.exchange__btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.exchange__btn:hover,
+.exchange__btn:focus,
+.exchange__btn:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn__buy {
+  background: #92b45a;
+  margin-right: 40px;
+}
+
+.btn__sell {
+  background: #e44050;
+}
+
+.first__screen_content_right {
+  background-color: #30314f;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position: 90%;
+  width: 45%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.banner__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #92b45a;
+  padding: 30px 0px 20px 30px;
+}
+
+.banner__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.banner__percent {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.banner__percent span:first-child {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #92b45a;
+  padding-right: 10px;
+}
+
+.banner__percent span:last-child {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* End First Screen */
+
+
+/* Content */
+
+.main__content {
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.content__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2d2d2d;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main__content_banner {
+  background-image: linear-gradient(rgba(232, 232, 232, 0.13), rgba(232, 232, 232, 0.13)), url(../img/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.main__content_banner_title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.bitcoin {
+  max-width: 260px;
+  margin-left: 57%;
+}
+
+.bitcoin__date_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.bitcoin__logo {
+  margin-right: 5px;
+}
+
+.bitcoin__logo img {
+  width: 90%;
+}
+
+.bitcoin__date_title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.bitcoin__date_time {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #fffefe;
+}
+
+.bitcoin__cash {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
+/* End Content */
+
+
+/* Registration */
+
+.registration {
+  padding-top: 90px;
+  padding-bottom: 45px;
+}
+
+.registration__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.registration__text {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  padding-bottom: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.registration__form {
+  max-width: 610px;
+  margin: 0 auto;
+  padding-bottom: 220px;
+}
+
+.form-group {
+  margin-bottom: 45px;
+}
+
+.form-control {
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  padding-left: 70px;
+  min-height: 50px;
+}
+
+.registration__form_login {
+  background: url(../img/man-user.png) no-repeat;
+  background-position: 20px center;
+  background-size: 4%;
+}
+
+.registration__form_email {
+  background: url(../img/mail.png) no-repeat;
+  background-position: 20px center;
+  background-size: 4%;
+}
+
+.registration__form_password {
+  background: url(../img/padlock.png) no-repeat;
+  background-position: 20px center;
+  background-size: 4%;
+}
+
+.registration__form_referal {
+  background: url(../img/link.png) no-repeat;
+  background-position: 20px center;
+  background-size: 4%;
+}
+
+.registration__form input[placeholder] {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #868686;
+}
+
+.registration__form_btn {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #7fa938;
+  padding: 15px 90px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.registration__form_link {
+  display: block;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c8f30;
+  text-align: center;
+  border-bottom: 1px dashed #6c8f30;
+  padding: 0px 20px 0px 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 155px;
+}
+
+.registration__form_link:hover,
+.registration__form_link:focus,
+.registration__form_link:active {
+  text-decoration: none;
+  color: #6c8f30;
+}
+
+.registration__logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* End Registration */
+
+
+/* First Screen Pages */
+
+.first__screen_pages {
+  background: #e8e8e8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.payment__bg {
+  background: url(../img/payment_bg.jpg) no-repeat center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banks__bg {
+  background: url(../img/6.jpg) no-repeat center center;
+}
+
+.tbc__bg {
+  background: url(../img/7.jpg) no-repeat center center;
+}
+
+.georgia__bg {
+  background: url(../img/8.jpg) no-repeat center center;
+}
+
+.tera__bg {
+  background: url(../img/9.jpg) no-repeat center center;
+}
+
+.sbr__bg {
+  background: url(../img/10.jpg) no-repeat center center;
+}
+
+.tinkoff__bg {
+  background: url(../img/11.jpg) no-repeat center center;
+}
+
+.pages__title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  padding: 35px;
+  text-align: center;
+}
+
+/* End First Screen Pages */
+
+
+/* Pages Content */
+
+.pages__content {
+  padding-bottom: 40px;
+}
+
+.cards__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  position: relative;
+  width: 33%;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+}
+
+.card__item:hover {
+  border: none;
+  box-shadow: 0px 0px 24px 0px #dcdcdc;
+  z-index: 300;
+}
+
+.card__item:nth-child(3) {
+  border-right: none;
+}
+
+.card__item_link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.card {
+  padding: 100px 35px 45px 35px;
+  border: none;
+  border-radius: 0;
+}
+
+.card__img {
+  width: 205px;
+  height: 205px;
+  border: 15px solid #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.card__item:hover .card__img {
+  border-color: #4d6e97;
+}
+
+.card__img_bg {
+  width: 162px;
+  height: 162px;
+  background: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__item:hover .card__img_bg {
+  background: #4d6e97;
+}
+
+.card__img_bg img {
+  display: block;
+}
+
+.card__img_bg .otc {
+  font-size: 4.25rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4d6e97;
+  letter-spacing: -0.06em;
+  padding-bottom: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -0.06em;
+  padding-bottom: 20px;
+}
+
+.card__list {
+  display: none;
+}
+
+.card__list_item {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #969696;
+  padding-left: 30px;
+}
+
+.card__list_item:first-child {
+  background: url(../img/loc.png) no-repeat center left;
+  background-size: 5%;
+}
+
+.card__item:hover .card__list {
+  display: block;
+}
+
+/* End Pages Content */
+
+
+/* Banks */
+
+.card-title_banks {
+  text-transform: uppercase;
+}
+
+/* End Banks */
+
+
+/* One Bank */
+
+.bank__content {
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.bank {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bank__info {
+  max-width: 60%;
+}
+
+.bank__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 50px;
+  letter-spacing: -0.06em;
+}
+
+.bank__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -0.06em;
+  padding-bottom: 20px;
+}
+
+.bank__form {
+  margin-top: 50px;
+}
+
+.bank__form-group_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 25px;
+}
+
+.bank__form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.bank__form-group label {
+  background: #2d2d2d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #a9a9a9;
+  padding: 15px 15px 15px 30px;
+  display: flex;
+}
+
+.bank__wallet_label {
+  width: 100%;
+}
+
+.bank__form-group .bank__form__currency,
+.bank__form-group .bank__form__bitcoin,
+.bank__form-group .bank__form__wallet {
+  max-width: 260px;
+  border: 1px solid #c7c7c7;
+  background: #fff;
+  margin-left: 27px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+.bank__form-group .bank__form__wallet {
+  max-width: 100%;
+  width: 100%;
+}
+
+.bank__about {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.bank__about img {
+  width: 32px;
+  height: 36px;
+}
+
+.bank__btn {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 15px 30px;
+  background: #4d59a1;
+  border: 2px solid #949494;
+}
+
+.bank__logo {
+  width: 380px;
+  height: 380px;
+  border: 22px solid #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bank__logo_bg {
+  width: 320px;
+  height: 320px;
+  background: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bank__logo_bg img {
+  width: 70%;
+}
+
+.card__img_bg img {
+  width: 70%;
+  display: block;
+}
+
+/* End One Bank */
+
+
+/* Personal Area */
+
+.first__screen_area {
+  background: #2F2F2F;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.first__screen_area_bookmarks {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookmark {
+  background: rgba(57, 57, 57, 0.64);
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.bookmark__info {
+  margin-right: 75px;
+}
+
+.bookmark__sale {
+  color: #7EB650;
+}
+
+.area__content {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.area__content_section {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.area__login {
+  margin-bottom: 40px;
+}
+
+.area__login_title,
+.area__mail_title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.area__login_text,
+.area__mail_text {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #969696;
+}
+
+.area__info {
+  margin-top: 60px;
+}
+
+.area__info_title {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.area__table thead {
+  background: #f6f6f6;
+}
+
+.area__table thead th {
+  border: none;
+}
+
+.area__table td,
+.area__table th {
+  border: none;
+  padding: 20px 15px;
+}
+
+.area__table th {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.area__table td {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #000000;
+  min-width: 150px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.area__page_nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.pagination {
+  border-radius: 0;
+}
+
+.page-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.page-item:first-child .page-link {
+  border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0;
+}
+
+.page-link:hover,
+.page-link:focus,
+.page-link:active {
+  background: transparent;
+  color: #000000;
+  text-decoration: underline;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.page-item:last-child .page-link:hover,
+.page-item:last-child .page-link:focus,
+.page-item:last-child .page-link:active {
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+/* End Personal Area */
+
+
+/* Media */
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+
+@media (max-width: 1800px) {
+
+  /* One Bank */
+
+  .bank__form-group_title {
+    padding-bottom: 25px;
+  }
+
+  .bank__btn {
+    padding: 15px 25px;
+  }
+
+  /* End One Bank */
+}
+
+@media (max-width: 1600px) {
+
+  /* Pages Content */
+
+  .card__img {
+    margin-bottom: 25px;
+  }
+
+  .card__img_bg img {
+    width: 80%;
+  }
+
+  .card__img_bg .otc {
+    font-size: 4.5rem;
+  }
+
+  .card-title {
+    padding-bottom: 10px;
+  }
+
+  .card {
+    padding: 50px 25px 0px 25px;
+  }
+
+  .card__list_item {
+    padding-left: 20px;
+  }
+
+  /* End Pages Content */
+
+
+
+  /* One Bank */
+
+  .bank__about {
+    display: inline-block;
+    margin: 0px 35px;
+  }
+
+  /* End One Bank */
+
+}
+
+@media (max-width: 1400px) {
+
+
+  /* One Bank */
+
+  .bank__logo {
+    width: 280px;
+    height: 280px;
+  }
+
+  .bank__logo_bg {
+    width: 220px;
+    height: 220px;
+  }
+
+  .bank__form-group_title {
+    font-size: 1.5rem;
+  }
+
+  .bank__form-group label {
+    font-size: 1rem;
+    padding: 15px 15px 15px 20px;
+  }
+
+  .bank__form-group .bank__form__currency,
+  .bank__form-group .bank__form__bitcoin,
+  .bank__form-group .bank__form__wallet {
+    min-height: auto;
+    margin-left: 20px;
+  }
+
+  .bank__btn {
+    font-size: 1rem;
+  }
+
+  /* End One Bank */
+
+}
+
+@media (max-width: 1367px) {
+    .container {
+      max-width: 960px;
+    }
+
+    /* First Screen */
+
+    .first__screen_content_left {
+      width: 55%;
+    }
+
+    .main__title {
+      font-size: 2rem;
+    }
+
+    .main__slogan {
+      font-size: 1rem;
+      padding-top: 25px;
+      padding-bottom: 30px;
+    }
+
+    .exchange__btn {
+      padding: 10px 20px;
+    }
+
+    .first__screen_content_right {
+      width: 45%;
+    }
+
+    .banner__title {
+      font-size: 1.5rem;
+      padding: 20px 0px 20px 20px;
+    }
+
+    .banner__text {
+      font-size: 1rem;
+      padding-left: 20px;
+      padding-bottom: 20px;
+    }
+
+    .banner__percent span:first-child {
+      font-size: 1.5rem;
+    }
+
+    .banner__percent span:last-child {
+      font-size: 0.875rem;
+    }
+
+    .content__title {
+      font-size: 1.5rem;
+    }
+
+    .main__content_banner {
+      padding-top: 30px;
+      padding-bottom: 100px;
+    }
+
+    .main__content_banner_title {
+      font-size: 1.2rem;
+    }
+
+    .bitcoin__date_title {
+      font-size: 1.5rem;
+    }
+
+    .bitcoin__date_time {
+      font-size: 1rem;
+    }
+
+    .bitcoin__cash {
+      font-size: 2rem;
+    }
+
+    /* End First Screen */
+}
+
+@media (max-width: 1200px) {
+  /* .container {
+    max-width: 1140px;
+  } */
+}
+
+@media (max-width: 1139px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .first__screen_content {
+    flex-direction: column;
+  }
+
+  .first__screen_content_right {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .first__screen_content_left {;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .first__screen {
+    background: #2e4366;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .main__slogan {
+    padding-bottom: 30px;
+  }
+
+
+  /* Pages Content */
+
+  .card__item {
+    width: 50%;
+  }
+
+  .card__item:nth-child(2) {
+    border-right: none;
+  }
+
+  .card__item:nth-child(3) {
+    border-right: 1px solid #dcdcdc;
+  }
+
+  .card__item:nth-child(4) {
+    border-right: none;
+  }
+
+  .card-title {
+    letter-spacing: -0.08em;
+  }
+
+  .card-text {
+    min-height: 68px;
+  }
+
+  .card__list {
+    display: block;
+  }
+
+  /* End Pages Content */
+
+
+  /* One Bank */
+
+  .bank {
+    flex-direction: column;
+  }
+
+  .bank__info {
+    order: 0;
+    max-width: 100%;
+  }
+
+  .bank__logo {
+    order: -1;
+    margin-bottom: 50px;
+  }
+
+  .bank__form {
+    margin-top: 30px;
+  }
+
+  .bank__form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bank__about {
+    margin: 30px 130px;
+  }
+
+  /* End One Bank */
+
+
+  /* Personal Area */
+
+  .area__table td br {
+    display: none;
+  }
+
+  /* End Personal Area */
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .main__title {
+    font-size: 2rem;
+  }
+
+  .first__screen_content_right {
+    min-width: 100%;
+  }
+
+  .banner__title {
+    font-size: 2rem;
+  }
+
+  .banner__percent span:first-child {
+    font-size: 2rem;
+  }
+
+  .content__title {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+  }
+
+  .main__content_banner_title {
+    font-size: 1rem;
+  }
+
+  .bitcoin__logo {
+    margin-right: 5px;
+  }
+
+  .bitcoin__logo img {
+    width: 90%;
+  }
+
+  .bitcoin__date_title {
+    font-size: 1.5rem;
+  }
+
+  .bitcoin__date_time {
+    font-size: 0.875rem;
+  }
+
+  .bitcoin__cash {
+    font-size: 2rem;
+  }
+
+
+  /* Pages Content */
+
+  .pages__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card__item {
+    width: 100%;
+  }
+
+  .card__item {
+    border-right: none;
+  }
+
+  .card__item:nth-child(3) {
+    border-right: none;
+  }
+
+  .card-title {
+    letter-spacing: -0.06em;
+  }
+
+  .card-text {
+    min-height: 68px;
+  }
+
+  .card__list {
+    display: block;
+  }
+
+  .card__list_item:first-child {
+    background-size: 4%;
+  }
+
+  /* End Pages Content */
+
+
+  /* One Bank */
+
+  .bank__content {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+  /* End One Bank */
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .exchange__buttons {
+    flex-direction: column;
+  }
+
+  .btn__buy {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .first__screen_content_right {
+    background-image: none;
+  }
+
+  .bitcoin {
+    margin-left: 52%;
+  }
+
+  .banner__text {
+    padding-right: 10px;
+  }
+
+  .banner__text br {
+    display: none;
+  }
+
+  /* One Bank */
+
+  .bank {
+    align-items: center;
+  }
+
+  .bank__form-group {
+    align-items: center;
+  }
+
+  .bank__form-group label {
+    padding: 15px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bank__form-group .bank__form__currency,
+  .bank__form-group .bank__form__bitcoin,
+  .bank__form-group .bank__form__wallet {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .bank__about {
+    margin: 30px 100px;
+  }
+
+  .bank__form-group .bank__form__wallet {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bank__btn {
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* End One Bank */
+
+
+  /* Personal Area */
+
+  .first__screen_area_bookmarks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bookmark {
+    max-width: 290px;
+    width: 100%;
+    text-align: center;
+  }
+  .bookmark__info {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* End Personal Area */
+}
+
+@media (max-width: 320px) {
+  .main__content_banner_title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .bitcoin {
+    margin-left: 32%;
+  }
+
+  .main__content_banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main_bg.jpg);
+  }
+}

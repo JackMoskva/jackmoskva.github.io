@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ravestag</title>
+
+  <!-- Style -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Sans+Caption:400,700|Roboto:100,400&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main_page.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- End Style -->
+
+</head>
+
+<body>
+  <header class="main__header">
+    <div class="container">
+      <div class="up__header d-flex justify-content-between">
+        <div class="up__header_logo">
+          <a href="index.html" class="main__logo">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="up__header_buttons">
+          <a href="#" class="btn btn__area">
+            Vadim B
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main__nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg main__navbar">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Правила</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cabinet.html">Личный кабинет</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar__info">
+            <div class="navbar__info_course">
+              <span>1 Btc =</span>
+              <span>535000 руб</span>
+            </div>
+            <div class="navbar__info_language">
+              <select class="navbar__info_language_select">
+                <option class="navbar__info_language_btn">RU</option>
+                <option class="navbar__info_language_btn">EN</option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- First Screen Pages -->
+
+  <section class="first__screen_pages first__screen_area">
+    <div class="container">
+      <div class="first__screen_area_bookmarks">
+        <div class="bookmark__info bookmark">
+          Информация
+        </div>
+        <div class="bookmark__sale bookmark">
+          Ваша скидка - 2%
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End First Screen Pages -->
+
+  <!-- Content -->
+
+  <main>
+
+    <section class="area__content_section">
+      <div class="container">
+        <div class="area__content">
+          <div class="area__login">
+            <h3 class="area__login_title">Логин:</h3>
+            <p class="area__login_text">user 1</p>
+          </div>
+          <div class="area__mail">
+            <h3 class="area__mail_title">E-mail:</h3>
+            <p class="area__mail_text">user1@gmail.com</p>
+          </div>
+          <div class="area__info">
+            <h3 class="area__info_title">История обменов:</h3>
+            <div class="table-responsive">
+              <table class="table area__table">
+                <thead>
+                  <tr>
+                    <th class="text-uppercase">ID</th>
+                    <th>Дата</th>
+                    <th>Курс</th>
+                    <th>Отдаете</th>
+                    <th>Получаете</th>
+                    <th>Статус</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>516079</td>
+                    <td>12.10.2019,<br> 00:54</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Выполненная<br> заявка</td>
+                  </tr>
+                  <tr>
+                    <td>516078</td>
+                    <td>12.10.2019,<br> 00:53</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Отказано</td>
+                  </tr>
+                  <tr>
+                    <td>516077</td>
+                    <td>12.10.2019,<br> 00:52</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Выполненная<br> заявка</td>
+                  </tr>
+                  <tr>
+                    <td>516076</td>
+                    <td>12.10.2019,<br> 00:51</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Выполненная<br> заявка</td>
+                  </tr>
+                  <tr>
+                    <td>516075</td>
+                    <td>12.10.2019,<br> 00:50</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Выполненная<br> заявка</td>
+                  </tr>
+                  <tr>
+                    <td>516074</td>
+                    <td>12.10.2019,<br> 00:49</td>
+                    <td>513432.034 RUB<br> > 1 <b>BTC</b></td>
+                    <td>43452.3243<br> <b>Сбербанк RUB</b></td>
+                    <td>0.3452564<br> <b>Bitcoin BTC</b></td>
+                    <td class="underline">Выполненная<br> заявка</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <nav class="area__page_nav">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">...</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- End Content -->
+
+  <!-- Footer -->
+
+  <footer class="main__footer">
+    <div class="container">
+      <div class="footer">
+        <div class="footer__nav">
+          <div class="footer__title">Навигация по сайту</div>
+          <ul class="footer__nav_list">
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="index.html">Главная</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="#">Правила</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="#">О нас</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="cabinet.html">Личный кабинет</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__title">Контакты</div>
+          <ul class="footer__contacts_list">
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link" href="tg://resolve?domain=<@RAVESTAG>">@RAVESTAG</a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_phone" href="tel:+995557324017">
+                +995 557 324 017
+              </a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_mail" href="mailto:support@ravestag.com">
+                support@ravestag.com
+              </a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_adres" href="#">
+                Georgia, Batumi<br>
+                Noe Zhordania 24, 6000
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__conditions">
+          <div class="footer__title">Обмен с условным депонированием</div>
+          <a href="#" class="footer__conditions_link">
+            <img src="img/logo_local.png" alt="Local">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+  <!-- End Scripts -->
+</body>
+
+</html>

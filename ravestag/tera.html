@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Ravestag</title>
+
+  <!-- Style -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Sans+Caption:400,700|Roboto:100,400&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main_page.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- End Style -->
+
+</head>
+
+<body>
+  <header class="main__header">
+    <div class="container">
+      <div class="up__header d-flex justify-content-between">
+        <div class="up__header_logo">
+          <a href="index.html" class="main__logo">
+            <img src="img/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="up__header_buttons">
+          <a href="authorization.html" class="btn btn__entrance">Вход</a>
+          <a href="registration.html" class="btn btn__registration">Регистрация</a>
+        </div>
+      </div>
+    </div>
+    <div class="main__nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg main__navbar">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Правила</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cabinet.html">Личный кабинет</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar__info">
+            <div class="navbar__info_course">
+              <span>1 Btc =</span>
+              <span>535000 руб</span>
+            </div>
+            <div class="navbar__info_language">
+              <select class="navbar__info_language_select">
+                <option class="navbar__info_language_btn">RU</option>
+                <option class="navbar__info_language_btn">EN</option>
+              </select>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- First Screen Pages -->
+
+  <section class="first__screen_pages">
+    <div class="container">
+      <div class="payment__bg tera__bg">
+        <h1 class="pages__title">
+          Tera Bank Online
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- End First Screen Pages -->
+
+  <!-- Content -->
+
+  <main>
+
+    <section class="pages__content bank__content">
+      <div class="container">
+        <div class="bank">
+          <div class="bank__info">
+            <h2 class="bank__title">
+              Оплата через Tera Bank Online - Грузия
+            </h2>
+            <p class="bank__text">
+              После отправки запроса на сделку, вы получите детали платежа.
+            </p>
+            <p class="bank__text">
+              Трейдер может не опубликовать детали платежа в объявлении. В таком случае запросите у трейдера необходимую
+              информацию для платежа в личном сообщении.
+            </p>
+            <p class="bank__text">
+              При покупке биткоинов онлайн временное <strong>окно оплаты предоставляется на 90 минут</strong>, но это
+              может меняться в зависимости от способа оплаты и условий сделки.
+            </p>
+            <form class="bank__form">
+              <h3 class="bank__form-group_title">
+                Сколько вы хотите купить?
+              </h3>
+              <div class="bank__form-group">
+                <label for="currency">
+                  GEL
+                  <input type="text" class="bank__form__currency" id="currency">
+                </label>
+                <a href="#" class="bank__about">
+                  <img src="img/about.png" alt="about">
+                </a>
+                <label for="bitcoin">
+                  BTC
+                  <input type="text" class="bank__form__bitcoin" id="bitcoin">
+                </label>
+              </div>
+              <h3 class="bank__form-group_title">
+                Введите ваш биткоин кошелек
+              </h3>
+              <div class="bank__form-group">
+                <label for="wallet" class="bank__wallet_label">
+                  WALLET
+                  <input type="text" class="bank__form__wallet" id="wallet">
+                </label>
+              </div>
+              <button type="submit" class="bank__btn">Подтвердить</button>
+            </form>
+          </div>
+          <div class="bank__logo">
+            <div class="bank__logo_bg">
+              <img src="img/tera2.png" alt="Tera">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- End Content -->
+
+  <!-- Footer -->
+
+  <footer class="main__footer">
+    <div class="container">
+      <div class="footer">
+        <div class="footer__nav">
+          <div class="footer__title">Навигация по сайту</div>
+          <ul class="footer__nav_list">
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="index.html">Главная</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="#">Правила</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="#">О нас</a>
+            </li>
+            <li class="footer__nav_item">
+              <a class="footer__nav_link" href="cabinet.html">Личный кабинет</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__title">Контакты</div>
+          <ul class="footer__contacts_list">
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link" href="tg://resolve?domain=<@RAVESTAG>">@RAVESTAG</a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_phone" href="tel:+995557324017">
+                +995 557 324 017
+              </a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_mail" href="mailto:support@ravestag.com">
+                support@ravestag.com
+              </a>
+            </li>
+            <li class="footer__contacts_item">
+              <a class="footer__contacts_link footer__contacts_link_adres" href="#">
+                Georgia, Batumi<br>
+                Noe Zhordania 24, 6000
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__conditions">
+          <div class="footer__title">Обмен с условным депонированием</div>
+          <a href="#" class="footer__conditions_link">
+            <img src="img/logo_local.png" alt="Local">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+  <!-- End Scripts -->
+</body>
+
+</html>
